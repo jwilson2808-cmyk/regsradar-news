@@ -33,7 +33,7 @@ This is starter source code, not an installed app or a hosted preview. Codex or 
 
 The supplied source files are installed in `/workspace/regsradar-news`, including
 `src/news.ts` and `src/theme.ts`. Dependencies are locked in `package-lock.json`.
-React Native and expo-status-bar match Expo SDK 57's bundled compatibility table;
+React Native and expo-status-bar match Expo SDK 58's bundled compatibility table;
 react-dom and react-native-web support the existing web command.
 
 Cloud commands (no production connection or deployment):
@@ -63,10 +63,10 @@ Brand colors remain provisional and the header uses a placeholder R mark.
 The public branding website was blocked by environment network policy, so an
 exact branding match has not been verified. No production API is configured.
 
-For an iPhone, use an Expo Go version compatible with SDK 57. From a local computer,
+For an iPhone, use an Expo Go version compatible with SDK 58. From a local computer,
 run `npm ci` and `npx expo start`, keep the phone on the same network, and scan the
 QR code with the iPhone camera. A cloud preview requires an explicitly started
 tunnel (`npx expo start --tunnel`) and network access for Expo/tunnel services.
-No tunnel has been started here. If the App Store Expo Go does not support SDK 57,
+Cloud tunnel attempts failed before producing a usable preview URL. If the App Store Expo Go does not support SDK 58,
 use a compatible SDK or an approved development build; native builds require a
 separate setup and Apple signing. No build has been submitted to Apple.

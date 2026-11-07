@@ -18,7 +18,7 @@ export default function App() {
   const visible = useMemo(()=>articles.filter(a=>(category==='All'||a.category===category)&&`${a.title} ${a.summary} ${a.agency} ${a.topic}`.toLowerCase().includes(query.toLowerCase())),[category,query]);
   const requireAccount = ()=>Alert.alert('Create a free account','Personalized alerts and tracking will require a RegsRadar account. Registration is not connected in this prototype.',[{text:'OK'}]);
   const switchTab = (next:Tab)=>{setSelected(null);setTab(next);if(next==='News')setQuery('');};
-  return <SafeAreaView style={s.root}><StatusBar barStyle="light-content" backgroundColor={T.navy}/>
+  return <SafeAreaView style={s.root}><StatusBar barStyle="light-content"/>
     <View style={s.header}>
       <View style={s.logoRow}><View style={s.logoMark}><Text style={s.logoMarkText}>R</Text></View><View><Text style={s.brand}>RegsRadar <Text style={s.brandLite}>News</Text></Text><Text style={s.brandCaption}>REGULATORY INTELLIGENCE</Text></View></View>
       <Pressable accessibilityLabel="Notification preferences" onPress={requireAccount} style={s.bell}><Text style={s.bellText}>♧</Text></Pressable>
