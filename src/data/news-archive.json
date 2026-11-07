@@ -1,8 +1,8 @@
 {
-  "windowStart": "2026-10-25",
+  "windowStart": "2026-08-12",
   "windowEnd": "2026-11-07",
   "status": "verified",
-  "generatedAt": "2026-11-07T17:03:14.831Z",
+  "generatedAt": "2026-11-07T17:08:19.449Z",
   "articles": [
     {
       "id": "2026-22571",
@@ -164,9 +164,10 @@
       "documentReference": "Circular 26-26-5",
       "effectiveDate": "2026-10-27",
       "mortgageRelevance": "Official mortgage-program policy circular.",
-      "verifiedAt": "2026-11-07T17:03:04.717Z",
+      "verifiedAt": "2026-11-07T17:08:01.639Z",
       "contentFingerprint": "a794a5265d54c6eab60a7c429c61d51aa92f7cc7d3a3de98cac044cc4755d85b",
-      "firstSeenAt": "2026-11-07T17:00:19.003Z"
+      "firstSeenAt": "2026-11-07T17:00:19.003Z",
+      "alternateSources": []
     },
     {
       "id": "2026-21675",
@@ -341,13 +342,14 @@
       "sourceName": "New York DFS",
       "sourceUrl": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260910",
       "mortgageRelevance": "Existing cybersecurity compliance obligations for DFS-covered entities, including covered licensed mortgage businesses.",
-      "verifiedAt": "2026-11-07T17:03:03.460Z",
+      "verifiedAt": "2026-11-07T17:08:00.147Z",
       "affectedArea": "Privacy and communications",
       "whatChanged": "DFS clarified its existing risk-assessment expectations under its cybersecurity regulation, including scope, frequency, governance, and documentation. Mortgage businesses covered by the regulation should review applicability. DFS states that the guidance does not impose new obligations or requirements.",
       "whyItMatters": "Existing cybersecurity compliance obligations for DFS-covered entities, including covered licensed mortgage businesses.",
       "documentReference": null,
       "contentFingerprint": "71b08c98bc27e1b70b5d706db2a70862eb183d4c9db64e7f9d927750ae4d8fc4",
-      "firstSeenAt": "2026-11-07T16:51:53.542Z"
+      "firstSeenAt": "2026-11-07T16:51:53.542Z",
+      "alternateSources": []
     },
     {
       "id": "2026-17291",
@@ -402,13 +404,14 @@
       "sourceName": "Massachusetts Division of Banks",
       "sourceUrl": "https://www.mass.gov/news/state-financial-regulators-reach-155-million-settlement-with-mortgage-servicer-newrez-llc",
       "mortgageRelevance": "State enforcement concerning mortgage servicing and force-placed homeowners insurance.",
-      "verifiedAt": "2026-11-07T17:03:03.499Z",
+      "verifiedAt": "2026-11-07T17:08:00.311Z",
       "affectedArea": "Servicing and loss mitigation",
       "whatChanged": "Massachusetts announced a 48-state, $15.5 million settlement concerning NewRez’s imposition of force-placed insurance costs on borrowers who already had active homeowners insurance. Massachusetts identifies itself as a lead agency along with Washington, DC, Arkansas, Iowa, and Montana.",
       "whyItMatters": "State enforcement concerning mortgage servicing and force-placed homeowners insurance.",
       "documentReference": null,
       "contentFingerprint": "edbe1df6a2b6b5ca8a24d7b621a1a06bea29e4321cf28bd64e69a21e87537a78",
-      "firstSeenAt": "2026-11-07T16:51:53.689Z"
+      "firstSeenAt": "2026-11-07T16:51:53.689Z",
+      "alternateSources": []
     }
   ]
 }
