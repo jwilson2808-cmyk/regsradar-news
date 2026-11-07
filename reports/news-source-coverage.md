@@ -1,32 +1,38 @@
 # News source coverage
-Checked: 2026-11-07T17:11:04.940Z
-Active verified articles: 8
+Checked: 2026-11-07T17:12:23.372Z
+Active verified articles: 5
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
 | Source | Outcome | Verified documents |
 | --- | --- | --- |
-| Federal Register reviewed mortgage publications | reviewed_subset | 15 |
+| Fannie Mae | verification_failed | 0 |
+| Fannie Mae | verification_failed | 0 |
+| Federal Register | verification_failed | 0 |
+| Federal Register | verification_failed | 0 |
+| Federal Register | verification_failed | 0 |
+| Federal Register | verification_failed | 0 |
+| Federal Register reviewed mortgage publications | reviewed_subset | 11 |
 | CFPB | partial_scan | 0 |
 | HUD | no_parseable_publications | 0 |
 | HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
 | FHFA | no_parseable_publications | 0 |
 | OCC | failed | 0 |
 | Federal Reserve | partial_scan | 0 |
-| FDIC | failed | 0 |
+| FDIC | partial_scan | 0 |
 | NCUA | partial_scan | 0 |
-| Fannie Mae | partial_scan | 2 |
-| Fannie Mae Policy Announcements | partial_scan | 2 |
+| Fannie Mae | failed | 0 |
+| Fannie Mae Policy Announcements | failed | 0 |
 | Freddie Mac Single-Family | partial_scan | 0 |
 | Freddie Mac Guide Bulletins | no_parseable_publications | 0 |
 | VA Home Loan Circulars | limited_document_scan | 1 |
-| USDA Rural Development | partial_scan | 0 |
+| USDA Rural Development | failed | 0 |
 | Ginnie Mae Issuer Requirements | no_parseable_publications | 0 |
 | Alabama State Banking Department | no_parseable_publications | 0 |
 | Alaska Division of Banking and Securities | failed | 0 |
-| Arizona Department of Insurance and Financial Institutions | no_parseable_publications | 0 |
+| Arizona Department of Insurance and Financial Institutions | failed | 0 |
 | Arkansas State Bank Department | no_parseable_publications | 0 |
-| California Department of Financial Protection and Innovation | failed | 0 |
+| California Department of Financial Protection and Innovation | partial_scan | 0 |
 | Colorado Department of Regulatory Agencies Division of Banking | failed | 0 |
 | State of Connecticut Department of Banking | partial_scan | 0 |
 | Delaware Office of the State Bank Commissioner | partial_scan | 0 |
@@ -43,7 +49,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Bureau of Financial Institutions | failed | 0 |
 | Maryland Department of Labor Office of Financial Regulation | partial_scan | 0 |
 | Massachusetts Division of Banks | partial_scan | 0 |
-| Michigan Department of Insurance and Financial Services | partial_scan | 0 |
+| Michigan Department of Insurance and Financial Services | failed | 0 |
 | Minnesota Department of Commerce | partial_scan | 0 |
 | Mississippi Department of Banking and Consumer Finance | partial_scan | 0 |
 | Missouri Division of Finance | no_parseable_publications | 0 |
@@ -60,7 +66,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
 | Pennsylvania Department of Banking & Securities | no_parseable_publications | 0 |
-| Rhode Island Department of Business Regulation | partial_scan | 0 |
+| Rhode Island Department of Business Regulation | failed | 0 |
 | South Carolina State Board of Financial Institutions Banking Division | no_parseable_publications | 0 |
 | South Dakota Department of Labor and Regulation Division of Banking | partial_scan | 0 |
 | Tennessee Department of Financial Institutions | failed | 0 |
@@ -93,7 +99,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Legislature | action_adapter_required | 0 |
 | Maryland Legislature | action_adapter_required | 0 |
 | Massachusetts Legislature | action_adapter_required | 0 |
-| Michigan Legislature | failed | 0 |
+| Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | failed | 0 |
 | Missouri Legislature | failed | 0 |
@@ -108,7 +114,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | North Dakota Legislature | action_adapter_required | 0 |
 | Ohio Legislature | failed | 0 |
 | Oklahoma Legislature | action_adapter_required | 0 |
-| Oregon Legislature | failed | 0 |
+| Oregon Legislature | action_adapter_required | 0 |
 | Pennsylvania Legislature | failed | 0 |
 | Rhode Island Legislature | action_adapter_required | 0 |
 | South Carolina Legislature | action_adapter_required | 0 |

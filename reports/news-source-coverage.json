@@ -1,16 +1,82 @@
 {
   "asOf": "2026-11-07",
-  "generatedAt": "2026-11-07T17:11:04.940Z",
+  "generatedAt": "2026-11-07T17:12:23.372Z",
   "policy": "14-day active feed based on original publication or verified material legislative action date; ordinary website modifications do not refresh age.",
-  "activeArticleCount": 8,
+  "activeArticleCount": 5,
   "sources": [
+    {
+      "id": "document-fannie-sel-2026-10",
+      "name": "Fannie Mae",
+      "url": "https://singlefamily.fanniemae.com/news-events/announcement-sel-2026-10-selling-guide-updates",
+      "status": "verification_failed",
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "checkedAt": "2026-11-07T17:12:13.784Z",
+      "verifiedCount": 0
+    },
+    {
+      "id": "document-fannie-ll-2026-09",
+      "name": "Fannie Mae",
+      "url": "https://singlefamily.fanniemae.com/news-events/lender-letter-ll-2026-09-manual-underwriting-eligibility",
+      "status": "verification_failed",
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "checkedAt": "2026-11-07T17:12:13.798Z",
+      "verifiedCount": 0
+    },
+    {
+      "id": "document-2026-22038",
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22038/single-family-housing-guaranteed-loan-program-income-producing-accessory-dwelling-unit-adu",
+      "status": "verification_failed",
+      "errors": [
+        "Destination is outside official source hosts: unblock.federalregister.gov; Reviewed headline/reference is not present in official document"
+      ],
+      "checkedAt": "2026-11-07T17:12:14.148Z",
+      "verifiedCount": 0
+    },
+    {
+      "id": "document-2026-20822",
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20822/mortgage-and-loan-insurance-programs-under-the-national-housing-act-debenture-interest-rates",
+      "status": "verification_failed",
+      "errors": [
+        "Destination is outside official source hosts: unblock.federalregister.gov; Reviewed headline/reference is not present in official document"
+      ],
+      "checkedAt": "2026-11-07T17:12:14.522Z",
+      "verifiedCount": 0
+    },
+    {
+      "id": "document-2026-18827",
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18827/60-day-notice-of-proposed-information-collection-single-family-premiums-collections",
+      "status": "verification_failed",
+      "errors": [
+        "Destination is outside official source hosts: unblock.federalregister.gov; Reviewed headline/reference is not present in official document"
+      ],
+      "checkedAt": "2026-11-07T17:12:14.929Z",
+      "verifiedCount": 0
+    },
+    {
+      "id": "document-2026-17051",
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/08/21/2026-17051/mortgage-and-loan-insurance-programs-under-the-national-housing-act-debenture-interest-rates",
+      "status": "verification_failed",
+      "errors": [
+        "Destination is outside official source hosts: unblock.federalregister.gov; Reviewed headline/reference is not present in official document"
+      ],
+      "checkedAt": "2026-11-07T17:12:15.219Z",
+      "verifiedCount": 0
+    },
     {
       "id": "federal-register",
       "name": "Federal Register reviewed mortgage publications",
       "url": "https://www.federalregister.gov/api/v1/documents.json",
       "status": "reviewed_subset",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
-      "verifiedCount": 15,
+      "checkedAt": "2026-11-07T17:12:15.219Z",
+      "verifiedCount": 11,
       "discoveredCount": 79,
       "excludedPendingReview": 64,
       "errors": [],
@@ -21,7 +87,7 @@
       "name": "CFPB",
       "url": "https://www.consumerfinance.gov/about-us/newsroom/",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -66,7 +132,7 @@
       "name": "HUD",
       "url": "https://www.hud.gov/press",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -79,7 +145,7 @@
       "name": "HUD/FHA Mortgagee Letters",
       "url": "https://www.hud.gov/program_offices/administration/hudclips/letters/mortgagee",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -92,7 +158,7 @@
       "name": "FHFA",
       "url": "https://www.fhfa.gov/news/news-release",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -105,7 +171,7 @@
       "name": "OCC",
       "url": "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 404"
@@ -117,7 +183,7 @@
       "name": "Federal Reserve",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -134,19 +200,48 @@
       "name": "FDIC",
       "url": "https://www.fdic.gov/news/press-releases",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 403"
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/federal-bank-regulatory-agencies-release-2025-small-business-small-farm",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-notice-proposed-rulemaking-large-bank-deposit",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-approves-proposed-rule-modernize-and-reform-fdics",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-approves-proposed-rule-state-bank-parity",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/agencies-seek-comment-proposed-third-party-risk-management-guidance-and",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/agencies-reduce-regulatory-burden-community-banks-increase-eligibility-18",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-final-rule-prioritize-material-financial-risks",
+          "message": "No verified mortgage regulatory development"
+        }
       ],
-      "status": "failed"
+      "discoveredCount": 7,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
     },
     {
       "id": "ncua",
       "name": "NCUA",
       "url": "https://ncua.gov/newsroom/press-releases",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.333Z",
+      "checkedAt": "2026-11-07T17:12:15.220Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -187,73 +282,31 @@
       "name": "Fannie Mae",
       "url": "https://singlefamily.fanniemae.com/",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.605Z",
-      "verifiedCount": 2,
+      "checkedAt": "2026-11-07T17:12:15.486Z",
+      "verifiedCount": 0,
       "errors": [
-        {
-          "url": "https://singlefamily.fanniemae.com/originating-underwriting/credit-score-models",
-          "message": "No verified publication date"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/applications-technology/desktop-underwriter-desktop-originator",
-          "message": "Not a specific publication"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/external-resource/selling-guide",
-          "message": "Destination is outside official source hosts: selling-guide.fanniemae.com"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/external-resource/servicing-guide",
-          "message": "Destination is outside official source hosts: servicing-guide.fanniemae.com"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products",
-          "message": "Not a specific publication"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/originating-underwriting/affordable",
-          "message": "No verified publication date"
-        }
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 8,
-      "status": "partial_scan",
-      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+      "status": "failed"
     },
     {
       "id": "fannie-news",
       "name": "Fannie Mae Policy Announcements",
       "url": "https://singlefamily.fanniemae.com/news-events",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.643Z",
-      "verifiedCount": 2,
+      "checkedAt": "2026-11-07T17:12:15.518Z",
+      "verifiedCount": 0,
       "errors": [
-        {
-          "url": "https://singlefamily.fanniemae.com/selling-and-servicing-guide-forms-and-communications",
-          "message": "No verified publication date"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/originating-underwriting/loan-quality/quality-insider/october-2026",
-          "message": "No verified mortgage regulatory development"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products",
-          "message": "Not a specific publication"
-        },
-        {
-          "url": "https://singlefamily.fanniemae.com/selling-servicing-guide-forms",
-          "message": "No verified publication date"
-        }
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 8,
-      "status": "partial_scan",
-      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+      "status": "failed"
     },
     {
       "id": "freddie",
       "name": "Freddie Mac Single-Family",
       "url": "https://sf.freddiemac.com/",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.791Z",
+      "checkedAt": "2026-11-07T17:12:15.526Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -286,7 +339,7 @@
       "name": "Freddie Mac Guide Bulletins",
       "url": "https://guide.freddiemac.com/app/guide/bulletins",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.814Z",
+      "checkedAt": "2026-11-07T17:12:15.557Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -300,7 +353,7 @@
       "name": "VA Home Loan Circulars",
       "url": "https://www.benefits.va.gov/HOMELOANS/resources_circulars.asp",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.841Z",
+      "checkedAt": "2026-11-07T17:12:15.598Z",
       "verifiedCount": 1,
       "errors": [],
       "discoveredCount": 8,
@@ -312,44 +365,19 @@
       "name": "USDA Rural Development",
       "url": "https://www.rd.usda.gov/resources/directives/handbooks",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.872Z",
+      "checkedAt": "2026-11-07T17:12:15.600Z",
       "verifiedCount": 0,
       "errors": [
-        {
-          "url": "https://www.rd.usda.gov/resources/environmental-studies/environmental-guidance",
-          "message": "No factual source summary"
-        },
-        {
-          "url": "https://www.rd.usda.gov/resources/regulations-and-guidance",
-          "message": "No verified mortgage regulatory development"
-        },
-        {
-          "url": "https://www.rd.usda.gov/resources/regulations/program-regulations",
-          "message": "No verified mortgage regulatory development"
-        },
-        {
-          "url": "https://www.rd.usda.gov/resources/regulations/bulletins",
-          "message": "No verified mortgage regulatory development"
-        },
-        {
-          "url": "https://www.rd.usda.gov/resources/usda-linc-training-resource-library/guaranteed-underwriting-system",
-          "message": "No factual source summary"
-        },
-        {
-          "url": "https://www.rd.usda.gov/resources/usda-linc-training-resource-library/loan-servicing",
-          "message": "No factual source summary"
-        }
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 6,
-      "status": "partial_scan",
-      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+      "status": "failed"
     },
     {
       "id": "ginnie",
       "name": "Ginnie Mae Issuer Requirements",
       "url": "https://www.ginniemae.gov/issuers/program_guidelines/Pages/mbsguideapmslib.aspx",
       "kind": "official-publications",
-      "checkedAt": "2026-11-07T17:10:39.876Z",
+      "checkedAt": "2026-11-07T17:12:15.600Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -363,7 +391,7 @@
       "url": "https://banking.alabama.gov",
       "state": "Alabama",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.346Z",
+      "checkedAt": "2026-11-07T17:12:15.643Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -377,7 +405,7 @@
       "url": "https://www.commerce.alaska.gov/web/dbs",
       "state": "Alaska",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.366Z",
+      "checkedAt": "2026-11-07T17:12:15.656Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -390,13 +418,12 @@
       "url": "https://difi.az.gov/",
       "state": "Arizona",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.394Z",
+      "checkedAt": "2026-11-07T17:12:15.749Z",
       "verifiedCount": 0,
       "errors": [
-        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 0,
-      "status": "no_parseable_publications"
+      "status": "failed"
     },
     {
       "id": "state-arkansas",
@@ -404,7 +431,7 @@
       "url": "https://banking.arkansas.gov/",
       "state": "Arkansas",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.520Z",
+      "checkedAt": "2026-11-07T17:12:15.766Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -418,12 +445,25 @@
       "url": "https://dfpi.ca.gov/",
       "state": "California",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.591Z",
+      "checkedAt": "2026-11-07T17:12:15.772Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 403"
+        {
+          "url": "https://dfpi.ca.gov/rules-enforcement/laws-and-regulations/california-consumer-financial-protection-law/ccfpl-turns-five",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfpi.ca.gov/regulated-industries/regulated-entities-list",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfpi.ca.gov/regulated-industries",
+          "message": "No verified publication date"
+        }
       ],
-      "status": "failed"
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
     },
     {
       "id": "state-colorado",
@@ -431,7 +471,7 @@
       "url": "https://banking.colorado.gov/",
       "state": "Colorado",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.631Z",
+      "checkedAt": "2026-11-07T17:12:15.871Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -444,7 +484,7 @@
       "url": "https://portal.ct.gov/dob",
       "state": "Connecticut",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.668Z",
+      "checkedAt": "2026-11-07T17:12:15.935Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -470,7 +510,7 @@
       "url": "https://banking.delaware.gov",
       "state": "Delaware",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.696Z",
+      "checkedAt": "2026-11-07T17:12:16.012Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -492,7 +532,7 @@
       "url": "https://www.flofr.gov/",
       "state": "Florida",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.761Z",
+      "checkedAt": "2026-11-07T17:12:16.021Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -514,7 +554,7 @@
       "url": "https://dbf.georgia.gov/",
       "state": "Georgia",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.780Z",
+      "checkedAt": "2026-11-07T17:12:16.030Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -540,7 +580,7 @@
       "url": "https://cca.hawaii.gov/dfi/",
       "state": "Hawaii",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.842Z",
+      "checkedAt": "2026-11-07T17:12:16.054Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -558,7 +598,7 @@
       "url": "https://www.finance.idaho.gov/",
       "state": "Idaho",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:40.994Z",
+      "checkedAt": "2026-11-07T17:12:16.122Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -584,7 +624,7 @@
       "url": "https://idfpr.illinois.gov/",
       "state": "Illinois",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.043Z",
+      "checkedAt": "2026-11-07T17:12:16.278Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -602,7 +642,7 @@
       "url": "https://www.in.gov/dfi/",
       "state": "Indiana",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.091Z",
+      "checkedAt": "2026-11-07T17:12:16.280Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -624,7 +664,7 @@
       "url": "https://idob.iowa.gov",
       "state": "Iowa",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.368Z",
+      "checkedAt": "2026-11-07T17:12:16.329Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -650,7 +690,7 @@
       "url": "https://www.osbckansas.gov",
       "state": "Kansas",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.545Z",
+      "checkedAt": "2026-11-07T17:12:16.330Z",
       "verifiedCount": 0,
       "errors": [],
       "discoveredCount": 1,
@@ -663,7 +703,7 @@
       "url": "https://kfi.ky.gov/",
       "state": "Kentucky",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.668Z",
+      "checkedAt": "2026-11-07T17:12:16.488Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -681,7 +721,7 @@
       "url": "https://ofi.la.gov/",
       "state": "Louisiana",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.714Z",
+      "checkedAt": "2026-11-07T17:12:16.519Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -695,7 +735,7 @@
       "url": "https://www.maine.gov/pfr/financialinstitutions/",
       "state": "Maine",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.747Z",
+      "checkedAt": "2026-11-07T17:12:16.535Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -708,7 +748,7 @@
       "url": "https://www.dllr.state.md.us/finance",
       "state": "Maryland",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.754Z",
+      "checkedAt": "2026-11-07T17:12:16.580Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -734,7 +774,7 @@
       "url": "https://www.mass.gov/orgs/division-of-banks",
       "state": "Massachusetts",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.820Z",
+      "checkedAt": "2026-11-07T17:12:16.618Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -760,21 +800,12 @@
       "url": "https://www.michigan.gov/difs/industry/banking",
       "state": "Michigan",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:41.950Z",
+      "checkedAt": "2026-11-07T17:12:16.716Z",
       "verifiedCount": 0,
       "errors": [
-        {
-          "url": "https://www.michigan.gov/difs/legal/bulletins/bank-bulletins",
-          "message": "No verified mortgage regulatory development"
-        },
-        {
-          "url": "https://www.michigan.gov/difs/legal/bulletins/bidco-bulletins",
-          "message": "No verified publication date"
-        }
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 2,
-      "status": "partial_scan",
-      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+      "status": "failed"
     },
     {
       "id": "state-minnesota",
@@ -782,12 +813,12 @@
       "url": "https://mn.gov/commerce/",
       "state": "Minnesota",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.091Z",
+      "checkedAt": "2026-11-07T17:12:16.789Z",
       "verifiedCount": 0,
       "errors": [
         {
           "url": "https://mn.gov/commerce/business",
-          "message": "No verified publication date"
+          "message": "Official source request failed (connection, size, redirect, or timeout)"
         }
       ],
       "discoveredCount": 1,
@@ -800,7 +831,7 @@
       "url": "https://dbcf.ms.gov/",
       "state": "Mississippi",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.115Z",
+      "checkedAt": "2026-11-07T17:12:16.793Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -818,7 +849,7 @@
       "url": "https://finance.mo.gov/",
       "state": "Missouri",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.328Z",
+      "checkedAt": "2026-11-07T17:12:16.794Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -832,7 +863,7 @@
       "url": "https://doa.mt.gov/bfid/",
       "state": "Montana",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.336Z",
+      "checkedAt": "2026-11-07T17:12:16.856Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -858,7 +889,7 @@
       "url": "https://ndbf.nebraska.gov/",
       "state": "Nebraska",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.359Z",
+      "checkedAt": "2026-11-07T17:12:16.884Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -876,7 +907,7 @@
       "url": "https://fid.nv.gov/",
       "state": "Nevada",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.667Z",
+      "checkedAt": "2026-11-07T17:12:16.994Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -902,7 +933,7 @@
       "url": "https://www.banking.nh.gov/",
       "state": "New Hampshire",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.716Z",
+      "checkedAt": "2026-11-07T17:12:17.111Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -915,7 +946,7 @@
       "url": "https://www.nj.gov/dobi/index.html",
       "state": "New Jersey",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.875Z",
+      "checkedAt": "2026-11-07T17:12:17.147Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -937,7 +968,7 @@
       "url": "https://www.rld.nm.gov/financial-institutions/",
       "state": "New Mexico",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.931Z",
+      "checkedAt": "2026-11-07T17:12:17.198Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -955,7 +986,7 @@
       "url": "https://www.dfs.ny.gov/",
       "state": "New York",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:42.977Z",
+      "checkedAt": "2026-11-07T17:12:17.331Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -977,7 +1008,7 @@
       "url": "https://nccob.nc.gov/",
       "state": "North Carolina",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.093Z",
+      "checkedAt": "2026-11-07T17:12:17.369Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -999,7 +1030,7 @@
       "url": "https://www.nd.gov/dfi/",
       "state": "North Dakota",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.105Z",
+      "checkedAt": "2026-11-07T17:12:17.389Z",
       "verifiedCount": 0,
       "errors": [],
       "discoveredCount": 1,
@@ -1012,7 +1043,7 @@
       "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/",
       "state": "Ohio",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.174Z",
+      "checkedAt": "2026-11-07T17:12:17.464Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 404"
@@ -1025,7 +1056,7 @@
       "url": "https://banking.ok.gov",
       "state": "Oklahoma",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.282Z",
+      "checkedAt": "2026-11-07T17:12:17.484Z",
       "verifiedCount": 0,
       "errors": [
         "Destination is outside official source hosts: oklahoma.gov"
@@ -1038,7 +1069,7 @@
       "url": "https://dfr.oregon.gov/Pages/index.aspx",
       "state": "Oregon",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.285Z",
+      "checkedAt": "2026-11-07T17:12:17.646Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1064,7 +1095,7 @@
       "url": "https://www.pa.gov/agencies/dobs",
       "state": "Pennsylvania",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.371Z",
+      "checkedAt": "2026-11-07T17:12:17.659Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -1078,25 +1109,12 @@
       "url": "https://dbr.ri.gov/",
       "state": "Rhode Island",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.468Z",
+      "checkedAt": "2026-11-07T17:12:17.760Z",
       "verifiedCount": 0,
       "errors": [
-        {
-          "url": "https://dbr.ri.gov/bulletins",
-          "message": "No verified publication date"
-        },
-        {
-          "url": "https://dbr.ri.gov/rules-regulations",
-          "message": "No verified publication date"
-        },
-        {
-          "url": "https://dbr.ri.gov/bulletins/fair-chance-licensing-act",
-          "message": "No verified publication date"
-        }
+        "Official source returned HTTP 403"
       ],
-      "discoveredCount": 3,
-      "status": "partial_scan",
-      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+      "status": "failed"
     },
     {
       "id": "state-south-carolina",
@@ -1104,7 +1122,7 @@
       "url": "https://banking.sc.gov/",
       "state": "South Carolina",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.553Z",
+      "checkedAt": "2026-11-07T17:12:17.770Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -1118,7 +1136,7 @@
       "url": "https://dlr.sd.gov/banking/default.aspx",
       "state": "South Dakota",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.582Z",
+      "checkedAt": "2026-11-07T17:12:17.783Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1144,10 +1162,10 @@
       "url": "https://www.tn.gov/tdfi",
       "state": "Tennessee",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.682Z",
+      "checkedAt": "2026-11-07T17:12:17.857Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 503"
+        "Official source returned HTTP 403"
       ],
       "status": "failed"
     },
@@ -1157,7 +1175,7 @@
       "url": "https://www.dob.texas.gov",
       "state": "Texas",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.696Z",
+      "checkedAt": "2026-11-07T17:12:17.861Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1179,7 +1197,7 @@
       "url": "https://dfi.utah.gov/",
       "state": "Utah",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.710Z",
+      "checkedAt": "2026-11-07T17:12:17.883Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1197,7 +1215,7 @@
       "url": "https://dfr.vermont.gov/",
       "state": "Vermont",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.758Z",
+      "checkedAt": "2026-11-07T17:12:17.919Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1210,7 +1228,7 @@
       "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/",
       "state": "Virginia",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.924Z",
+      "checkedAt": "2026-11-07T17:12:18.105Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1236,7 +1254,7 @@
       "url": "https://dfi.wa.gov/",
       "state": "Washington",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:43.936Z",
+      "checkedAt": "2026-11-07T17:12:18.116Z",
       "verifiedCount": 0,
       "errors": [
         {
@@ -1262,7 +1280,7 @@
       "url": "https://www.dfi.wv.gov",
       "state": "West Virginia",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:44.085Z",
+      "checkedAt": "2026-11-07T17:12:18.162Z",
       "verifiedCount": 0,
       "errors": [
         "Official source request failed (connection, size, redirect, or timeout)"
@@ -1275,7 +1293,7 @@
       "url": "https://dfi.wi.gov/Pages/Home.aspx",
       "state": "Wisconsin",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:44.133Z",
+      "checkedAt": "2026-11-07T17:12:18.202Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -1289,7 +1307,7 @@
       "url": "https://wyomingbankingdivision.wyo.gov/",
       "state": "Wyoming",
       "kind": "state-regulator",
-      "checkedAt": "2026-11-07T17:10:44.178Z",
+      "checkedAt": "2026-11-07T17:12:18.212Z",
       "verifiedCount": 0,
       "errors": [
         "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
@@ -1303,7 +1321,7 @@
       "url": "https://alison.legislature.state.al.us/",
       "state": "Alabama",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.219Z",
+      "checkedAt": "2026-11-07T17:12:18.331Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1316,7 +1334,7 @@
       "url": "https://www.akleg.gov/",
       "state": "Alaska",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.277Z",
+      "checkedAt": "2026-11-07T17:12:18.380Z",
       "verifiedCount": 0,
       "errors": [
         "Destination is outside official source hosts: w3.akleg.gov"
@@ -1329,7 +1347,7 @@
       "url": "https://www.azleg.gov/",
       "state": "Arizona",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.466Z",
+      "checkedAt": "2026-11-07T17:12:18.382Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1342,7 +1360,7 @@
       "url": "https://www.arkleg.state.ar.us/",
       "state": "Arkansas",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.566Z",
+      "checkedAt": "2026-11-07T17:12:18.472Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1355,7 +1373,7 @@
       "url": "https://leginfo.legislature.ca.gov/",
       "state": "California",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.605Z",
+      "checkedAt": "2026-11-07T17:12:18.540Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1368,7 +1386,7 @@
       "url": "https://leg.colorado.gov/",
       "state": "Colorado",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.668Z",
+      "checkedAt": "2026-11-07T17:12:18.582Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1381,10 +1399,10 @@
       "url": "https://www.cga.ct.gov/",
       "state": "Connecticut",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.773Z",
+      "checkedAt": "2026-11-07T17:12:18.597Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 503"
+        "Official source request failed (connection, size, redirect, or timeout)"
       ],
       "status": "failed"
     },
@@ -1394,7 +1412,7 @@
       "url": "https://legis.delaware.gov/",
       "state": "Delaware",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:44.777Z",
+      "checkedAt": "2026-11-07T17:12:18.607Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1407,7 +1425,7 @@
       "url": "https://www.leg.state.fl.us/",
       "state": "Florida",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.020Z",
+      "checkedAt": "2026-11-07T17:12:18.785Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1420,7 +1438,7 @@
       "url": "https://www.legis.ga.gov/",
       "state": "Georgia",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.093Z",
+      "checkedAt": "2026-11-07T17:12:18.785Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1433,7 +1451,7 @@
       "url": "https://www.capitol.hawaii.gov/",
       "state": "Hawaii",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.161Z",
+      "checkedAt": "2026-11-07T17:12:18.835Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1446,7 +1464,7 @@
       "url": "https://legislature.idaho.gov/",
       "state": "Idaho",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.357Z",
+      "checkedAt": "2026-11-07T17:12:18.911Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1459,10 +1477,10 @@
       "url": "https://www.ilga.gov/",
       "state": "Illinois",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.403Z",
+      "checkedAt": "2026-11-07T17:12:18.918Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 503"
+        "Official source request failed (connection, size, redirect, or timeout)"
       ],
       "status": "failed"
     },
@@ -1472,7 +1490,7 @@
       "url": "https://iga.in.gov/",
       "state": "Indiana",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.430Z",
+      "checkedAt": "2026-11-07T17:12:18.979Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1485,7 +1503,7 @@
       "url": "https://www.legis.iowa.gov/",
       "state": "Iowa",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.564Z",
+      "checkedAt": "2026-11-07T17:12:18.990Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1498,7 +1516,7 @@
       "url": "https://www.kslegislature.gov/",
       "state": "Kansas",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.671Z",
+      "checkedAt": "2026-11-07T17:12:19.063Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1511,7 +1529,7 @@
       "url": "https://legislature.ky.gov/",
       "state": "Kentucky",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.682Z",
+      "checkedAt": "2026-11-07T17:12:19.070Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1524,7 +1542,7 @@
       "url": "https://legis.la.gov/",
       "state": "Louisiana",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.686Z",
+      "checkedAt": "2026-11-07T17:12:19.081Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1537,7 +1555,7 @@
       "url": "https://legislature.maine.gov/",
       "state": "Maine",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:45.899Z",
+      "checkedAt": "2026-11-07T17:12:19.165Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1550,7 +1568,7 @@
       "url": "https://mgaleg.maryland.gov/",
       "state": "Maryland",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.112Z",
+      "checkedAt": "2026-11-07T17:12:19.253Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1563,7 +1581,7 @@
       "url": "https://malegislature.gov/",
       "state": "Massachusetts",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.142Z",
+      "checkedAt": "2026-11-07T17:12:19.258Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1576,12 +1594,12 @@
       "url": "https://www.legislature.mi.gov/",
       "state": "Michigan",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.162Z",
+      "checkedAt": "2026-11-07T17:12:19.309Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source request failed (connection, size, redirect, or timeout)"
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
       ],
-      "status": "failed"
+      "status": "action_adapter_required"
     },
     {
       "id": "leg-minnesota",
@@ -1589,7 +1607,7 @@
       "url": "https://www.revisor.mn.gov/",
       "state": "Minnesota",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.299Z",
+      "checkedAt": "2026-11-07T17:12:19.352Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1602,10 +1620,10 @@
       "url": "https://www.legislature.ms.gov/",
       "state": "Mississippi",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.338Z",
+      "checkedAt": "2026-11-07T17:12:19.432Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 503"
+        "Official source request failed (connection, size, redirect, or timeout)"
       ],
       "status": "failed"
     },
@@ -1615,7 +1633,7 @@
       "url": "https://house.mo.gov/",
       "state": "Missouri",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.474Z",
+      "checkedAt": "2026-11-07T17:12:19.456Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1628,7 +1646,7 @@
       "url": "https://leg.mt.gov/",
       "state": "Montana",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.480Z",
+      "checkedAt": "2026-11-07T17:12:19.483Z",
       "verifiedCount": 0,
       "errors": [
         "Destination is outside official source hosts: www.legmt.gov"
@@ -1641,7 +1659,7 @@
       "url": "https://nebraskalegislature.gov/",
       "state": "Nebraska",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.578Z",
+      "checkedAt": "2026-11-07T17:12:19.571Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1654,7 +1672,7 @@
       "url": "https://www.leg.state.nv.us/",
       "state": "Nevada",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.618Z",
+      "checkedAt": "2026-11-07T17:12:19.571Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1667,7 +1685,7 @@
       "url": "https://gc.nh.gov/",
       "state": "New Hampshire",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.639Z",
+      "checkedAt": "2026-11-07T17:12:19.589Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1680,7 +1698,7 @@
       "url": "https://www.njleg.state.nj.us/",
       "state": "New Jersey",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.854Z",
+      "checkedAt": "2026-11-07T17:12:19.599Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1693,7 +1711,7 @@
       "url": "https://www.nmlegis.gov/",
       "state": "New Mexico",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.872Z",
+      "checkedAt": "2026-11-07T17:12:19.693Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1706,7 +1724,7 @@
       "url": "https://www.nysenate.gov/legislation",
       "state": "New York",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:46.919Z",
+      "checkedAt": "2026-11-07T17:12:19.811Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1719,7 +1737,7 @@
       "url": "https://www.ncleg.gov/",
       "state": "North Carolina",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.027Z",
+      "checkedAt": "2026-11-07T17:12:19.951Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1732,7 +1750,7 @@
       "url": "https://ndlegis.gov/",
       "state": "North Dakota",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.180Z",
+      "checkedAt": "2026-11-07T17:12:19.993Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1745,10 +1763,10 @@
       "url": "https://www.legislature.ohio.gov/",
       "state": "Ohio",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.197Z",
+      "checkedAt": "2026-11-07T17:12:20.098Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 503"
+        "Official source request failed (connection, size, redirect, or timeout)"
       ],
       "status": "failed"
     },
@@ -1758,7 +1776,7 @@
       "url": "https://www.oklegislature.gov/",
       "state": "Oklahoma",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.329Z",
+      "checkedAt": "2026-11-07T17:12:20.318Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1771,12 +1789,12 @@
       "url": "https://www.oregonlegislature.gov/",
       "state": "Oregon",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.529Z",
+      "checkedAt": "2026-11-07T17:12:20.328Z",
       "verifiedCount": 0,
       "errors": [
-        "Official source returned HTTP 403"
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
       ],
-      "status": "failed"
+      "status": "action_adapter_required"
     },
     {
       "id": "leg-pennsylvania",
@@ -1784,7 +1802,7 @@
       "url": "https://www.legis.state.pa.us/",
       "state": "Pennsylvania",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.580Z",
+      "checkedAt": "2026-11-07T17:12:20.412Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1797,7 +1815,7 @@
       "url": "https://www.rilegislature.gov/",
       "state": "Rhode Island",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.797Z",
+      "checkedAt": "2026-11-07T17:12:20.422Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1810,7 +1828,7 @@
       "url": "https://www.scstatehouse.gov/",
       "state": "South Carolina",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:47.828Z",
+      "checkedAt": "2026-11-07T17:12:20.433Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1823,7 +1841,7 @@
       "url": "https://sdlegislature.gov/",
       "state": "South Dakota",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.009Z",
+      "checkedAt": "2026-11-07T17:12:20.520Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1836,7 +1854,7 @@
       "url": "https://www.capitol.tn.gov/",
       "state": "Tennessee",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.020Z",
+      "checkedAt": "2026-11-07T17:12:20.630Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1849,7 +1867,7 @@
       "url": "https://capitol.texas.gov/",
       "state": "Texas",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.099Z",
+      "checkedAt": "2026-11-07T17:12:20.698Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1862,7 +1880,7 @@
       "url": "https://le.utah.gov/",
       "state": "Utah",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.427Z",
+      "checkedAt": "2026-11-07T17:12:20.760Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1875,7 +1893,7 @@
       "url": "https://legislature.vermont.gov/",
       "state": "Vermont",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.523Z",
+      "checkedAt": "2026-11-07T17:12:20.837Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1888,7 +1906,7 @@
       "url": "https://lis.virginia.gov/",
       "state": "Virginia",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.702Z",
+      "checkedAt": "2026-11-07T17:12:20.994Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1901,7 +1919,7 @@
       "url": "https://app.leg.wa.gov/",
       "state": "Washington",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.793Z",
+      "checkedAt": "2026-11-07T17:12:21.013Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 403"
@@ -1914,7 +1932,7 @@
       "url": "https://www.wvlegislature.gov/",
       "state": "West Virginia",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:48.834Z",
+      "checkedAt": "2026-11-07T17:12:21.045Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1927,7 +1945,7 @@
       "url": "https://legis.wisconsin.gov/",
       "state": "Wisconsin",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:49.114Z",
+      "checkedAt": "2026-11-07T17:12:21.156Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1940,7 +1958,7 @@
       "url": "https://www.wyoleg.gov/",
       "state": "Wyoming",
       "kind": "legislature",
-      "checkedAt": "2026-11-07T17:10:49.126Z",
+      "checkedAt": "2026-11-07T17:12:21.303Z",
       "verifiedCount": 0,
       "errors": [
         "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
@@ -1952,7 +1970,7 @@
       "name": "Congress.gov public legislation",
       "url": "https://www.congress.gov/rss/most-recent-bills.xml",
       "kind": "federal-legislation",
-      "checkedAt": "2026-11-07T17:11:04.178Z",
+      "checkedAt": "2026-11-07T17:12:22.926Z",
       "verifiedCount": 0,
       "errors": [
         "Official source returned HTTP 404"
@@ -1964,7 +1982,7 @@
       "name": "U.S. Congress / GovInfo bill status",
       "url": "https://www.govinfo.gov/rss/bills.xml",
       "kind": "federal-legislation",
-      "checkedAt": "2026-11-07T17:11:04.500Z",
+      "checkedAt": "2026-11-07T17:12:23.098Z",
       "verifiedCount": 0,
       "errors": [],
       "discoveredCount": 1,
