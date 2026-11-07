@@ -1,72 +1,71 @@
 # RegsRadar News — Expo mobile prototype
 
-A **standalone, read-only prototype** of RegsRadar News for iPhone and Android. It does not connect to, modify, or authenticate with the live Base44 platform.
+Standalone Expo SDK 58 prototype. No connection to production RegsRadar,
+Base44, subscriptions, credentials, or account APIs. No deployment is configured.
 
-## Start
+## Preview
 
-1. Install Node.js LTS and Expo Go on your phone.
-2. Open this folder in a terminal (or in Codex).
-3. Run `npm ci` then `npx expo start`.
-4. Sign in to Expo CLI and Expo Go with the same Expo account if prompted.
-5. Scan the QR code with the iPhone camera to open in Expo Go. Your development computer must remain on with the server running. If local networking fails, use `npx expo start --tunnel` (may require installing `@expo/ngrok`).
+Use Node.js 22.13+ (22 LTS supports the user's macOS Monterey setup), install
+with `npm ci`, then run `npx expo start --clear`. Keep the Mac and iPhone on
+the same Wi-Fi, use SDK 58 Expo Go, and sign into the same Expo account in
+CLI and Expo Go if required. Keep Metro running while previewing.
 
-## Current prototype functionality
+## Weekly official news
 
-- Public news feed with category filters, search, and article detail pages.
-- Account-gated tracking and preferences are **non-functional placeholders** with an explanatory alert.
-- All article titles and summaries are **fictional**, clearly marked SAMPLE, and contain no live regulatory updates.
-- Theme tokens are in `src/theme.ts` and approximate the supplied website screenshot. The white header, navy controls, gray canvas, and charcoal headings follow that reference; exact brand tokens, font, and logo still need approved assets.
-- No app icon, third-party branding asset, backend, credentials, push notifications, or direct regulatory feeds are included.
+Fictional sample articles have been replaced with five official Federal Register
+publications. Each source page was opened and its title, date, and document
+number checked on November 7, 2026.
+The requested week is November 1–7, 2026 inclusive, using Pacific calendar dates.
 
-## Next tasks for Codex
-
-1. Confirm the official RegsRadar branding and replace placeholder logo/colors.
-2. Implement a validated, read-only news API adapter; do not invent articles or fall back silently to fake stories.
-3. Write automated component and filtering tests.
-4. Design secure identity integration with the existing Base44 organization and Stripe plan enforcement.
-5. Add notification opt-in and verified source links after official-feed validation.
-6. Run `npx expo install --fix` to reconcile SDK-compatible dependency versions if the Expo CLI flags any differences.
-
-This is starter source code, not an installed app or a hosted preview. Codex or a local developer environment must run the Expo server to scan a preview QR code.
-
-## Verified cloud development setup
-
-The supplied source files are installed in `/workspace/regsradar-news`, including
-`src/news.ts` and `src/theme.ts`. Dependencies are locked in `package-lock.json`.
-React Native and expo-status-bar match Expo SDK 58's bundled compatibility table;
-react-dom and react-native-web support the existing web command.
-
-Cloud commands (no production connection or deployment):
+Refresh the dated edition from the official Federal Register API:
 
 ```sh
-cd /workspace/regsradar-news
-export npm_config_cache=/workspace/.npm-cache
-export XDG_CACHE_HOME=/workspace/.cache
-export EXPO_NO_TELEMETRY=1
-npm ci
+npm run news:refresh -- 2026-11-07
+```
+
+Omitting the date selects the current date in America/Los_Angeles and the
+preceding six dates. The importer queries publications matching `mortgage`,
+loads all pages, validates dates and official HTTPS source URLs, and saves
+`src/data/weekly-news.json` only after the complete fetch succeeds. Failed
+fetches preserve the existing file; no fixture or sample fallback is used.
+The app displays publisher abstracts (or indicates when none is provided),
+publication dates, and buttons opening official publications. No compliance
+analysis or effective date is invented. Empty verified results and unavailable
+results are distinct. This is a dated bundled edition, not a background live feed.
+
+Coverage is limited to Federal Register mortgage search results; it does not
+establish exhaustive mortgage regulatory coverage. GSE and state sources are
+not included in this importer. The Federal Register API is a discovery source;
+users should consult its official publication and linked legal document for
+applicability, deadlines, and the official edition.
+
+Live-source access now works in the published development environment. The
+November 1–7 edition contains five verified publications from CFPB, HUD, FDIC,
+and NCUA. The current importer only fetches Federal Register; permission to
+access other publishers does not establish that they are included in this feed.
+
+## Checks
+
+```sh
+npm test
 npm run typecheck
 EXPO_OFFLINE=1 npx expo install --check
 EXPO_OFFLINE=1 npx expo export --platform all --max-workers 2
-EXPO_OFFLINE=1 npx expo start --web --localhost --port 8081 --max-workers 2
 ```
 
-Offline compatibility checks use the installed SDK's table; online Expo service
-checks are blocked by the current network policy. A local export creates build
-artifacts in `dist/`; it does not publish or deploy them.
+Importer tests use clearly labeled fixtures in tests only, never application data.
+They validate calendar dates, pagination, attribution, source rejection, incomplete
+responses, empty results, and preservation of saved data on failure. They do not
+establish live-source connectivity or authenticity of unqueried publications.
 
-Validation completed: TypeScript, iOS/Android/web bundle generation, and browser
-smoke checks for sample notices, category filters, keyword search, article details,
-Tracked/Account tabs, and empty results. There was no pre-existing automated test
-suite. Mobile bundling does not establish physical-device behavior.
+For cloud use, set `npm_config_cache=/workspace/.npm-cache` and
+`EXPO_NO_TELEMETRY=1`; work in `/workspace/regsradar-news`. Existing checkouts
+are isolated per task; do not create a worktree unless requested. Source and
+branding changes are separate from production. Cloud tunnel attempts failed;
+local Mac Expo Go preview has been confirmed by the user.
 
-Brand colors approximate the supplied website screenshot; the header uses a text wordmark pending the official emblem asset.
-The public branding website was blocked by environment network policy, so an
-exact branding match has not been verified. No production API is configured.
+## Design and remaining features
 
-For an iPhone, use an Expo Go version compatible with SDK 58. From a local computer,
-run `npm ci` and `npx expo start`, keep the phone on the same network, and scan the
-QR code with the iPhone camera. A cloud preview requires an explicitly started
-tunnel (`npx expo start --tunnel`) and network access for Expo/tunnel services.
-Cloud tunnel attempts failed before producing a usable preview URL. If the App Store Expo Go does not support SDK 58,
-use a compatible SDK or an approved development build; native builds require a
-separate setup and Apple signing. No build has been submitted to Apple.
+The white header, navy controls, gray canvas, and charcoal headings follow the
+supplied website screenshot. Exact colors, font, and the official logo still need
+approved assets. Account, tracking, and notification actions remain placeholders.

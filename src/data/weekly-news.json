@@ -1,0 +1,65 @@
+{
+  "windowStart": "2026-11-01",
+  "windowEnd": "2026-11-07",
+  "status": "verified",
+  "generatedAt": "2026-11-07T16:23:01.743Z",
+  "sourceName": "Federal Register",
+  "scope": "Federal Register publications matching “mortgage”; GSE and state sources are not included.",
+  "articles": [
+    {
+      "id": "2026-22645",
+      "agency": "Consumer Financial Protection Bureau",
+      "category": "Federal",
+      "topic": "Notice",
+      "title": "Fair Lending Report of the Consumer Financial Protection Bureau",
+      "summary": "The Consumer Financial Protection Bureau (CFPB or Bureau) is issuing its Fair Lending Report of the Consumer Financial Protection Bureau (Fair Lending Report) to Congress. This report describes our fair lending activities in rulemaking; supervision and enforcement; interagency coordination; and stakeholder engagement for calendar year 2025.",
+      "publishedDate": "2026-11-06",
+      "sourceName": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22645/fair-lending-report-of-the-consumer-financial-protection-bureau"
+    },
+    {
+      "id": "2026-22571",
+      "agency": "Housing and Urban Development Department",
+      "category": "Federal",
+      "topic": "Notice",
+      "title": "60-Day Notice of Proposed Information Collection: Home Mortgage Disclosure Act (HMDA) Loan/Application Register",
+      "summary": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
+      "publishedDate": "2026-11-05",
+      "sourceName": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/05/2026-22571/60-day-notice-of-proposed-information-collection-home-mortgage-disclosure-act-hmda-loanapplication"
+    },
+    {
+      "id": "2026-22495",
+      "agency": "Federal Deposit Insurance Corporation",
+      "category": "Federal",
+      "topic": "Proposed Rule",
+      "title": "Large-Bank Deposit Insurance Determination Modernization",
+      "summary": "The FDIC is seeking comment on a proposal that would: remove the regulation regarding recordkeeping for timely deposit insurance determination; revise the regulation regarding large-bank deposit insurance determination modernization to modify the requirements that, following rescission of the preceding regulation, would generally apply to institutions currently subject to the preceding regulation, with certain modifications, and clarify its requirements to better align the burdens of the rule with the benefits; and revise the regulation regarding indexing of specified regulatory thresholds to index the thresholds to inflation in the regulation regarding large-bank deposit insurance determination modernization.",
+      "publishedDate": "2026-11-04",
+      "sourceName": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/04/2026-22495/large-bank-deposit-insurance-determination-modernization"
+    },
+    {
+      "id": "2026-22536",
+      "agency": "National Credit Union Administration",
+      "category": "Federal",
+      "topic": "Rule",
+      "title": "Statutory Lien",
+      "summary": "On February 25, 2026, NCUA (or `agency') published a proposed rule to solicit comments on the removal of a provision of NCUA regulations regarding federal credit unions' (FCUs) statutory lien authority. Upon further consideration, and based on the comments received, the Board is issuing this final rule, as proposed, to remove the term, \"except as otherwise provided by law or except as otherwise provided by federal law.\" This language does not provide any assistance to FCUs in determining whether such statutory or case law exists, therefore it has no material value.",
+      "publishedDate": "2026-11-04",
+      "sourceName": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/04/2026-22536/statutory-lien"
+    },
+    {
+      "id": "2026-22357",
+      "agency": "Housing and Urban Development Department",
+      "category": "Federal",
+      "topic": "Notice",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Housing and Urban Development (HUD) and the Social Security Administration (SSA) are providing notice of a new computer matching program. Under this program, SSA will disclose Social Security Number (SSN) verifications to the Federal Housing Administration (FHA) through HUD to verify Borrowers' eligibility to participate in FHA's Single Family mortgage insurance programs. The matching program will enable HUD to verify Social Security numbers and related identifying information submitted by individuals applying for FHA-insured mortgage programs.",
+      "publishedDate": "2026-11-03",
+      "sourceName": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22357/privacy-act-of-1974-matching-program"
+    }
+  ]
+}
