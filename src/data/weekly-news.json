@@ -2,9 +2,9 @@
   "windowStart": "2026-11-01",
   "windowEnd": "2026-11-07",
   "status": "verified",
-  "generatedAt": "2026-11-07T16:23:01.743Z",
-  "sourceName": "Federal Register",
-  "scope": "Federal Register publications matching “mortgage”; GSE and state sources are not included.",
+  "generatedAt": "2026-11-07T16:34:52.211Z",
+  "sourceName": "Official publishers",
+  "scope": "Official federal and GSE publications plus verified state financial-services news. State coverage is partial; education and market news are labeled separately from rules.",
   "articles": [
     {
       "id": "2026-22645",
@@ -18,6 +18,32 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22645/fair-lending-report-of-the-consumer-financial-protection-bureau"
     },
     {
+      "id": "ks-osbc-2026-11-06-grants",
+      "agency": "Kansas OSBC",
+      "category": "States",
+      "state": "Kansas",
+      "topic": "Financial education",
+      "title": "Kansas OSBC Awards Grant Funds for Financial Literacy Education",
+      "summary": "The Kansas Office of the State Bank Commissioner announced $231,150 in financial-literacy grants to nine organizations. The agency says funding comes from fines and settlements involving companies under its Consumer and Mortgage Lending Division, rather than taxpayer funds. This is a consumer-education update.",
+      "publishedDate": "2026-11-06",
+      "sourceName": "Kansas OSBC",
+      "sourceUrl": "https://osbckansas.gov/kansas-osbc-awards-grant-funds-for-financial-literacy-education/",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
+      "id": "ny-dfs-2026-11-06-bulletin",
+      "agency": "New York DFS",
+      "category": "States",
+      "state": "New York",
+      "topic": "Licensing bulletin",
+      "title": "Weekly Banking Bulletin November 6, 2026",
+      "summary": "New York DFS published its weekly bulletin of applications, notices, supervisory actions, and mortgage-banking licensing activity. The bulletin distinguishes receipt of applications from completed filings and approvals; consult each entry for its status and any applicable comment period.",
+      "publishedDate": "2026-11-06",
+      "sourceName": "New York DFS",
+      "sourceUrl": "https://www.dfs.ny.gov/reports_and_publications/weekly-bulletins/wb20261106",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
       "id": "2026-22571",
       "agency": "Housing and Urban Development Department",
       "category": "Federal",
@@ -27,6 +53,18 @@
       "publishedDate": "2026-11-05",
       "sourceName": "Federal Register",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/05/2026-22571/60-day-notice-of-proposed-information-collection-home-mortgage-disclosure-act-hmda-loanapplication"
+    },
+    {
+      "id": "freddie-2026-11-05-pmms",
+      "agency": "Freddie Mac",
+      "category": "GSEs",
+      "topic": "Mortgage market",
+      "title": "Mortgage Rates Decline for Third Consecutive Week to 7.18%",
+      "summary": "Freddie Mac reported that the 30-year fixed-rate mortgage averaged 7.18% as of November 5, 2026, compared with 7.24% the prior week. Its Primary Mortgage Market Survey covers conventional, conforming home-purchase loans for borrowers with 20% down and excellent credit. This is market news, not a regulatory change.",
+      "publishedDate": "2026-11-05",
+      "sourceName": "Freddie Mac",
+      "sourceUrl": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
     },
     {
       "id": "2026-22495",
@@ -51,6 +89,31 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/04/2026-22536/statutory-lien"
     },
     {
+      "id": "fannie-2026-11-04-npl",
+      "agency": "Fannie Mae",
+      "category": "GSEs",
+      "topic": "Loan sales",
+      "title": "Fannie Mae Announces Winner of its Latest Non-Performing Loan Sale",
+      "summary": "Fannie Mae announced TRF Loan Acquisition, LP as the winning bidder in its twenty-ninth non-performing loan sale. The pool includes 1,179 loans. The release describes purchaser requirements for honoring loss-mitigation efforts and offering options before foreclosure.",
+      "publishedDate": "2026-11-04",
+      "sourceName": "Fannie Mae",
+      "sourceUrl": "https://www.fanniemae.com/newsroom/fannie-mae-news/winner-twenty-ninth-non-performing-loan-sale",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
+      "id": "tx-dob-2026-11-04-fraud",
+      "agency": "Texas Department of Banking",
+      "category": "States",
+      "state": "Texas",
+      "topic": "Financial education",
+      "title": "Financial Education Webinar: Fighting Against Fraud: Fraud Awareness and Prevention",
+      "summary": "Texas Department of Banking Industry Notice 2026-06, dated November 4, announces a free November 18 fraud-awareness webinar jointly sponsored with the Office of Consumer Credit Commissioner. Registration is required. This is an educational event notice, not a new mortgage rule.",
+      "publishedDate": "2026-11-04",
+      "sourceName": "Texas Department of Banking",
+      "sourceUrl": "https://www.dob.texas.gov/sites/default/files/files/news/industrynotices/in2026-06.pdf",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
       "id": "2026-22357",
       "agency": "Housing and Urban Development Department",
       "category": "Federal",
@@ -60,6 +123,919 @@
       "publishedDate": "2026-11-03",
       "sourceName": "Federal Register",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22357/privacy-act-of-1974-matching-program"
+    },
+    {
+      "id": "freddie-2026-11-03-funding",
+      "agency": "Freddie Mac",
+      "category": "GSEs",
+      "topic": "Capital markets",
+      "title": "Freddie Mac Posts 2027 Debt Funding Calendar",
+      "summary": "Freddie Mac posted its 2027 funding calendar for Reference Notes and Reference Bills securities. The announcement explains that issuance and auction schedules are optional and may vary with funding needs and market demand. This is a capital-markets announcement, not a new lending requirement.",
+      "publishedDate": "2026-11-03",
+      "sourceName": "Freddie Mac",
+      "sourceUrl": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-posts-2027-debt-funding-calendar",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
+      "id": "freddie-2026-11-02-stacr",
+      "agency": "Freddie Mac",
+      "category": "GSEs",
+      "topic": "Credit risk transfer",
+      "title": "Freddie Mac Announces Results of Tender Offer for Certain STACR Notes",
+      "summary": "Freddie Mac announced the results of its tender offer for specified Structured Agency Credit Risk notes. The release reports approximately $1.1 billion in aggregate original principal amount tendered and accepted, with settlement expected November 3, 2026. This is a securities transaction update.",
+      "publishedDate": "2026-11-02",
+      "sourceName": "Freddie Mac",
+      "sourceUrl": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-announces-results-tender-offer-certain-stacr-12",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
+    },
+    {
+      "id": "wi-dfi-2026-11-02-awards",
+      "agency": "Wisconsin DFI",
+      "category": "States",
+      "state": "Wisconsin",
+      "topic": "Financial education",
+      "title": "2026 Governor’s Financial Literacy Award Nominations Open Today",
+      "summary": "Wisconsin DFI announced that nominations for the Governor’s Financial Literacy Awards are open through November 30, 2026. The program recognizes individuals, organizations, and businesses supporting financial literacy, capability, and inclusion. This is an awards announcement, not a regulatory requirement.",
+      "publishedDate": "2026-11-02",
+      "sourceName": "Wisconsin DFI",
+      "sourceUrl": "https://dfi.wi.gov/Pages/About/NewsEvents/NewsReleases/20261102AwardNominations.aspx",
+      "verifiedAt": "2026-11-07T16:33:22.108676Z"
     }
-  ]
+  ],
+  "stateCoverage": {
+    "requested": "All states with verifiable official news",
+    "surveyedStateCount": 50,
+    "accessibleStateCount": 41,
+    "verifiedItemStates": [
+      "Kansas",
+      "New York",
+      "Texas",
+      "Wisconsin"
+    ],
+    "surveyedAt": "2026-11-07T16:33:22.108676Z",
+    "directoryUrl": "https://www.csbs.org/contact-your-state-bank-agency",
+    "method": "Surveyed each directory-listed agency homepage and up to two linked news indexes; separately reviewed additional regulator news pages. Accessibility and a missing dated result do not establish that a state had no news. This is not exhaustive statewide coverage.",
+    "sources": [
+      {
+        "state": "Alabama",
+        "agency": "Alabama State Banking Department",
+        "url": "https://banking.alabama.gov",
+        "pages": [
+          {
+            "url": "https://banking.alabama.gov",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Alaska",
+        "agency": "Alaska Division of Banking and Securities",
+        "url": "https://www.commerce.alaska.gov/web/dbs",
+        "pages": [
+          {
+            "url": "https://www.commerce.alaska.gov/web/dbs",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Arizona",
+        "agency": "Arizona Department of Insurance and Financial Institutions",
+        "url": "https://difi.az.gov/",
+        "pages": [
+          {
+            "url": "https://difi.az.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://difi.az.gov/department-communications",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://difi.az.gov/bulletins",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Arkansas",
+        "agency": "Arkansas State Bank Department",
+        "url": "https://banking.arkansas.gov/",
+        "pages": [
+          {
+            "url": "https://banking.arkansas.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://banking.arkansas.gov/news/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "California",
+        "agency": "California Department of Financial Protection and Innovation",
+        "url": "https://dfpi.ca.gov/",
+        "pages": [
+          {
+            "url": "https://dfpi.ca.gov/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Colorado",
+        "agency": "Colorado Department of Regulatory Agencies Division of Banking",
+        "url": "https://banking.colorado.gov/",
+        "pages": [
+          {
+            "url": "https://banking.colorado.gov/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Connecticut",
+        "agency": "State of Connecticut Department of Banking",
+        "url": "https://portal.ct.gov/dob",
+        "pages": [
+          {
+            "url": "https://portal.ct.gov/dob",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://portal.ct.gov/dob/bulletin/bulletin/news-bulletin-home-page",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://portal.ct.gov/dob/newsroom/news-index-pages/dob-newsroom-index-page",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Delaware",
+        "agency": "Delaware Office of the State Bank Commissioner",
+        "url": "https://banking.delaware.gov",
+        "pages": [
+          {
+            "url": "https://banking.delaware.gov",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Florida",
+        "agency": "Florida Office of Financial Regulation",
+        "url": "https://www.flofr.gov/",
+        "pages": [
+          {
+            "url": "https://www.flofr.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.flofr.gov/news/press-releases",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Georgia",
+        "agency": "Georgia Department of Banking & Finance",
+        "url": "https://dbf.georgia.gov/",
+        "pages": [
+          {
+            "url": "https://dbf.georgia.gov/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Hawaii",
+        "agency": "Hawaii Department of Commerce and Consumer Affairs - Financial Institutions",
+        "url": "https://cca.hawaii.gov/dfi/",
+        "pages": [
+          {
+            "url": "https://cca.hawaii.gov/dfi/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://cca.hawaii.gov/dfi/news-releases/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://cca.hawaii.gov/news-releases/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Idaho",
+        "agency": "Idaho Department of Finance",
+        "url": "https://www.finance.idaho.gov/",
+        "pages": [
+          {
+            "url": "https://www.finance.idaho.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.finance.idaho.gov/about-us/compliance-connection-newsletter/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.finance.idaho.gov/about-us/press-releases/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Illinois",
+        "agency": "Illinois Department of Financial & Professional Regulation",
+        "url": "https://idfpr.illinois.gov/",
+        "pages": [
+          {
+            "url": "https://idfpr.illinois.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://idfpr.illinois.gov/news/latestnews.html",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://idfpr.illinois.gov/news/newsroom.html",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Indiana",
+        "agency": "Indiana Department of Financial Institutions",
+        "url": "https://www.in.gov/dfi/",
+        "pages": [
+          {
+            "url": "https://www.in.gov/dfi/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.in.gov/core/news_events.html",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Iowa",
+        "agency": "Iowa Division of Banking",
+        "url": "https://idob.iowa.gov",
+        "pages": [
+          {
+            "url": "https://idob.iowa.gov",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://idob.iowa.gov/legal-resources-0/guidances-and-bulletins",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://idob.iowa.gov/about/news",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Kansas",
+        "agency": "Kansas Office of the State Bank Commissioner",
+        "url": "https://www.osbckansas.gov",
+        "pages": [
+          {
+            "url": "https://www.osbckansas.gov",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Kentucky",
+        "agency": "Kentucky Department of Financial Institutions",
+        "url": "https://kfi.ky.gov/",
+        "pages": [
+          {
+            "url": "https://kfi.ky.gov/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Louisiana",
+        "agency": "Louisiana Office of Financial Institutions",
+        "url": "https://ofi.la.gov/",
+        "pages": [
+          {
+            "url": "https://ofi.la.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://ofi.la.gov/news/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://ofi.la.gov/legal/statutes-rules-policies-opinions/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Maine",
+        "agency": "Maine Bureau of Financial Institutions",
+        "url": "https://www.maine.gov/pfr/financialinstitutions/",
+        "pages": [
+          {
+            "url": "https://www.maine.gov/pfr/financialinstitutions/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Maryland",
+        "agency": "Maryland Department of Labor Office of Financial Regulation",
+        "url": "https://www.dllr.state.md.us/finance",
+        "pages": [
+          {
+            "url": "https://www.dllr.state.md.us/finance",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Massachusetts",
+        "agency": "Massachusetts Division of Banks",
+        "url": "https://www.mass.gov/orgs/division-of-banks",
+        "pages": [
+          {
+            "url": "https://www.mass.gov/orgs/division-of-banks",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.mass.gov/orgs/division-of-banks#org-nav-news",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.mass.gov/orgs/division-of-banks/news",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Michigan",
+        "agency": "Michigan Department of Insurance and Financial Services",
+        "url": "https://www.michigan.gov/difs/industry/banking",
+        "pages": [
+          {
+            "url": "https://www.michigan.gov/difs/industry/banking",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.michigan.gov/difs/legal/bulletins",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.michigan.gov/difs/news-and-outreach",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Minnesota",
+        "agency": "Minnesota Department of Commerce",
+        "url": "https://mn.gov/commerce/",
+        "pages": [
+          {
+            "url": "https://mn.gov/commerce/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://mn.gov/commerce/about/newsletters/index.jsp",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://mn.gov/commerce/news/index.jsp",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Mississippi",
+        "agency": "Mississippi Department of Banking and Consumer Finance",
+        "url": "https://dbcf.ms.gov/",
+        "pages": [
+          {
+            "url": "https://dbcf.ms.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dbcf.ms.gov/press-releases/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Missouri",
+        "agency": "Missouri Division of Finance",
+        "url": "https://finance.mo.gov/",
+        "pages": [
+          {
+            "url": "https://finance.mo.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://finance.mo.gov/news",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Montana",
+        "agency": "Montana Dept of Administration Division of Banking & Financial Institutions",
+        "url": "https://doa.mt.gov/bfid/",
+        "pages": [
+          {
+            "url": "https://doa.mt.gov/bfid/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://doa.mt.gov/About/news-media",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Nebraska",
+        "agency": "Nebraska Department of Banking and Finance",
+        "url": "https://ndbf.nebraska.gov/",
+        "pages": [
+          {
+            "url": "https://ndbf.nebraska.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://ndbf.nebraska.gov/about/news-publications",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Nevada",
+        "agency": "Nevada Department of Business & Industry Financial Institutions Division",
+        "url": "https://fid.nv.gov/",
+        "pages": [
+          {
+            "url": "https://fid.nv.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://fid.nv.gov/resources/news-articles-of-financial-institutions/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "New Hampshire",
+        "agency": "New Hampshire Banking Department",
+        "url": "https://www.banking.nh.gov/",
+        "pages": [
+          {
+            "url": "https://www.banking.nh.gov/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "New Jersey",
+        "agency": "New Jersey Department of Banking and Insurance",
+        "url": "https://www.nj.gov/dobi/index.html",
+        "pages": [
+          {
+            "url": "https://www.nj.gov/dobi/index.html",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.nj.gov/dobi/legsregs.htm",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.nj.gov/dobi/pressreleases/index.htm",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "New Mexico",
+        "agency": "New Mexico Regulation and Licensing Department Financial Institutions Division",
+        "url": "https://www.rld.nm.gov/financial-institutions/",
+        "pages": [
+          {
+            "url": "https://www.rld.nm.gov/financial-institutions/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "New York",
+        "agency": "New York State Department of Financial Services",
+        "url": "https://www.dfs.ny.gov/",
+        "pages": [
+          {
+            "url": "https://www.dfs.ny.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.dfs.ny.gov/Newsroom",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.dfs.ny.gov/reports-and-publications/weekly-bulletins",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "North Carolina",
+        "agency": "North Carolina Office of the Commissioner of Banks",
+        "url": "https://nccob.nc.gov/",
+        "pages": [
+          {
+            "url": "https://nccob.nc.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://nccob.nc.gov/news-research",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "North Dakota",
+        "agency": "North Dakota Department of Financial Institutions",
+        "url": "https://www.nd.gov/dfi/",
+        "pages": [
+          {
+            "url": "https://www.nd.gov/dfi/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.nd.gov/dfi/news-and-publications",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.nd.gov/dfi/news-and-publications/department-bulletins",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Ohio",
+        "agency": "Ohio Division of Financial Institutions",
+        "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/",
+        "pages": [
+          {
+            "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 404"
+          }
+        ]
+      },
+      {
+        "state": "Oklahoma",
+        "agency": "Oklahoma Banking Department",
+        "url": "https://banking.ok.gov",
+        "pages": [
+          {
+            "url": "https://banking.ok.gov",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://banking.ok.gov/banking/newsroom.html",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 404"
+          }
+        ]
+      },
+      {
+        "state": "Oregon",
+        "agency": "Oregon Division of Financial Regulation",
+        "url": "https://dfr.oregon.gov/Pages/index.aspx",
+        "pages": [
+          {
+            "url": "https://dfr.oregon.gov/Pages/index.aspx",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfr.oregon.gov/news",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfr.oregon.gov/laws-rules/Pages/bulletins.aspx",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Pennsylvania",
+        "agency": "Pennsylvania Department of Banking & Securities",
+        "url": "https://www.pa.gov/agencies/dobs",
+        "pages": [
+          {
+            "url": "https://www.pa.gov/agencies/dobs",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.pa.gov/agencies/dobs/publications-reports/quarter-newsletter",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.pa.gov/agencies/dobs/newsroom",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Rhode Island",
+        "agency": "Rhode Island Department of Business Regulation",
+        "url": "https://dbr.ri.gov/",
+        "pages": [
+          {
+            "url": "https://dbr.ri.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dbr.ri.gov/bulletins",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dbr.ri.gov/recentalertsbulletinsornews",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "South Carolina",
+        "agency": "South Carolina State Board of Financial Institutions Banking Division",
+        "url": "https://banking.sc.gov/",
+        "pages": [
+          {
+            "url": "https://banking.sc.gov/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "South Dakota",
+        "agency": "South Dakota Department of Labor and Regulation Division of Banking",
+        "url": "https://dlr.sd.gov/banking/default.aspx",
+        "pages": [
+          {
+            "url": "https://dlr.sd.gov/banking/default.aspx",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dlr.sd.gov/news/default.aspx",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dlr.sd.gov/workforce_services/businesses/employer_connection.aspx",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Tennessee",
+        "agency": "Tennessee Department of Financial Institutions",
+        "url": "https://www.tn.gov/tdfi",
+        "pages": [
+          {
+            "url": "https://www.tn.gov/tdfi",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 503"
+          }
+        ]
+      },
+      {
+        "state": "Texas",
+        "agency": "Texas Department of Banking",
+        "url": "https://www.dob.texas.gov",
+        "pages": [
+          {
+            "url": "https://www.dob.texas.gov",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.dob.texas.gov/news-and-events",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Utah",
+        "agency": "Utah Department of Financial Institutions",
+        "url": "https://dfi.utah.gov/",
+        "pages": [
+          {
+            "url": "https://dfi.utah.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfi.utah.gov/resources/news/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Vermont",
+        "agency": "Vermont Department of Financial Regulation",
+        "url": "https://dfr.vermont.gov/",
+        "pages": [
+          {
+            "url": "https://dfr.vermont.gov/",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Virginia",
+        "agency": "Virginia State Corporation Commission Bureau of Financial Institutions",
+        "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/",
+        "pages": [
+          {
+            "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Washington",
+        "agency": "Washington State Department of Financial Institutions",
+        "url": "https://dfi.wa.gov/",
+        "pages": [
+          {
+            "url": "https://dfi.wa.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfi.wa.gov/news",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfi.wa.gov/about-dfi/careers",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "West Virginia",
+        "agency": "West Virginia Division of Financial Institutions",
+        "url": "https://www.dfi.wv.gov",
+        "pages": [
+          {
+            "url": "https://www.dfi.wv.gov",
+            "status": "unavailable",
+            "error": "curl: (22) The requested URL returned error: 403"
+          }
+        ]
+      },
+      {
+        "state": "Wisconsin",
+        "agency": "Wisconsin Department of Financial Institutions",
+        "url": "https://dfi.wi.gov/Pages/Home.aspx",
+        "pages": [
+          {
+            "url": "https://dfi.wi.gov/Pages/Home.aspx",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://dfi.wi.gov/Pages/About/NewsEvents/NewsReleases.aspx",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      },
+      {
+        "state": "Wyoming",
+        "agency": "Wyoming Division of Banking",
+        "url": "https://wyomingbankingdivision.wyo.gov/",
+        "pages": [
+          {
+            "url": "https://wyomingbankingdivision.wyo.gov/",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://wyomingbankingdivision.wyo.gov/mortgage-lending/general-information-press-releases",
+            "status": "accessible",
+            "error": null
+          },
+          {
+            "url": "https://wyomingbankingdivision.wyo.gov/announcements-and-publications",
+            "status": "accessible",
+            "error": null
+          }
+        ]
+      }
+    ]
+  }
 }

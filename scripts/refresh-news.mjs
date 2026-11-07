@@ -1,6 +1,6 @@
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
-import {writeFile, rename, unlink} from 'node:fs/promises';
+import {readFile, writeFile, rename, unlink} from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 import {fileURLToPath} from 'node:url';
 
@@ -62,8 +62,41 @@ export async function loadWeeklyNews(asOf, getJSON = fetchJSON) {
   articles.sort((a,b) => b.publishedDate.localeCompare(a.publishedDate) || a.id.localeCompare(b.id));
   return {...window, status: 'verified', generatedAt: new Date().toISOString(), sourceName: 'Federal Register', scope: 'Federal Register publications matching “mortgage”; GSE and state sources are not included.', articles};
 }
-export async function refreshNews(asOf, output = new URL('../src/data/weekly-news.json', import.meta.url), getJSON = fetchJSON) {
-  const data = await loadWeeklyNews(asOf, getJSON);
+const curatedSources = {
+  'Fannie Mae': {hosts: ['www.fanniemae.com'], category: 'GSEs'},
+  'Freddie Mac': {hosts: ['freddiemac.gcs-web.com', 'www.freddiemac.com'], category: 'GSEs'},
+  'New York DFS': {hosts: ['www.dfs.ny.gov'], category: 'States', state: 'New York'},
+  'Texas Department of Banking': {hosts: ['www.dob.texas.gov'], category: 'States', state: 'Texas'},
+  'Kansas OSBC': {hosts: ['osbckansas.gov', 'www.osbckansas.gov'], category: 'States', state: 'Kansas'},
+  'Wisconsin DFI': {hosts: ['dfi.wi.gov'], category: 'States', state: 'Wisconsin'},
+};
+export function mergeCuratedNews(edition, curated) {
+  if (!Array.isArray(curated.articles)) throw Error('Invalid curated news collection');
+  const articles = [...edition.articles];
+  const ids = new Set(articles.map(article=>article.id));
+  for (const article of curated.articles) {
+    const source = curatedSources[article.sourceName];
+    const url = new URL(article.sourceUrl);
+    if (!source || !source.hosts.includes(url.hostname) || url.protocol !== 'https:' || url.username || url.password || url.port) throw Error('Untrusted curated source URL');
+    if (article.category !== source.category || (source.state && article.state !== source.state)) throw Error('Source category or state does not match publisher');
+    for (const field of ['id', 'title', 'summary', 'agency', 'topic']) {
+      if (typeof article[field] !== 'string' || !article[field].trim()) throw Error('Incomplete curated publication');
+    }
+    if (typeof article.verifiedAt !== 'string' || !Number.isFinite(Date.parse(article.verifiedAt))) throw Error('Missing source verification timestamp');
+    weeklyWindow(article.publishedDate);
+    // Historical curated records are retained on disk but never substituted into a newer week.
+    if (article.publishedDate < edition.windowStart || article.publishedDate > edition.windowEnd) continue;
+    if (ids.has(article.id)) throw Error('Duplicate curated publication');
+    ids.add(article.id);
+    articles.push(article);
+  }
+  articles.sort((a,b)=>b.publishedDate.localeCompare(a.publishedDate) || a.id.localeCompare(b.id));
+  return {...edition, sourceName: 'Official publishers', scope: 'Official federal and GSE publications plus verified state financial-services news. State coverage is partial; education and market news are labeled separately from rules.', articles, stateCoverage: curated.stateCoverage ? {...curated.stateCoverage, verifiedItemStates: [...new Set(articles.filter(a=>a.category==='States').map(a=>a.state))].sort()} : null};
+}
+export async function refreshNews(asOf, output = new URL('../src/data/weekly-news.json', import.meta.url), getJSON = fetchJSON, curated = null) {
+  const federal = await loadWeeklyNews(asOf, getJSON);
+  const supplemental = curated || JSON.parse(await readFile(new URL('../src/data/curated-news.json', import.meta.url), 'utf8'));
+  const data = mergeCuratedNews(federal, supplemental);
   const temp = new URL(`${fileURLToPath(output)}.tmp`, 'file:');
   try {
     await writeFile(temp, JSON.stringify(data, null, 2) + '\n', {flag: 'wx'});

@@ -11,6 +11,8 @@ export type Article = {
   publishedDate: string;
   sourceName: string;
   sourceUrl: string;
+  state?: string;
+  verifiedAt?: string;
 };
 export const feed = edition;
 export const articles = edition.articles as Article[];

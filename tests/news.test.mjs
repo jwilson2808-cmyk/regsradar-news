@@ -4,7 +4,7 @@ import {mkdtemp, writeFile, readFile, rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
-import {weeklyWindow, loadWeeklyNews, refreshNews} from '../scripts/refresh-news.mjs';
+import {weeklyWindow, loadWeeklyNews, refreshNews, mergeCuratedNews} from '../scripts/refresh-news.mjs';
 // Test fixtures only: never used as application news.
 const publication = (overrides={})=>({document_number:'test-1', title:'Fixture mortgage publication', abstract:'Publisher fixture summary.', publication_date:'2026-11-06', html_url:'https://www.federalregister.gov/documents/2026/11/06/test-1', agencies:[{name:'Fixture agency'}], type:'Notice', ...overrides});
 const response = (results=[publication()], extra={})=>({count:results.length, results, ...extra});
@@ -43,13 +43,35 @@ test('distinguishes a successfully verified empty result from an unavailable fee
 test('a failed refresh preserves the last saved edition',async()=>{
   const dir=await mkdtemp(join(tmpdir(),'regsradar-news-'));
   try{const file=pathToFileURL(join(dir,'news.json'));await writeFile(file,'previous verified edition');
-    await assert.rejects(()=>refreshNews('2026-11-07',file,async()=>{throw Error('403 Forbidden');}));
+    await assert.rejects(()=>refreshNews('2026-11-07',file,async()=>{throw Error('403 Forbidden');},{articles:[]}));
     assert.equal(await readFile(file,'utf8'),'previous verified edition');
   }finally{await rm(dir,{recursive:true,force:true});}
 });
 test('a complete successful refresh writes a valid dated edition',async()=>{
   const dir=await mkdtemp(join(tmpdir(),'regsradar-news-'));
-  try{const file=pathToFileURL(join(dir,'news.json'));await refreshNews('2026-11-07',file,async()=>response());
+  try{const file=pathToFileURL(join(dir,'news.json'));await refreshNews('2026-11-07',file,async()=>response(),{articles:[]});
     const saved=JSON.parse(await readFile(file,'utf8'));assert.equal(saved.status,'verified');assert.equal(saved.articles.length,1);
   }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+const gseFixture = {id:'gse-test',agency:'Fannie Mae',category:'GSEs',topic:'Loan sales',title:'Fixture GSE publication',summary:'Test only.',publishedDate:'2026-11-04',sourceName:'Fannie Mae',sourceUrl:'https://www.fanniemae.com/newsroom/test-fixture',verifiedAt:'2026-11-07T12:00:00Z'};
+const emptyEdition = {...weeklyWindow('2026-11-07'),status:'verified',articles:[]};
+test('merges verified GSE and state news in date order with jurisdiction',()=>{
+ const state={...gseFixture,id:'state-test',agency:'New York DFS',sourceName:'New York DFS',sourceUrl:'https://www.dfs.ny.gov/test-fixture',category:'States',state:'New York',publishedDate:'2026-11-06'};
+ const merged=mergeCuratedNews(emptyEdition,{articles:[gseFixture,state]});
+ assert.deepEqual(merged.articles.map(a=>a.id),['state-test','gse-test']);assert.equal(merged.articles[0].state,'New York');
+});
+test('does not carry stale GSE or state publications into a newer weekly edition',()=>{
+ const edition={...weeklyWindow('2026-11-14'),status:'verified',articles:[]};
+ assert.equal(mergeCuratedNews(edition,{articles:[gseFixture]}).articles.length,0);
+});
+test('rejects unverified, misattributed, and unexpected-host curated news',()=>{
+ for(const changes of [{verifiedAt:undefined},{sourceUrl:'https://example.com/fake'},{category:'States'},{id:''}]){
+  assert.throws(()=>mergeCuratedNews(emptyEdition,{articles:[{...gseFixture,...changes}]}));
+ }
+});
+test('rejects duplicate identifiers and incorrect state attribution',()=>{
+ assert.throws(()=>mergeCuratedNews(emptyEdition,{articles:[gseFixture,gseFixture]}),/Duplicate/);
+ const state={...gseFixture,category:'States',sourceName:'New York DFS',sourceUrl:'https://www.dfs.ny.gov/test',state:'Texas'};
+ assert.throws(()=>mergeCuratedNews(emptyEdition,{articles:[state]}),/state/);
 });
