@@ -94,7 +94,7 @@ test('a blocked Federal Register view can use the same verified document at offi
  const a=await verifyReviewed(original,{hosts:['www.federalregister.gov']},async url=>{
   if(url.includes('federalregister.gov'))throw Error('Official view is unavailable');
   assert.equal(url,'https://www.govinfo.gov/content/pkg/FR-2026-11-05/html/2026-12345.htm');
-  return {contentType:'text/html',text:'<body><h1>Mortgage disclosure rule</h1><p>November 5, 2026</p></body>'};
+  return {contentType:'text/html',text:'<body><h1>Mortgage--disclosure rule</h1><p>November 5, 2026</p><p>FR Doc No: 2026-12345</p></body>'};
  });
  assert.match(a.sourceUrl,/www.govinfo.gov/);assert.equal(a.publishedDate,'2026-11-05');
  await assert.rejects(()=>verifyReviewed({...original,alternateOfficialUrls:['https://example.com/fake']},{hosts:['www.federalregister.gov']},async()=>{throw Error('Unavailable');}));

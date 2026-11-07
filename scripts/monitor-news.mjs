@@ -31,7 +31,9 @@ export async function verifyReviewed(article,source,fetchDoc=fetchOfficial) {
    const title=clean(article.title).toLowerCase();
    const reference=article.documentReference;
    const suffix=clean(reference&&article.title.includes(reference)?article.title.slice(article.title.indexOf(reference)+reference.length).replace(/^[\s:–-]+/,''):article.title.split(':').at(-1)).toLowerCase();
-   const matches=body.toLowerCase().includes(title)||(reference&&body.toLowerCase().includes(reference.toLowerCase())&&body.toLowerCase().includes(suffix));
+   const compact=value=>clean(value).normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g,'');
+   const matches=compact(body).includes(compact(title))||(reference&&compact(body).includes(compact(reference))&&compact(body).includes(compact(suffix)));
+   if(article.sourceName==='Federal Register'&&!compact(body).includes(compact(article.id)))throw Error('Official Federal Register document number does not match');
    if(!matches)throw Error('Reviewed headline/reference is not present in official document');
    const [y,m,d]=article.publishedDate.split('-');const month=new Date(`${y}-${m}-${d}T12:00:00Z`).toLocaleString('en-US',{month:'long',timeZone:'UTC'});
    const datePattern=new RegExp(`${month}\\s+0?${Number(d)},?\\s+${y}|${y}-${m}-${d}|0?${Number(m)}/0?${Number(d)}/${y}`,'i');
