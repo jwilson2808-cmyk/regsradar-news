@@ -15,7 +15,7 @@ A **standalone, read-only prototype** of RegsRadar News for iPhone and Android. 
 - Public news feed with category filters, search, and article detail pages.
 - Account-gated tracking and preferences are **non-functional placeholders** with an explanatory alert.
 - All article titles and summaries are **fictional**, clearly marked SAMPLE, and contain no live regulatory updates.
-- Theme tokens are in `src/theme.ts` and are **provisional**; verify exact colors, typography, and logo against the live website before launch.
+- Theme tokens are in `src/theme.ts` and approximate the supplied website screenshot. The white header, navy controls, gray canvas, and charcoal headings follow that reference; exact brand tokens, font, and logo still need approved assets.
 - No app icon, third-party branding asset, backend, credentials, push notifications, or direct regulatory feeds are included.
 
 ## Next tasks for Codex
@@ -59,7 +59,7 @@ smoke checks for sample notices, category filters, keyword search, article detai
 Tracked/Account tabs, and empty results. There was no pre-existing automated test
 suite. Mobile bundling does not establish physical-device behavior.
 
-Brand colors remain provisional and the header uses a placeholder R mark.
+Brand colors approximate the supplied website screenshot; the header uses a text wordmark pending the official emblem asset.
 The public branding website was blocked by environment network policy, so an
 exact branding match has not been verified. No production API is configured.
 
