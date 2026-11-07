@@ -4,7 +4,7 @@ import {mkdtemp, writeFile, readFile, rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
-import {weeklyWindow, loadWeeklyNews, refreshNews, mergeCuratedNews} from '../scripts/refresh-news.mjs';
+import {weeklyWindow, loadWeeklyNews, refreshNews, mergeCuratedNews, screenFederalNews} from '../scripts/refresh-news.mjs';
 // Test fixtures only: never used as application news.
 const publication = (overrides={})=>({document_number:'test-1', title:'Fixture mortgage publication', abstract:'Publisher fixture summary.', publication_date:'2026-11-06', html_url:'https://www.federalregister.gov/documents/2026/11/06/test-1', agencies:[{name:'Fixture agency'}], type:'Notice', ...overrides});
 const response = (results=[publication()], extra={})=>({count:results.length, results, ...extra});
@@ -43,18 +43,18 @@ test('distinguishes a successfully verified empty result from an unavailable fee
 test('a failed refresh preserves the last saved edition',async()=>{
   const dir=await mkdtemp(join(tmpdir(),'regsradar-news-'));
   try{const file=pathToFileURL(join(dir,'news.json'));await writeFile(file,'previous verified edition');
-    await assert.rejects(()=>refreshNews('2026-11-07',file,async()=>{throw Error('403 Forbidden');},{articles:[]}));
+    await assert.rejects(()=>refreshNews('2026-11-07',file,async()=>{throw Error('403 Forbidden');},{articles:[]},{federal:{}}));
     assert.equal(await readFile(file,'utf8'),'previous verified edition');
   }finally{await rm(dir,{recursive:true,force:true});}
 });
 test('a complete successful refresh writes a valid dated edition',async()=>{
   const dir=await mkdtemp(join(tmpdir(),'regsradar-news-'));
-  try{const file=pathToFileURL(join(dir,'news.json'));await refreshNews('2026-11-07',file,async()=>response(),{articles:[]});
+  try{const file=pathToFileURL(join(dir,'news.json'));await refreshNews('2026-11-07',file,async()=>response(),{articles:[]},{federal:{'test-1':{title:publication().title,updateType:'Regulatory notice',mortgageRelevance:'Mortgage disclosure reporting fixture.',verifiedAt:'2026-11-07T12:00:00Z'}}});
     const saved=JSON.parse(await readFile(file,'utf8'));assert.equal(saved.status,'verified');assert.equal(saved.articles.length,1);
   }finally{await rm(dir,{recursive:true,force:true});}
 });
 
-const gseFixture = {id:'gse-test',agency:'Fannie Mae',category:'GSEs',topic:'Loan sales',title:'Fixture GSE publication',summary:'Test only.',publishedDate:'2026-11-04',sourceName:'Fannie Mae',sourceUrl:'https://www.fanniemae.com/newsroom/test-fixture',verifiedAt:'2026-11-07T12:00:00Z'};
+const gseFixture = {id:'gse-test',agency:'Fannie Mae',category:'GSEs',topic:'Underwriting',updateType:'GSE policy',mortgageRelevance:'Mortgage underwriting eligibility fixture.',title:'Fixture GSE publication',summary:'Test only.',publishedDate:'2026-11-04',sourceName:'Fannie Mae',sourceUrl:'https://www.fanniemae.com/newsroom/test-fixture',verifiedAt:'2026-11-07T12:00:00Z'};
 const emptyEdition = {...weeklyWindow('2026-11-07'),status:'verified',articles:[]};
 test('merges verified GSE and state news in date order with jurisdiction',()=>{
  const state={...gseFixture,id:'state-test',agency:'New York DFS',sourceName:'New York DFS',sourceUrl:'https://www.dfs.ny.gov/test-fixture',category:'States',state:'New York',publishedDate:'2026-11-06'};
@@ -74,4 +74,13 @@ test('rejects duplicate identifiers and incorrect state attribution',()=>{
  assert.throws(()=>mergeCuratedNews(emptyEdition,{articles:[gseFixture,gseFixture]}),/Duplicate/);
  const state={...gseFixture,category:'States',sourceName:'New York DFS',sourceUrl:'https://www.dfs.ny.gov/test',state:'Texas'};
  assert.throws(()=>mergeCuratedNews(emptyEdition,{articles:[state]}),/state/);
+});
+
+test('unreviewed keyword matches cannot enter the regulatory feed',()=>{
+ const source={...emptyEdition,articles:[{id:'unreviewed-market',title:'Mortgage rates weekly survey'}]};
+ assert.equal(screenFederalNews(source,{federal:{}}).articles.length,0);
+});
+test('approved publication identity cannot drift without another review',()=>{
+ const source={...emptyEdition,articles:[{id:'reviewed',title:'Changed official title'}]};
+ assert.throws(()=>screenFederalNews(source,{federal:{reviewed:{title:'Original title',updateType:'Final rule',mortgageRelevance:'Mortgage eligibility requirements.',verifiedAt:'2026-11-07T12:00:00Z'}}}),/title changed/);
 });

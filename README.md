@@ -1,61 +1,114 @@
-# RegsRadar News — Expo mobile prototype
+# RegsRadar News
 
-Standalone Expo SDK 58 prototype. No connection to production RegsRadar,
-Base44, subscriptions, credentials, or account APIs. No deployment is configured.
+Standalone Expo SDK 58 mortgage regulatory and legislative monitoring prototype.
+Production Base44, RegsRadar accounts, subscriptions, and authentication are not
+connected or modified. Branding, navigation, and existing placeholder account
+behavior are preserved. No app deployment is configured.
 
-## Preview
+## iPhone preview
 
-Use Node.js 22.13+ (22 LTS supports the user's macOS Monterey setup), install
-with `npm ci`, then run `npx expo start --clear`. Keep the Mac and iPhone on
-the same Wi-Fi, use SDK 58 Expo Go, and sign into the same Expo account in
-CLI and Expo Go if required. Keep Metro running while previewing.
+Use Node.js 22.13+ and SDK 58 Expo Go. Run `npm ci`, then `npx expo start --clear`.
+Keep the Mac and iPhone on the same Wi-Fi and signed into the same Expo account
+if prompted. Keep Metro running during development.
 
-## Weekly official news
+The app reads the verified JSON feed from this repository on launch, on foreground
+return after an hour, and on pull-to-refresh. It falls back to its bundled feed on
+network errors, independently hiding articles outside the 14-day freshness window.
+This read-only GitHub connection is separate from production RegsRadar. Once the
+app code is updated, later data-only refreshes do not require downloading the feed
+again. This is a development preview, not an App Store release.
 
-Fictional sample articles have been replaced with 13 verified publications: five
-Federal Register items, four Fannie Mae/Freddie Mac releases, and four state
-items (Kansas, New York, Texas, Wisconsin). Each source publication was read
-and its title and publication date checked on November 7, 2026.
-The requested week is November 1–7, 2026 inclusive, using Pacific calendar dates.
+## Feed behavior
 
-Refresh the dated edition from the official Federal Register API:
+The active feed contains publications or verified material legislative actions
+from the preceding 14 Pacific calendar dates, inclusive. The original publication
+date is preserved. A website's modified date, RSS upload date, or XML packaging
+date is never treated as a new legal development. Future-dated publications are
+excluded. Market surveys, earnings, securities transactions, loan sales, awards,
+financial-education events, and routine licensing lists are excluded.
+
+The mobile screen offers Past 7 days, Past 14 days, All available, and Custom dates.
+These filter the active feed; dates before the loaded 14-day window are rejected
+with a clear message. Older reviewed records are retained for audit in the archive,
+not silently presented as fresh news. The old weekly banner and source-survey
+paragraphs have been removed. No redesign or unrelated feature change was made.
+
+Details retain official titles, issuing authority, original dates, source URLs,
+references where available, summary, what changed, why it matters, affected area,
+and only explicitly verified effective dates. Proposals, final regulations,
+legislation, guidance, enforcement, and regulatory notices have distinct labels.
+A proposed bill is never labeled enacted merely because it passed one chamber.
+
+## Monitoring
 
 ```sh
-npm run news:refresh -- 2026-11-07
+npm run news:monitor
+# Reproduce a specific monitoring date:
+npm run news:monitor -- 2026-11-07
 ```
 
-Omitting the date selects the current date in America/Los_Angeles and the
-preceding six dates. The importer queries publications matching `mortgage`,
-loads all pages, validates dates and official HTTPS source URLs, and saves
-`src/data/weekly-news.json` only after the complete fetch succeeds. Failed
-fetches preserve the existing file; no fixture or sample fallback is used.
-The app displays publisher abstracts (or indicates when none is provided),
-publication dates, and buttons opening official publications. No compliance
-analysis or effective date is invented. Empty verified results and unavailable
-results are distinct. This is a dated bundled edition, not a background live feed.
+`news:refresh` is an alias for the same monitor. Ordinary development commands run
+in the project directory. In cloud, use `/workspace/regsradar-news` and set
+`npm_config_cache=/workspace/.npm-cache` when necessary. Cloud tasks are already
+isolated; use the existing checkout rather than creating a worktree.
 
-The automatic discovery portion covers Federal Register mortgage search results.
-GSE and state items are manually reviewed and stored in `src/data/curated-news.json`;
-the refresh command validates their official publisher, category, jurisdiction,
-verification timestamp, and publication date before merging them into the edition.
-Out-of-week curated items are excluded, never carried into a newer week.
-Capital-markets and financial-education news is clearly labeled; inclusion does
-not imply a new regulation. The Federal Register API is a discovery source;
-users should consult its official publication and linked legal document for
-applicability, deadlines, and the official edition.
+Federal Register keyword search discovers candidates; only explicitly reviewed
+mortgage-related results in `src/data/editorial-review.json` enter the feed. That
+review records title identity, relevance, type, and verification timestamp.
+Curated GSE/state sources are reviewed in `src/data/curated-news.json` and rechecked
+against their specific official documents. A changed reviewed title is rejected
+until reviewed again. Unreviewed candidates are recorded in a review queue.
 
-Live-source access now works in the published development environment. The November 1–7 edition includes CFPB, HUD, FDIC, NCUA, Fannie Mae, Freddie Mac,
-and four state regulators. State agency directory entries for all 50 states were
-surveyed through the CSBS directory: 41 had at least one accessible page and nine
-were unavailable during the survey. Homepages and up to two linked news indexes
-were checked, supplemented with additional agency pages. Some sites use dynamic
-indexes, and a missing dated result is not proof a state had no news. This is
-partial verified coverage, not an exhaustive 50-state regulatory feed. The survey
-method, individual sources, checked pages, and access outcomes are retained in
-`curated-news.json` and the bundled edition. Official state PDF notices are linked
-directly when that is the original publication.
+A bounded set of configured agency and regulator indexes is also scanned. HTML
+and supported official PDF circulars must provide a specific document, publication
+date, source text, and mortgage-policy significance. Generic indexes, ambiguous
+publication dates, and unsupported formats are rejected and logged. Source failures
+are isolated. Limited scans and index accessibility are not reported as exhaustive
+monitoring. The source registry is `scripts/news-sources.json`.
 
-## Checks
+GovInfo's public RSS and official Library of Congress bill-status XML provide a
+keyless federal legislative adapter. Significant action dates are read from the
+XML, not the feed upload time. Discovery is bounded and not exhaustive. No Congress
+API key or other new credential is required by the code or workflow. An earlier
+optional Congress API draft requirement can be removed in environment settings;
+the available draft tool cannot delete it.
+
+Responses use ETag/Last-Modified conditional requests and a local `.news-cache/`
+response cache. Canonical URLs and document references prevent exact duplicates
+before summaries are retained. Unchanged documents reuse their existing summary
+and first-seen timestamp; new scans do not make them new regulatory developments.
+No AI summarization API or bill-status inference from free-form reporting is used.
+
+## Daily job
+
+`.github/workflows/news-monitor.yml` registers a daily 08:30 UTC run and manual
+`workflow_dispatch`. It runs tests, monitors official sources, checks types, and
+commits the verified feed/archive and source reports to this repository. It does
+not deploy a site, submit an app, or connect to production. PDF extraction uses
+Poppler. GitHub Actions must be enabled and allowed to write repository contents;
+branch protections may require adjusting this data-update workflow. Local execution
+is verified separately from the first actual GitHub job and future scheduled runs.
+
+## Coverage and known gaps
+
+Read [the source coverage report](reports/news-source-coverage.md) and its JSON
+counterpart for outcomes and individual failures. The registry includes the
+requested federal agencies/programs, all 50 state banking-regulator directory
+entries, and all 50 legislative index endpoints. That registry is not a claim of
+complete regulatory or legislative monitoring.
+
+Working publication paths currently include reviewed Federal Register mortgage
+rules/notices, Fannie Mae policy announcements, and supported VA circulars. State
+regulator discovery is partial. Current state legislative checks establish index
+access only; jurisdiction-specific substantive bill/action adapters remain
+unimplemented. Direct Congress.gov public access may be blocked, while GovInfo
+works without a key. Freddie Mac's JavaScript Guide, some HUD/FHA/Ginnie Mae/USDA
+program documents, and other agency indexes remain partial or unparseable. State
+attorney-general and housing-finance-agency sources are not comprehensively
+configured. The report explicitly records these gaps; no secondary story, guessed
+date, or fabricated article is substituted to fill them.
+
+## Validation
 
 ```sh
 npm test
@@ -64,19 +117,9 @@ EXPO_OFFLINE=1 npx expo install --check
 EXPO_OFFLINE=1 npx expo export --platform all --max-workers 2
 ```
 
-Importer tests use clearly labeled fixtures in tests only, never application data.
-Thirteen tests validate calendar dates, pagination, attribution, source rejection, incomplete
-responses, empty results, and preservation of saved data on failure. They do not
-establish live-source connectivity or authenticity of unqueried publications.
-
-For cloud use, set `npm_config_cache=/workspace/.npm-cache` and
-`EXPO_NO_TELEMETRY=1`; work in `/workspace/regsradar-news`. Existing checkouts
-are isolated per task; do not create a worktree unless requested. Source and
-branding changes are separate from production. Cloud tunnel attempts failed;
-local Mac Expo Go preview has been confirmed by the user.
-
-## Design and remaining features
-
-The white header, navy controls, gray canvas, and charcoal headings follow the
-supplied website screenshot. Exact colors, font, and the official logo still need
-approved assets. Account, tracking, and notification actions remain placeholders.
+Tests cover freshness boundaries, publication versus modification dates, material
+actions, proposed/enacted status, source rejection, unreviewed content, duplicate
+prevention, unchanged summary reuse, isolated failures, official circular parsing,
+remote-feed validation, and date/category/search combinations. Fixtures are never
+bundled as application news. Live-source checks and browser smoke tests are
+additional validation, not replaced by fixture tests.

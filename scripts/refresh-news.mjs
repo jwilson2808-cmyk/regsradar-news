@@ -6,11 +6,12 @@ import {fileURLToPath} from 'node:url';
 
 const run = promisify(execFile);
 const officialHost = 'www.federalregister.gov';
-export function weeklyWindow(asOf) {
+export function weeklyWindow(asOf, days = 7) {
+  if (!Number.isInteger(days) || days < 1 || days > 366) throw Error('Invalid archive length');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf)) throw Error('Use an ISO date: YYYY-MM-DD');
   const end = new Date(`${asOf}T12:00:00Z`);
   if (!Number.isFinite(+end) || end.toISOString().slice(0, 10) !== asOf) throw Error('Invalid date');
-  const start = new Date(end); start.setUTCDate(start.getUTCDate() - 6);
+  const start = new Date(end); start.setUTCDate(start.getUTCDate() - (days-1));
   return {windowStart: start.toISOString().slice(0, 10), windowEnd: asOf};
 }
 function officialURL(value) {
@@ -25,8 +26,8 @@ export async function fetchJSON(url) {
   const {stdout} = await run('curl', ['--fail-with-body', '--silent', '--show-error', '--max-time', '45', '--max-redirs', '0', url], {maxBuffer: 12 * 1024 * 1024});
   return JSON.parse(stdout);
 }
-export async function loadWeeklyNews(asOf, getJSON = fetchJSON) {
-  const window = weeklyWindow(asOf);
+export async function loadWeeklyNews(asOf, getJSON = fetchJSON, days = 7) {
+  const window = weeklyWindow(asOf, days);
   const query = new URL(`https://${officialHost}/api/v1/documents.json`);
   query.searchParams.set('conditions[term]', 'mortgage');
   query.searchParams.set('conditions[publication_date][gte]', window.windowStart);
@@ -51,10 +52,10 @@ export async function loadWeeklyNews(asOf, getJSON = fetchJSON) {
       if (typeof item.document_number !== 'string' || !item.document_number || typeof item.title !== 'string' || !item.title.trim()) throw Error('Missing article identity or title');
       if (ids.has(item.document_number)) throw Error('Duplicate publication in publisher results');
       const sourceUrl = officialURL(item.html_url);
-      if (!Array.isArray(item.agencies) || !item.agencies.every(a => typeof a.name === 'string' && a.name.trim())) throw Error('Invalid agency data');
+      if (!Array.isArray(item.agencies) || !item.agencies.every(a => typeof (a.name || a.raw_name) === 'string' && (a.name || a.raw_name).trim())) throw Error('Invalid agency data');
       if (item.abstract != null && typeof item.abstract !== 'string') throw Error('Invalid publisher summary');
       ids.add(item.document_number);
-      articles.push({id: item.document_number, agency: item.agencies.map(a => a.name).join(' / ') || 'Federal Register', category: 'Federal', topic: item.type || 'Publication', title: item.title.trim(), summary: item.abstract?.trim() || 'The publisher has not provided a summary. Open the official publication for the full text.', publishedDate: date, sourceName: 'Federal Register', sourceUrl});
+      articles.push({id: item.document_number, agency: item.agencies.map(a => a.name || a.raw_name).join(' / ') || 'Federal Register', category: 'Federal', topic: item.type || 'Publication', title: item.title.trim(), summary: item.abstract?.trim() || 'The publisher has not provided a summary. Open the official publication for the full text.', publishedDate: date, sourceName: 'Federal Register', sourceUrl});
     }
     next = data.next_page_url || null;
   }
@@ -63,18 +64,35 @@ export async function loadWeeklyNews(asOf, getJSON = fetchJSON) {
   return {...window, status: 'verified', generatedAt: new Date().toISOString(), sourceName: 'Federal Register', scope: 'Federal Register publications matching “mortgage”; GSE and state sources are not included.', articles};
 }
 const curatedSources = {
-  'Fannie Mae': {hosts: ['www.fanniemae.com'], category: 'GSEs'},
+  'Fannie Mae': {hosts: ['www.fanniemae.com', 'singlefamily.fanniemae.com'], category: 'GSEs'},
   'Freddie Mac': {hosts: ['freddiemac.gcs-web.com', 'www.freddiemac.com'], category: 'GSEs'},
+  'Massachusetts Division of Banks': {hosts: ['www.mass.gov'], category: 'States', state: 'Massachusetts'},
   'New York DFS': {hosts: ['www.dfs.ny.gov'], category: 'States', state: 'New York'},
   'Texas Department of Banking': {hosts: ['www.dob.texas.gov'], category: 'States', state: 'Texas'},
   'Kansas OSBC': {hosts: ['osbckansas.gov', 'www.osbckansas.gov'], category: 'States', state: 'Kansas'},
   'Wisconsin DFI': {hosts: ['dfi.wi.gov'], category: 'States', state: 'Wisconsin'},
 };
+const updateTypes = new Set(['Final rule','Proposed rule','Regulatory notice','Legislation','GSE policy','Guidance','Enforcement']);
+function validateReview(review) {
+  if (!updateTypes.has(review.updateType) || typeof review.mortgageRelevance !== 'string' || !review.mortgageRelevance.trim()) throw Error('Publication is not approved as a mortgage regulatory or legislative update');
+  if (typeof review.verifiedAt !== 'string' || !Number.isFinite(Date.parse(review.verifiedAt))) throw Error('Missing source verification timestamp');
+}
+export function screenFederalNews(edition, reviews) {
+  const articles = edition.articles.flatMap(article=>{
+    const review = reviews.federal?.[article.id];
+    if (!review) return []; // A keyword match is not an editorial approval.
+    validateReview(review);
+    if (review.title !== article.title) throw Error('Reviewed source title changed; editorial review required');
+    return [{...article,...review,topic:review.updateType}];
+  });
+  return {...edition,discoveredCount:edition.articles.length,articles};
+}
 export function mergeCuratedNews(edition, curated) {
   if (!Array.isArray(curated.articles)) throw Error('Invalid curated news collection');
   const articles = [...edition.articles];
   const ids = new Set(articles.map(article=>article.id));
   for (const article of curated.articles) {
+    validateReview(article);
     const source = curatedSources[article.sourceName];
     const url = new URL(article.sourceUrl);
     if (!source || !source.hosts.includes(url.hostname) || url.protocol !== 'https:' || url.username || url.password || url.port) throw Error('Untrusted curated source URL');
@@ -91,12 +109,16 @@ export function mergeCuratedNews(edition, curated) {
     articles.push(article);
   }
   articles.sort((a,b)=>b.publishedDate.localeCompare(a.publishedDate) || a.id.localeCompare(b.id));
-  return {...edition, sourceName: 'Official publishers', scope: 'Official federal and GSE publications plus verified state financial-services news. State coverage is partial; education and market news are labeled separately from rules.', articles, stateCoverage: curated.stateCoverage ? {...curated.stateCoverage, verifiedItemStates: [...new Set(articles.filter(a=>a.category==='States').map(a=>a.state))].sort()} : null};
+  return {...edition, sourceName: 'Official publishers', scope: 'Mortgage regulatory and legislative developments, including applicable GSE policy, compliance guidance, and enforcement.', articles, stateCoverage: curated.stateCoverage ? {...curated.stateCoverage, verifiedItemStates: [...new Set(articles.filter(a=>a.category==='States').map(a=>a.state))].sort()} : null};
 }
-export async function refreshNews(asOf, output = new URL('../src/data/weekly-news.json', import.meta.url), getJSON = fetchJSON, curated = null) {
-  const federal = await loadWeeklyNews(asOf, getJSON);
+export async function refreshNews(asOf, output = new URL('../src/data/weekly-news.json', import.meta.url), getJSON = fetchJSON, curated = null, reviews = null) {
+  const candidates = await loadWeeklyNews(asOf, getJSON, 90);
+  const editorial = reviews || JSON.parse(await readFile(new URL('../src/data/editorial-review.json', import.meta.url), 'utf8'));
+  const federal = screenFederalNews(candidates, editorial);
   const supplemental = curated || JSON.parse(await readFile(new URL('../src/data/curated-news.json', import.meta.url), 'utf8'));
-  const data = mergeCuratedNews(federal, supplemental);
+  const merged = mergeCuratedNews(federal, supplemental);
+  const window = weeklyWindow(asOf,14);
+  const data = {...merged,...window,articles:merged.articles.filter(a=>a.publishedDate>=window.windowStart&&a.publishedDate<=window.windowEnd)};
   const temp = new URL(`${fileURLToPath(output)}.tmp`, 'file:');
   try {
     await writeFile(temp, JSON.stringify(data, null, 2) + '\n', {flag: 'wx'});

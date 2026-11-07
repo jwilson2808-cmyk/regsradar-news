@@ -1,0 +1,45 @@
+name: Monitor mortgage regulatory news
+on:
+  schedule:
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+concurrency:
+  group: mortgage-news-monitor
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: .news-cache/responses
+          key: news-responses-${{ github.run_id }}
+          restore-keys: news-responses-
+      - name: Install PDF text extraction when needed
+        run: |
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install --no-install-recommends -y poppler-utils
+          fi
+      - run: npm ci
+      - run: npm test
+      - name: Monitor official sources independently
+        run: npm run news:monitor
+      - run: npm run typecheck
+      - name: Save verified feed and source coverage
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/weekly-news.json src/data/news-archive.json reports/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh verified mortgage regulatory feed and source report'
+            git push
+          fi

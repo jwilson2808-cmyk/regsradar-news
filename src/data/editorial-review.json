@@ -1,0 +1,95 @@
+{
+  "policy": "Include mortgage-related rulemaking, legislation, official compliance guidance, enforcement, regulatory consultations, and GSE selling/servicing requirements. Exclude market surveys, earnings, securities transactions, loan sales, general education, awards, and routine licensing lists. Keyword matches require editorial review before inclusion.",
+  "federal": {
+    "2026-22571": {
+      "title": "60-Day Notice of Proposed Information Collection: Home Mortgage Disclosure Act (HMDA) Loan/Application Register",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "HMDA mortgage loan/application reporting collection and regulatory comment process.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-22357": {
+      "title": "Privacy Act of 1974; Matching Program",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA mortgage borrower eligibility verification and the HUD/SSA matching program.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-22228": {
+      "title": "Agency Information Collection Activities: Comment Request",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "RESPA Regulation X mortgage servicing and settlement information-collection renewal.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-22136": {
+      "title": "30-Day Notice of Proposed Information Collection: Informed Consumer Choice Disclosure and Application for HUD/FHA Insured Mortgage",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA mortgage applications and informed-consumer-choice disclosure collection.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-22038": {
+      "title": "Single Family Housing Guaranteed Loan Program-Income Producing Accessory Dwelling Unit (ADU) Provisions",
+      "updateType": "Final rule",
+      "mortgageRelevance": "Final USDA mortgage property-eligibility rule for income-producing accessory dwelling units.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-21675": {
+      "title": "21st Century ROAD to Housing Act Prohibition on Large Institutional Investor Purchases of Single-Family Homes",
+      "updateType": "Proposed rule",
+      "mortgageRelevance": "Proposed implementation of statutory restrictions on institutional purchases of single-family homes.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-20822": {
+      "title": "Mortgage and Loan Insurance Programs Under the National Housing Act-Debenture Interest Rates",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "HUD statutory FHA mortgage-insurance debenture rate notice, not a weekly market-rate survey.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-20682": {
+      "title": "60-Day Notice of Proposed Information Collection: Builder's Certification of Plans, Specifications, and Site",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA mortgage-insurance builder certification reporting and comment process.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-20679": {
+      "title": "60-Day Notice of Proposed Information Collection: FHA Catalyst: Multifamily Applications, and Portal + Loan Underwriting System (PLUS)",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA multifamily mortgage underwriting applications and reporting systems collection.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-19782": {
+      "title": "Section 184 Indian Housing Loan Guarantee Program Increase in the Loan Guarantee Fee",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "Increase in Section 184 housing loan guarantee fees for new firm commitments.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-19650": {
+      "title": "60-Day Notice of Proposed Information Collection: Disclosure of Adjustable Rate Mortgage (ARM) Rates",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "Adjustable-rate mortgage disclosure collection and regulatory comment process.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-19387": {
+      "title": "60-Day Notice of Proposed Information Collection: FHA-Insured Mortgage Loan Servicing Involving the Loss Mitigation Programs",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA-insured mortgage servicing loss-mitigation reporting collection.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-18827": {
+      "title": "60-Day Notice of Proposed Information Collection: Single Family Premiums Collections Subsystem-Upfront",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "Single-family FHA upfront mortgage insurance premium collection reporting.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-17291": {
+      "title": "60-Day Notice of Proposed Information Collection: Nonprofit Application and Recertification for FHA-Mortgage Insurance Programs",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "FHA mortgage-insurance nonprofit application and recertification collection.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    },
+    "2026-17051": {
+      "title": "Mortgage and Loan Insurance Programs Under the National Housing Act-Debenture Interest Rates",
+      "updateType": "Regulatory notice",
+      "mortgageRelevance": "HUD statutory FHA mortgage-insurance debenture rate notice, not general market-rate news.",
+      "verifiedAt": "2026-11-07T16:44:26.514955Z"
+    }
+  }
+}

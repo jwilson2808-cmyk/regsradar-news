@@ -1,0 +1,1992 @@
+{
+  "asOf": "2026-11-07",
+  "generatedAt": "2026-11-07T17:03:14.831Z",
+  "policy": "14-day active feed based on original publication or verified material legislative action date; ordinary website modifications do not refresh age.",
+  "activeArticleCount": 8,
+  "sources": [
+    {
+      "id": "federal-register",
+      "name": "Federal Register reviewed mortgage publications",
+      "url": "https://www.federalregister.gov/api/v1/documents.json",
+      "status": "reviewed_subset",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 15,
+      "discoveredCount": 79,
+      "excludedPendingReview": 64,
+      "errors": [],
+      "note": "Keyword matches are discovery candidates; only individually reviewed primary publications enter the feed."
+    },
+    {
+      "id": "cfpb",
+      "name": "CFPB",
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-joint-final-rule-on-adopting-uniform-standards-for-reporting-financial-data",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/?topics=rulemaking",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/2025-hmda-data-on-mortgage-lending-now-available",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/?topics=home-mortgage-disclosure-act",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/?topics=mortgages",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/?topics=regulation-c",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-dollar-thresholds-for-applicability-of-truth-in-lending-and-consumer-leasing-rules-for-consumer-credit-and-lease-transactions-2025",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-dollar-thresholds-for-smaller-loan-exemption-from-appraisal-requirements-for-higher-priced-mortgage-loans-2025",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 8,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "hud",
+      "name": "HUD",
+      "url": "https://www.hud.gov/press",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "fha",
+      "name": "HUD/FHA Mortgagee Letters",
+      "url": "https://www.hud.gov/program_offices/administration/hudclips/letters/mortgagee",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "fhfa",
+      "name": "FHFA",
+      "url": "https://www.fhfa.gov/news/news-release",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "occ",
+      "name": "OCC",
+      "url": "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 404"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "fed",
+      "name": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.federalreserve.gov/reform.htm",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "fdic",
+      "name": "FDIC",
+      "url": "https://www.fdic.gov/news/press-releases",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "ncua",
+      "name": "NCUA",
+      "url": "https://ncua.gov/newsroom/press-releases",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.500Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-fourteenth-round-deregulation-proposals",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-thirteenth-round-deregulation-proposals",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-twelfth-round-deregulation-proposals",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/agencies-seek-comment-proposed-third-party-risk-management-guidance-and-issue-statement-community",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-board-approves-11-final-rules-deregulation-project",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-highlights-anti-fraud-other-updates-fincens-revised-314b-program-guidance",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://ncua.gov/newsroom/press-release/2026/ncua-board-briefed-regulatory-updates-share-insurance-fund-and-mid-year-budget",
+          "message": "No verified mortgage regulatory development"
+        }
+      ],
+      "discoveredCount": 8,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "fannie",
+      "name": "Fannie Mae",
+      "url": "https://singlefamily.fanniemae.com/",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.789Z",
+      "verifiedCount": 2,
+      "errors": [
+        {
+          "url": "https://singlefamily.fanniemae.com/originating-underwriting/credit-score-models",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/applications-technology/desktop-underwriter-desktop-originator",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/external-resource/selling-guide",
+          "message": "Destination is outside official source hosts"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/external-resource/servicing-guide",
+          "message": "Destination is outside official source hosts"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/originating-underwriting/affordable",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 8,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "fannie-news",
+      "name": "Fannie Mae Policy Announcements",
+      "url": "https://singlefamily.fanniemae.com/news-events",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.838Z",
+      "verifiedCount": 2,
+      "errors": [
+        {
+          "url": "https://singlefamily.fanniemae.com/selling-and-servicing-guide-forms-and-communications",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/originating-underwriting/loan-quality/quality-insider/october-2026",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://singlefamily.fanniemae.com/selling-servicing-guide-forms",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 8,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "freddie",
+      "name": "Freddie Mac Single-Family",
+      "url": "https://sf.freddiemac.com/",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.884Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://sf.freddiemac.com/articles/insights/2025-updates-to-the-cost-to-originate-study",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://sf.freddiemac.com/tools-learning/uniform-mortgage-data-program/uad",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://sf.freddiemac.com/tools-learning/technology-tools/our-solutions",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://sf.freddiemac.com/tools-learning/freddie-mac-learning/overview",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://sf.freddiemac.com/working-with-us/origination-underwriting/mortgage-products",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 5,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "freddie-guide",
+      "name": "Freddie Mac Guide Bulletins",
+      "url": "https://guide.freddiemac.com/app/guide/bulletins",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.927Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "va",
+      "name": "VA Home Loan Circulars",
+      "url": "https://www.benefits.va.gov/HOMELOANS/resources_circulars.asp",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.948Z",
+      "verifiedCount": 1,
+      "errors": [],
+      "discoveredCount": 8,
+      "status": "limited_document_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "usda",
+      "name": "USDA Rural Development",
+      "url": "https://www.rd.usda.gov/resources/directives/handbooks",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:03.958Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.rd.usda.gov/resources/environmental-studies/environmental-guidance",
+          "message": "No factual source summary"
+        },
+        {
+          "url": "https://www.rd.usda.gov/resources/regulations-and-guidance",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.rd.usda.gov/resources/regulations/program-regulations",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.rd.usda.gov/resources/regulations/bulletins",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.rd.usda.gov/resources/usda-linc-training-resource-library/guaranteed-underwriting-system",
+          "message": "No factual source summary"
+        },
+        {
+          "url": "https://www.rd.usda.gov/resources/usda-linc-training-resource-library/loan-servicing",
+          "message": "No factual source summary"
+        }
+      ],
+      "discoveredCount": 6,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "ginnie",
+      "name": "Ginnie Mae Issuer Requirements",
+      "url": "https://www.ginniemae.gov/issuers/program_guidelines/Pages/mbsguideapmslib.aspx",
+      "kind": "official-publications",
+      "checkedAt": "2026-11-07T17:03:04.069Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-alabama",
+      "name": "Alabama State Banking Department",
+      "url": "https://banking.alabama.gov",
+      "state": "Alabama",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.310Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-alaska",
+      "name": "Alaska Division of Banking and Securities",
+      "url": "https://www.commerce.alaska.gov/web/dbs",
+      "state": "Alaska",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.371Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-arizona",
+      "name": "Arizona Department of Insurance and Financial Institutions",
+      "url": "https://difi.az.gov/",
+      "state": "Arizona",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.424Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-arkansas",
+      "name": "Arkansas State Bank Department",
+      "url": "https://banking.arkansas.gov/",
+      "state": "Arkansas",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.462Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-california",
+      "name": "California Department of Financial Protection and Innovation",
+      "url": "https://dfpi.ca.gov/",
+      "state": "California",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.551Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-colorado",
+      "name": "Colorado Department of Regulatory Agencies Division of Banking",
+      "url": "https://banking.colorado.gov/",
+      "state": "Colorado",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.632Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-connecticut",
+      "name": "State of Connecticut Department of Banking",
+      "url": "https://portal.ct.gov/dob",
+      "state": "Connecticut",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.682Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://portal.ct.gov/-/media/dob/consumer/foreclosure-hotline-bulletin.pdf?rev=9942dd7555b64ea3a2c16e35ce367e8a",
+          "message": "PDF has no supported official identifier and publication date"
+        },
+        {
+          "url": "https://portal.ct.gov/dob/bulletin/bulletin/news-bulletin-home-page",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://portal.ct.gov/dob/securities-bulletin/securities-bulletin/securities-bulletin-homepage",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-delaware",
+      "name": "Delaware Office of the State Bank Commissioner",
+      "url": "https://banking.delaware.gov",
+      "state": "Delaware",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.717Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://banking.delaware.gov/mortgage-loan-originator-licensing",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://banking.delaware.gov/regulations",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-florida",
+      "name": "Florida Office of Financial Regulation",
+      "url": "https://www.flofr.gov/",
+      "state": "Florida",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.724Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.flofr.gov/regulation/online-services",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://flofr.gov/divisions-offices/division-of-consumer-finance",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-georgia",
+      "name": "Georgia Department of Banking & Finance",
+      "url": "https://dbf.georgia.gov/",
+      "state": "Georgia",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.734Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dbf.georgia.gov/search-financial-institutions-and-other-companies-regulated-department",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://dbf.georgia.gov/georgia-residential-mortgage-act-grma",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://dbf.georgia.gov/certificate-valid-existence-department-regulated-financial-institution",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-hawaii",
+      "name": "Hawaii Department of Commerce and Consumer Affairs - Financial Institutions",
+      "url": "https://cca.hawaii.gov/dfi/",
+      "state": "Hawaii",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.821Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://cca.hawaii.gov/dfi/hawai%ca%bbi-homeowners-may-qualify-for-mortgage-relief-following-kona-low-storm-disaster",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-idaho",
+      "name": "Idaho Department of Finance",
+      "url": "https://www.finance.idaho.gov/",
+      "state": "Idaho",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.840Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.finance.idaho.gov/guidance",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.finance.idaho.gov/complaint-guidance",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.finance.idaho.gov/wp-content/uploads/2026/04/2025-Regulated-Lender-Annual-Report-Form.xlsx",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-illinois",
+      "name": "Illinois Department of Financial & Professional Regulation",
+      "url": "https://idfpr.illinois.gov/",
+      "state": "Illinois",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.841Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://idfpr.illinois.gov/core.html",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-indiana",
+      "name": "Indiana Department of Financial Institutions",
+      "url": "https://www.in.gov/dfi/",
+      "state": "Indiana",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:04.990Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.in.gov/dfi/files/EWALicensingGuidance.pdf",
+          "message": "PDF has no supported official identifier and publication date"
+        },
+        {
+          "url": "https://www.in.gov/dfi/general-information/policies-and-guidance",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-iowa",
+      "name": "Iowa Division of Banking",
+      "url": "https://idob.iowa.gov",
+      "state": "Iowa",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.135Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://idob.iowa.gov/finance",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://idob.iowa.gov/legal-resources-0",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://idob.iowa.gov/news/2024-10-25/virtual-currency-kiosks-guidance-iowa-consumers-and-businesses",
+          "message": "No verified mortgage regulatory development"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-kansas",
+      "name": "Kansas Office of the State Bank Commissioner",
+      "url": "https://www.osbckansas.gov",
+      "state": "Kansas",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.306Z",
+      "verifiedCount": 0,
+      "errors": [],
+      "discoveredCount": 1,
+      "status": "limited_document_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-kentucky",
+      "name": "Kentucky Department of Financial Institutions",
+      "url": "https://kfi.ky.gov/",
+      "state": "Kentucky",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.328Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://kfi.ky.gov/kar.aspx",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-louisiana",
+      "name": "Louisiana Office of Financial Institutions",
+      "url": "https://ofi.la.gov/",
+      "state": "Louisiana",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.349Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-maine",
+      "name": "Maine Bureau of Financial Institutions",
+      "url": "https://www.maine.gov/pfr/financialinstitutions/",
+      "state": "Maine",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.475Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-maryland",
+      "name": "Maryland Department of Labor Office of Financial Regulation",
+      "url": "https://www.dllr.state.md.us/finance",
+      "state": "Maryland",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.506Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.dllr.state.md.us/consumers/frmortgagelatedontwait.shtml",
+          "message": "Official source returned HTTP 404"
+        },
+        {
+          "url": "https://www.dllr.state.md.us/frcomm.shtml",
+          "message": "Official source returned HTTP 404"
+        },
+        {
+          "url": "https://www.dllr.state.md.us/frcontacts.shtml",
+          "message": "Official source returned HTTP 404"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-massachusetts",
+      "name": "Massachusetts Division of Banks",
+      "url": "https://www.mass.gov/orgs/division-of-banks",
+      "state": "Massachusetts",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.559Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.mass.gov/news/state-financial-regulators-reach-155-million-settlement-with-mortgage-servicer-newrez-llc",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://www.mass.gov/news/july-31-2026-regulatory-notice-reminder-of-money-transmitter-licensing-requirements-under-mgl-c-169b",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.mass.gov/orgs/office-of-consumer-affairs-and-business-regulation",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-michigan",
+      "name": "Michigan Department of Insurance and Financial Services",
+      "url": "https://www.michigan.gov/difs/industry/banking",
+      "state": "Michigan",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.656Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.michigan.gov/difs/legal/bulletins/bank-bulletins",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://www.michigan.gov/difs/legal/bulletins/bidco-bulletins",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-minnesota",
+      "name": "Minnesota Department of Commerce",
+      "url": "https://mn.gov/commerce/",
+      "state": "Minnesota",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.727Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://mn.gov/commerce/business",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-mississippi",
+      "name": "Mississippi Department of Banking and Consumer Finance",
+      "url": "https://dbcf.ms.gov/",
+      "state": "Mississippi",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.781Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dbcf.ms.gov/mortgage",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-missouri",
+      "name": "Missouri Division of Finance",
+      "url": "https://finance.mo.gov/",
+      "state": "Missouri",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:05.832Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-montana",
+      "name": "Montana Dept of Administration Division of Banking & Financial Institutions",
+      "url": "https://doa.mt.gov/bfid/",
+      "state": "Montana",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.060Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://doa.mt.gov/BFID/banks/bank-rules",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://doa.mt.gov/BFID/credit-unions/rule-notices",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://doa.mt.gov/BFID/mortgage-consumer-finance/index",
+          "message": "Official source request failed (connection, size, redirect, or timeout)"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-nebraska",
+      "name": "Nebraska Department of Banking and Finance",
+      "url": "https://ndbf.nebraska.gov/",
+      "state": "Nebraska",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.089Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/legal/department-administrative-rules-policy-statements",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-nevada",
+      "name": "Nevada Department of Business & Industry Financial Institutions Division",
+      "url": "https://fid.nv.gov/",
+      "state": "Nevada",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.198Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://fid.nv.gov/notice-information",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://fid.nv.gov/opinions-orders/proposed-regulations",
+          "message": "No verified mortgage regulatory development"
+        },
+        {
+          "url": "https://fid.nv.gov/about-us/statutes-regulations",
+          "message": "No factual source summary"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-new-hampshire",
+      "name": "New Hampshire Banking Department",
+      "url": "https://www.banking.nh.gov/",
+      "state": "New Hampshire",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.228Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-new-jersey",
+      "name": "New Jersey Department of Banking and Insurance",
+      "url": "https://www.nj.gov/dobi/index.html",
+      "state": "New Jersey",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.429Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.nj.gov/dobi/legsregs.htm",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.nj.gov/dobi/legsregs/advancenotice.htm",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-new-mexico",
+      "name": "New Mexico Regulation and Licensing Department Financial Institutions Division",
+      "url": "https://www.rld.nm.gov/financial-institutions/",
+      "state": "New Mexico",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.466Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.rld.nm.gov/financial-institutions/about-us/statutes-rules-guidance-actions-and-hearings",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-new-york",
+      "name": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/",
+      "state": "New York",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.522Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.dfs.ny.gov/industry_guidance/climate_change",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.dfs.ny.gov/industry_guidance/innovation",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-north-carolina",
+      "name": "North Carolina Office of the Commissioner of Banks",
+      "url": "https://nccob.nc.gov/",
+      "state": "North Carolina",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.617Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://nccob.nc.gov/consumer-information/who-we-regulate",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://nccob.nc.gov/proposed-rules-virtual-currency-kiosk-banking-commission",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-north-dakota",
+      "name": "North Dakota Department of Financial Institutions",
+      "url": "https://www.nd.gov/dfi/",
+      "state": "North Dakota",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.645Z",
+      "verifiedCount": 0,
+      "errors": [],
+      "discoveredCount": 1,
+      "status": "limited_document_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-ohio",
+      "name": "Ohio Division of Financial Institutions",
+      "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/",
+      "state": "Ohio",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.725Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 404"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-oklahoma",
+      "name": "Oklahoma Banking Department",
+      "url": "https://banking.ok.gov",
+      "state": "Oklahoma",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.816Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Destination is outside official source hosts"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-oregon",
+      "name": "Oregon Division of Financial Regulation",
+      "url": "https://dfr.oregon.gov/Pages/index.aspx",
+      "state": "Oregon",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.854Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dfr.oregon.gov/business/licensing/financial/Pages/index.aspx",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfr.oregon.gov/laws-rules/Pages/index.aspx",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfr.oregon.gov/laws-rules/Pages/notices-orders.aspx",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-pennsylvania",
+      "name": "Pennsylvania Department of Banking & Securities",
+      "url": "https://www.pa.gov/agencies/dobs",
+      "state": "Pennsylvania",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.928Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-rhode-island",
+      "name": "Rhode Island Department of Business Regulation",
+      "url": "https://dbr.ri.gov/",
+      "state": "Rhode Island",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:06.956Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dbr.ri.gov/bulletins",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dbr.ri.gov/rules-regulations",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dbr.ri.gov/bulletins/fair-chance-licensing-act",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-south-carolina",
+      "name": "South Carolina State Board of Financial Institutions Banking Division",
+      "url": "https://banking.sc.gov/",
+      "state": "South Carolina",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.006Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-south-dakota",
+      "name": "South Dakota Department of Labor and Regulation Division of Banking",
+      "url": "https://dlr.sd.gov/banking/default.aspx",
+      "state": "South Dakota",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.060Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dlr.sd.gov/banking/legal/documents/20-035-Crypto-Kiosk-Bill-Memo.pdf",
+          "message": "PDF has no supported official identifier and publication date"
+        },
+        {
+          "url": "https://dlr.sd.gov/banking/legal/documents/20-036-Trust-Memo-2026.pdf",
+          "message": "PDF has no supported official identifier and publication date"
+        },
+        {
+          "url": "https://dlr.sd.gov/banking/legal/documents/20-037-%20Trusted-Contact-Bill-Memo.pdf",
+          "message": "PDF has no supported official identifier and publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-tennessee",
+      "name": "Tennessee Department of Financial Institutions",
+      "url": "https://www.tn.gov/tdfi",
+      "state": "Tennessee",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.243Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-texas",
+      "name": "Texas Department of Banking",
+      "url": "https://www.dob.texas.gov",
+      "state": "Texas",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.251Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.dob.texas.gov/other-regulated-entities/check-verification-entities",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://www.dob.texas.gov/bulletin-search",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 2,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-utah",
+      "name": "Utah Department of Financial Institutions",
+      "url": "https://dfi.utah.gov/",
+      "state": "Utah",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.299Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dfi.utah.gov/non-depository/mortgage-lending",
+          "message": "Not a specific publication"
+        }
+      ],
+      "discoveredCount": 1,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-vermont",
+      "name": "Vermont Department of Financial Regulation",
+      "url": "https://dfr.vermont.gov/",
+      "state": "Vermont",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.306Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-virginia",
+      "name": "Virginia State Corporation Commission Bureau of Financial Institutions",
+      "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/",
+      "state": "Virginia",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.443Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://www.scc.virginia.gov/regulated-industries",
+          "message": "Not a specific publication"
+        },
+        {
+          "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/confidentiality-policy",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/bfi-laws-regulations",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-washington",
+      "name": "Washington State Department of Financial Institutions",
+      "url": "https://dfi.wa.gov/",
+      "state": "Washington",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.460Z",
+      "verifiedCount": 0,
+      "errors": [
+        {
+          "url": "https://dfi.wa.gov/industry",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfi.wa.gov/homeownership",
+          "message": "No verified publication date"
+        },
+        {
+          "url": "https://dfi.wa.gov/agency-rulemaking",
+          "message": "No verified publication date"
+        }
+      ],
+      "discoveredCount": 3,
+      "status": "partial_scan",
+      "note": "Bounded discovery scan; reaching an index is not evidence of complete agency coverage."
+    },
+    {
+      "id": "state-west-virginia",
+      "name": "West Virginia Division of Financial Institutions",
+      "url": "https://www.dfi.wv.gov",
+      "state": "West Virginia",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.479Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source request failed (connection, size, redirect, or timeout)"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "state-wisconsin",
+      "name": "Wisconsin Department of Financial Institutions",
+      "url": "https://dfi.wi.gov/Pages/Home.aspx",
+      "state": "Wisconsin",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.526Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "state-wyoming",
+      "name": "Wyoming Division of Banking",
+      "url": "https://wyomingbankingdivision.wyo.gov/",
+      "state": "Wyoming",
+      "kind": "state-regulator",
+      "checkedAt": "2026-11-07T17:03:07.577Z",
+      "verifiedCount": 0,
+      "errors": [
+        "No dated document candidates parsed; may require RSS, API, pagination, or JavaScript adapter."
+      ],
+      "discoveredCount": 0,
+      "status": "no_parseable_publications"
+    },
+    {
+      "id": "leg-alabama",
+      "name": "Alabama Legislature",
+      "url": "https://alison.legislature.state.al.us/",
+      "state": "Alabama",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:07.711Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-alaska",
+      "name": "Alaska Legislature",
+      "url": "https://www.akleg.gov/",
+      "state": "Alaska",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:07.736Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Destination is outside official source hosts"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-arizona",
+      "name": "Arizona Legislature",
+      "url": "https://www.azleg.gov/",
+      "state": "Arizona",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:07.819Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-arkansas",
+      "name": "Arkansas Legislature",
+      "url": "https://www.arkleg.state.ar.us/",
+      "state": "Arkansas",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:07.836Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-california",
+      "name": "California Legislature",
+      "url": "https://leginfo.legislature.ca.gov/",
+      "state": "California",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:07.948Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-colorado",
+      "name": "Colorado Legislature",
+      "url": "https://leg.colorado.gov/",
+      "state": "Colorado",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.143Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-connecticut",
+      "name": "Connecticut Legislature",
+      "url": "https://www.cga.ct.gov/",
+      "state": "Connecticut",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.315Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 503"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-delaware",
+      "name": "Delaware Legislature",
+      "url": "https://legis.delaware.gov/",
+      "state": "Delaware",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.324Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-florida",
+      "name": "Florida Legislature",
+      "url": "https://www.leg.state.fl.us/",
+      "state": "Florida",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.337Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-georgia",
+      "name": "Georgia Legislature",
+      "url": "https://www.legis.ga.gov/",
+      "state": "Georgia",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.627Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-hawaii",
+      "name": "Hawaii Legislature",
+      "url": "https://www.capitol.hawaii.gov/",
+      "state": "Hawaii",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.694Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-idaho",
+      "name": "Idaho Legislature",
+      "url": "https://legislature.idaho.gov/",
+      "state": "Idaho",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.756Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-illinois",
+      "name": "Illinois Legislature",
+      "url": "https://www.ilga.gov/",
+      "state": "Illinois",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.837Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 503"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-indiana",
+      "name": "Indiana Legislature",
+      "url": "https://iga.in.gov/",
+      "state": "Indiana",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.898Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-iowa",
+      "name": "Iowa Legislature",
+      "url": "https://www.legis.iowa.gov/",
+      "state": "Iowa",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.954Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-kansas",
+      "name": "Kansas Legislature",
+      "url": "https://www.kslegislature.gov/",
+      "state": "Kansas",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:08.985Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-kentucky",
+      "name": "Kentucky Legislature",
+      "url": "https://legislature.ky.gov/",
+      "state": "Kentucky",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.084Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-louisiana",
+      "name": "Louisiana Legislature",
+      "url": "https://legis.la.gov/",
+      "state": "Louisiana",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.140Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-maine",
+      "name": "Maine Legislature",
+      "url": "https://legislature.maine.gov/",
+      "state": "Maine",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.173Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-maryland",
+      "name": "Maryland Legislature",
+      "url": "https://mgaleg.maryland.gov/",
+      "state": "Maryland",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.281Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-massachusetts",
+      "name": "Massachusetts Legislature",
+      "url": "https://malegislature.gov/",
+      "state": "Massachusetts",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.397Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-michigan",
+      "name": "Michigan Legislature",
+      "url": "https://www.legislature.mi.gov/",
+      "state": "Michigan",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.525Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-minnesota",
+      "name": "Minnesota Legislature",
+      "url": "https://www.revisor.mn.gov/",
+      "state": "Minnesota",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.575Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-mississippi",
+      "name": "Mississippi Legislature",
+      "url": "https://www.legislature.ms.gov/",
+      "state": "Mississippi",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.698Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 503"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-missouri",
+      "name": "Missouri Legislature",
+      "url": "https://house.mo.gov/",
+      "state": "Missouri",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.704Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-montana",
+      "name": "Montana Legislature",
+      "url": "https://leg.mt.gov/",
+      "state": "Montana",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.762Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Destination is outside official source hosts"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-nebraska",
+      "name": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/",
+      "state": "Nebraska",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.866Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-nevada",
+      "name": "Nevada Legislature",
+      "url": "https://www.leg.state.nv.us/",
+      "state": "Nevada",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:09.925Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-new-hampshire",
+      "name": "New Hampshire Legislature",
+      "url": "https://gc.nh.gov/",
+      "state": "New Hampshire",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.004Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-new-jersey",
+      "name": "New Jersey Legislature",
+      "url": "https://www.njleg.state.nj.us/",
+      "state": "New Jersey",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.095Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-new-mexico",
+      "name": "New Mexico Legislature",
+      "url": "https://www.nmlegis.gov/",
+      "state": "New Mexico",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.219Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-new-york",
+      "name": "New York Legislature",
+      "url": "https://www.nysenate.gov/legislation",
+      "state": "New York",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.276Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-north-carolina",
+      "name": "North Carolina Legislature",
+      "url": "https://www.ncleg.gov/",
+      "state": "North Carolina",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.530Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-north-dakota",
+      "name": "North Dakota Legislature",
+      "url": "https://ndlegis.gov/",
+      "state": "North Dakota",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.602Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-ohio",
+      "name": "Ohio Legislature",
+      "url": "https://www.legislature.ohio.gov/",
+      "state": "Ohio",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.678Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 503"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-oklahoma",
+      "name": "Oklahoma Legislature",
+      "url": "https://www.oklegislature.gov/",
+      "state": "Oklahoma",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.805Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-oregon",
+      "name": "Oregon Legislature",
+      "url": "https://www.oregonlegislature.gov/",
+      "state": "Oregon",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.864Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-pennsylvania",
+      "name": "Pennsylvania Legislature",
+      "url": "https://www.legis.state.pa.us/",
+      "state": "Pennsylvania",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:10.994Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-rhode-island",
+      "name": "Rhode Island Legislature",
+      "url": "https://www.rilegislature.gov/",
+      "state": "Rhode Island",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.154Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-south-carolina",
+      "name": "South Carolina Legislature",
+      "url": "https://www.scstatehouse.gov/",
+      "state": "South Carolina",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.220Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-south-dakota",
+      "name": "South Dakota Legislature",
+      "url": "https://sdlegislature.gov/",
+      "state": "South Dakota",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.250Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-tennessee",
+      "name": "Tennessee Legislature",
+      "url": "https://www.capitol.tn.gov/",
+      "state": "Tennessee",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.301Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-texas",
+      "name": "Texas Legislature",
+      "url": "https://capitol.texas.gov/",
+      "state": "Texas",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.375Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-utah",
+      "name": "Utah Legislature",
+      "url": "https://le.utah.gov/",
+      "state": "Utah",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.471Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-vermont",
+      "name": "Vermont Legislature",
+      "url": "https://legislature.vermont.gov/",
+      "state": "Vermont",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.744Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-virginia",
+      "name": "Virginia Legislature",
+      "url": "https://lis.virginia.gov/",
+      "state": "Virginia",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.803Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-washington",
+      "name": "Washington Legislature",
+      "url": "https://app.leg.wa.gov/",
+      "state": "Washington",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.851Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 403"
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "leg-west-virginia",
+      "name": "West Virginia Legislature",
+      "url": "https://www.wvlegislature.gov/",
+      "state": "West Virginia",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:11.905Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-wisconsin",
+      "name": "Wisconsin Legislature",
+      "url": "https://legis.wisconsin.gov/",
+      "state": "Wisconsin",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:12.141Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "leg-wyoming",
+      "name": "Wyoming Legislature",
+      "url": "https://www.wyoleg.gov/",
+      "state": "Wyoming",
+      "kind": "legislature",
+      "checkedAt": "2026-11-07T17:03:12.219Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Index access checked only. This state needs a verified bill/action adapter before legislative events can be published."
+      ],
+      "status": "action_adapter_required"
+    },
+    {
+      "id": "congress",
+      "name": "Congress.gov public legislation",
+      "url": "https://www.congress.gov/rss/most-recent-bills.xml",
+      "kind": "federal-legislation",
+      "checkedAt": "2026-11-07T17:03:14.195Z",
+      "verifiedCount": 0,
+      "errors": [
+        "Official source returned HTTP 404"
+      ],
+      "status": "public_source_unavailable"
+    },
+    {
+      "id": "govinfo",
+      "name": "U.S. Congress / GovInfo bill status",
+      "url": "https://www.govinfo.gov/rss/bills.xml",
+      "kind": "federal-legislation",
+      "checkedAt": "2026-11-07T17:03:14.407Z",
+      "verifiedCount": 0,
+      "errors": [],
+      "discoveredCount": 1,
+      "status": "limited_structured_scan",
+      "note": "Keyless official GPO bill-status XML. Uses substantive action dates, not RSS upload or XML maintenance dates. RSS discovery is bounded and not exhaustive congressional coverage."
+    },
+    {
+      "id": "state-ag",
+      "name": "State attorneys general across 50 states",
+      "status": "not_configured",
+      "verifiedCount": 0,
+      "errors": [
+        "Dedicated official AG sources and action adapters have not been configured; no comprehensive AG monitoring claim."
+      ]
+    },
+    {
+      "id": "state-hfa",
+      "name": "State housing finance agencies across 50 states",
+      "status": "not_configured",
+      "verifiedCount": 0,
+      "errors": [
+        "Dedicated official HFA bulletin sources have not been configured; no comprehensive HFA monitoring claim."
+      ]
+    }
+  ]
+}

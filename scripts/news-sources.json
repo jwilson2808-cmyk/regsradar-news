@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "cfpb",
+    "name": "CFPB",
+    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
+    "hosts": [
+      "www.consumerfinance.gov",
+      "consumerfinance.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "hud",
+    "name": "HUD",
+    "url": "https://www.hud.gov/press",
+    "hosts": [
+      "www.hud.gov",
+      "hud.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fha",
+    "name": "HUD/FHA Mortgagee Letters",
+    "url": "https://www.hud.gov/program_offices/administration/hudclips/letters/mortgagee",
+    "hosts": [
+      "www.hud.gov",
+      "hud.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fhfa",
+    "name": "FHFA",
+    "url": "https://www.fhfa.gov/news/news-release",
+    "hosts": [
+      "www.fhfa.gov",
+      "fhfa.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "occ",
+    "name": "OCC",
+    "url": "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html",
+    "hosts": [
+      "occ.gov",
+      "www.occ.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fed",
+    "name": "Federal Reserve",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+    "hosts": [
+      "www.federalreserve.gov",
+      "federalreserve.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fdic",
+    "name": "FDIC",
+    "url": "https://www.fdic.gov/news/press-releases",
+    "hosts": [
+      "www.fdic.gov",
+      "fdic.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "ncua",
+    "name": "NCUA",
+    "url": "https://ncua.gov/newsroom/press-releases",
+    "hosts": [
+      "ncua.gov",
+      "www.ncua.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fannie",
+    "name": "Fannie Mae",
+    "url": "https://singlefamily.fanniemae.com/",
+    "hosts": [
+      "www.singlefamily.fanniemae.com",
+      "singlefamily.fanniemae.com"
+    ],
+    "category": "GSEs",
+    "kind": "official-publications"
+  },
+  {
+    "id": "fannie-news",
+    "name": "Fannie Mae Policy Announcements",
+    "url": "https://singlefamily.fanniemae.com/news-events",
+    "hosts": [
+      "www.singlefamily.fanniemae.com",
+      "singlefamily.fanniemae.com"
+    ],
+    "category": "GSEs",
+    "kind": "official-publications"
+  },
+  {
+    "id": "freddie",
+    "name": "Freddie Mac Single-Family",
+    "url": "https://sf.freddiemac.com/",
+    "hosts": [
+      "www.sf.freddiemac.com",
+      "sf.freddiemac.com"
+    ],
+    "category": "GSEs",
+    "kind": "official-publications"
+  },
+  {
+    "id": "freddie-guide",
+    "name": "Freddie Mac Guide Bulletins",
+    "url": "https://guide.freddiemac.com/app/guide/bulletins",
+    "hosts": [
+      "guide.freddiemac.com",
+      "www.guide.freddiemac.com"
+    ],
+    "category": "GSEs",
+    "kind": "official-publications"
+  },
+  {
+    "id": "va",
+    "name": "VA Home Loan Circulars",
+    "url": "https://www.benefits.va.gov/HOMELOANS/resources_circulars.asp",
+    "hosts": [
+      "www.benefits.va.gov",
+      "benefits.va.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "usda",
+    "name": "USDA Rural Development",
+    "url": "https://www.rd.usda.gov/resources/directives/handbooks",
+    "hosts": [
+      "rd.usda.gov",
+      "www.rd.usda.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "ginnie",
+    "name": "Ginnie Mae Issuer Requirements",
+    "url": "https://www.ginniemae.gov/issuers/program_guidelines/Pages/mbsguideapmslib.aspx",
+    "hosts": [
+      "ginniemae.gov",
+      "www.ginniemae.gov"
+    ],
+    "category": "Federal",
+    "kind": "official-publications"
+  },
+  {
+    "id": "state-alabama",
+    "name": "Alabama State Banking Department",
+    "url": "https://banking.alabama.gov",
+    "hosts": [
+      "banking.alabama.gov",
+      "www.banking.alabama.gov"
+    ],
+    "category": "States",
+    "state": "Alabama",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-alaska",
+    "name": "Alaska Division of Banking and Securities",
+    "url": "https://www.commerce.alaska.gov/web/dbs",
+    "hosts": [
+      "www.commerce.alaska.gov",
+      "commerce.alaska.gov"
+    ],
+    "category": "States",
+    "state": "Alaska",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-arizona",
+    "name": "Arizona Department of Insurance and Financial Institutions",
+    "url": "https://difi.az.gov/",
+    "hosts": [
+      "www.difi.az.gov",
+      "difi.az.gov"
+    ],
+    "category": "States",
+    "state": "Arizona",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-arkansas",
+    "name": "Arkansas State Bank Department",
+    "url": "https://banking.arkansas.gov/",
+    "hosts": [
+      "www.banking.arkansas.gov",
+      "banking.arkansas.gov"
+    ],
+    "category": "States",
+    "state": "Arkansas",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-california",
+    "name": "California Department of Financial Protection and Innovation",
+    "url": "https://dfpi.ca.gov/",
+    "hosts": [
+      "dfpi.ca.gov",
+      "www.dfpi.ca.gov"
+    ],
+    "category": "States",
+    "state": "California",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-colorado",
+    "name": "Colorado Department of Regulatory Agencies Division of Banking",
+    "url": "https://banking.colorado.gov/",
+    "hosts": [
+      "banking.colorado.gov",
+      "www.banking.colorado.gov"
+    ],
+    "category": "States",
+    "state": "Colorado",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-connecticut",
+    "name": "State of Connecticut Department of Banking",
+    "url": "https://portal.ct.gov/dob",
+    "hosts": [
+      "portal.ct.gov",
+      "www.portal.ct.gov"
+    ],
+    "category": "States",
+    "state": "Connecticut",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-delaware",
+    "name": "Delaware Office of the State Bank Commissioner",
+    "url": "https://banking.delaware.gov",
+    "hosts": [
+      "banking.delaware.gov",
+      "www.banking.delaware.gov"
+    ],
+    "category": "States",
+    "state": "Delaware",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-florida",
+    "name": "Florida Office of Financial Regulation",
+    "url": "https://www.flofr.gov/",
+    "hosts": [
+      "flofr.gov",
+      "www.flofr.gov"
+    ],
+    "category": "States",
+    "state": "Florida",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-georgia",
+    "name": "Georgia Department of Banking & Finance",
+    "url": "https://dbf.georgia.gov/",
+    "hosts": [
+      "dbf.georgia.gov",
+      "www.dbf.georgia.gov"
+    ],
+    "category": "States",
+    "state": "Georgia",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-hawaii",
+    "name": "Hawaii Department of Commerce and Consumer Affairs - Financial Institutions",
+    "url": "https://cca.hawaii.gov/dfi/",
+    "hosts": [
+      "cca.hawaii.gov",
+      "www.cca.hawaii.gov"
+    ],
+    "category": "States",
+    "state": "Hawaii",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-idaho",
+    "name": "Idaho Department of Finance",
+    "url": "https://www.finance.idaho.gov/",
+    "hosts": [
+      "finance.idaho.gov",
+      "www.finance.idaho.gov"
+    ],
+    "category": "States",
+    "state": "Idaho",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-illinois",
+    "name": "Illinois Department of Financial & Professional Regulation",
+    "url": "https://idfpr.illinois.gov/",
+    "hosts": [
+      "idfpr.illinois.gov",
+      "www.idfpr.illinois.gov"
+    ],
+    "category": "States",
+    "state": "Illinois",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-indiana",
+    "name": "Indiana Department of Financial Institutions",
+    "url": "https://www.in.gov/dfi/",
+    "hosts": [
+      "in.gov",
+      "www.in.gov"
+    ],
+    "category": "States",
+    "state": "Indiana",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-iowa",
+    "name": "Iowa Division of Banking",
+    "url": "https://idob.iowa.gov",
+    "hosts": [
+      "www.idob.iowa.gov",
+      "idob.iowa.gov"
+    ],
+    "category": "States",
+    "state": "Iowa",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-kansas",
+    "name": "Kansas Office of the State Bank Commissioner",
+    "url": "https://www.osbckansas.gov",
+    "hosts": [
+      "www.osbckansas.gov",
+      "osbckansas.gov"
+    ],
+    "category": "States",
+    "state": "Kansas",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-kentucky",
+    "name": "Kentucky Department of Financial Institutions",
+    "url": "https://kfi.ky.gov/",
+    "hosts": [
+      "www.kfi.ky.gov",
+      "kfi.ky.gov"
+    ],
+    "category": "States",
+    "state": "Kentucky",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-louisiana",
+    "name": "Louisiana Office of Financial Institutions",
+    "url": "https://ofi.la.gov/",
+    "hosts": [
+      "www.ofi.la.gov",
+      "ofi.la.gov"
+    ],
+    "category": "States",
+    "state": "Louisiana",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-maine",
+    "name": "Maine Bureau of Financial Institutions",
+    "url": "https://www.maine.gov/pfr/financialinstitutions/",
+    "hosts": [
+      "www.maine.gov",
+      "maine.gov"
+    ],
+    "category": "States",
+    "state": "Maine",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-maryland",
+    "name": "Maryland Department of Labor Office of Financial Regulation",
+    "url": "https://www.dllr.state.md.us/finance",
+    "hosts": [
+      "dllr.state.md.us",
+      "www.dllr.state.md.us"
+    ],
+    "category": "States",
+    "state": "Maryland",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-massachusetts",
+    "name": "Massachusetts Division of Banks",
+    "url": "https://www.mass.gov/orgs/division-of-banks",
+    "hosts": [
+      "www.mass.gov",
+      "mass.gov"
+    ],
+    "category": "States",
+    "state": "Massachusetts",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-michigan",
+    "name": "Michigan Department of Insurance and Financial Services",
+    "url": "https://www.michigan.gov/difs/industry/banking",
+    "hosts": [
+      "www.michigan.gov",
+      "michigan.gov"
+    ],
+    "category": "States",
+    "state": "Michigan",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-minnesota",
+    "name": "Minnesota Department of Commerce",
+    "url": "https://mn.gov/commerce/",
+    "hosts": [
+      "www.mn.gov",
+      "mn.gov"
+    ],
+    "category": "States",
+    "state": "Minnesota",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-mississippi",
+    "name": "Mississippi Department of Banking and Consumer Finance",
+    "url": "https://dbcf.ms.gov/",
+    "hosts": [
+      "www.dbcf.ms.gov",
+      "dbcf.ms.gov"
+    ],
+    "category": "States",
+    "state": "Mississippi",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-missouri",
+    "name": "Missouri Division of Finance",
+    "url": "https://finance.mo.gov/",
+    "hosts": [
+      "www.finance.mo.gov",
+      "finance.mo.gov"
+    ],
+    "category": "States",
+    "state": "Missouri",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-montana",
+    "name": "Montana Dept of Administration Division of Banking & Financial Institutions",
+    "url": "https://doa.mt.gov/bfid/",
+    "hosts": [
+      "doa.mt.gov",
+      "www.doa.mt.gov"
+    ],
+    "category": "States",
+    "state": "Montana",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-nebraska",
+    "name": "Nebraska Department of Banking and Finance",
+    "url": "https://ndbf.nebraska.gov/",
+    "hosts": [
+      "www.ndbf.nebraska.gov",
+      "ndbf.nebraska.gov"
+    ],
+    "category": "States",
+    "state": "Nebraska",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-nevada",
+    "name": "Nevada Department of Business & Industry Financial Institutions Division",
+    "url": "https://fid.nv.gov/",
+    "hosts": [
+      "fid.nv.gov",
+      "www.fid.nv.gov"
+    ],
+    "category": "States",
+    "state": "Nevada",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-new-hampshire",
+    "name": "New Hampshire Banking Department",
+    "url": "https://www.banking.nh.gov/",
+    "hosts": [
+      "banking.nh.gov",
+      "www.banking.nh.gov"
+    ],
+    "category": "States",
+    "state": "New Hampshire",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-new-jersey",
+    "name": "New Jersey Department of Banking and Insurance",
+    "url": "https://www.nj.gov/dobi/index.html",
+    "hosts": [
+      "nj.gov",
+      "www.nj.gov"
+    ],
+    "category": "States",
+    "state": "New Jersey",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-new-mexico",
+    "name": "New Mexico Regulation and Licensing Department Financial Institutions Division",
+    "url": "https://www.rld.nm.gov/financial-institutions/",
+    "hosts": [
+      "www.rld.nm.gov",
+      "rld.nm.gov"
+    ],
+    "category": "States",
+    "state": "New Mexico",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-new-york",
+    "name": "New York State Department of Financial Services",
+    "url": "https://www.dfs.ny.gov/",
+    "hosts": [
+      "www.dfs.ny.gov",
+      "dfs.ny.gov"
+    ],
+    "category": "States",
+    "state": "New York",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-north-carolina",
+    "name": "North Carolina Office of the Commissioner of Banks",
+    "url": "https://nccob.nc.gov/",
+    "hosts": [
+      "www.nccob.nc.gov",
+      "nccob.nc.gov"
+    ],
+    "category": "States",
+    "state": "North Carolina",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-north-dakota",
+    "name": "North Dakota Department of Financial Institutions",
+    "url": "https://www.nd.gov/dfi/",
+    "hosts": [
+      "www.nd.gov",
+      "nd.gov"
+    ],
+    "category": "States",
+    "state": "North Dakota",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-ohio",
+    "name": "Ohio Division of Financial Institutions",
+    "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/",
+    "hosts": [
+      "com.ohio.gov",
+      "www.com.ohio.gov"
+    ],
+    "category": "States",
+    "state": "Ohio",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-oklahoma",
+    "name": "Oklahoma Banking Department",
+    "url": "https://banking.ok.gov",
+    "hosts": [
+      "banking.ok.gov",
+      "www.banking.ok.gov"
+    ],
+    "category": "States",
+    "state": "Oklahoma",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-oregon",
+    "name": "Oregon Division of Financial Regulation",
+    "url": "https://dfr.oregon.gov/Pages/index.aspx",
+    "hosts": [
+      "www.dfr.oregon.gov",
+      "dfr.oregon.gov"
+    ],
+    "category": "States",
+    "state": "Oregon",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-pennsylvania",
+    "name": "Pennsylvania Department of Banking & Securities",
+    "url": "https://www.pa.gov/agencies/dobs",
+    "hosts": [
+      "www.pa.gov",
+      "pa.gov"
+    ],
+    "category": "States",
+    "state": "Pennsylvania",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-rhode-island",
+    "name": "Rhode Island Department of Business Regulation",
+    "url": "https://dbr.ri.gov/",
+    "hosts": [
+      "www.dbr.ri.gov",
+      "dbr.ri.gov"
+    ],
+    "category": "States",
+    "state": "Rhode Island",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-south-carolina",
+    "name": "South Carolina State Board of Financial Institutions Banking Division",
+    "url": "https://banking.sc.gov/",
+    "hosts": [
+      "www.banking.sc.gov",
+      "banking.sc.gov"
+    ],
+    "category": "States",
+    "state": "South Carolina",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-south-dakota",
+    "name": "South Dakota Department of Labor and Regulation Division of Banking",
+    "url": "https://dlr.sd.gov/banking/default.aspx",
+    "hosts": [
+      "dlr.sd.gov",
+      "www.dlr.sd.gov"
+    ],
+    "category": "States",
+    "state": "South Dakota",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-tennessee",
+    "name": "Tennessee Department of Financial Institutions",
+    "url": "https://www.tn.gov/tdfi",
+    "hosts": [
+      "tn.gov",
+      "www.tn.gov"
+    ],
+    "category": "States",
+    "state": "Tennessee",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-texas",
+    "name": "Texas Department of Banking",
+    "url": "https://www.dob.texas.gov",
+    "hosts": [
+      "www.dob.texas.gov",
+      "dob.texas.gov"
+    ],
+    "category": "States",
+    "state": "Texas",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-utah",
+    "name": "Utah Department of Financial Institutions",
+    "url": "https://dfi.utah.gov/",
+    "hosts": [
+      "www.dfi.utah.gov",
+      "dfi.utah.gov"
+    ],
+    "category": "States",
+    "state": "Utah",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-vermont",
+    "name": "Vermont Department of Financial Regulation",
+    "url": "https://dfr.vermont.gov/",
+    "hosts": [
+      "dfr.vermont.gov",
+      "www.dfr.vermont.gov"
+    ],
+    "category": "States",
+    "state": "Vermont",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-virginia",
+    "name": "Virginia State Corporation Commission Bureau of Financial Institutions",
+    "url": "https://www.scc.virginia.gov/regulated-industries/bureau-of-financial-institutions/",
+    "hosts": [
+      "scc.virginia.gov",
+      "www.scc.virginia.gov"
+    ],
+    "category": "States",
+    "state": "Virginia",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-washington",
+    "name": "Washington State Department of Financial Institutions",
+    "url": "https://dfi.wa.gov/",
+    "hosts": [
+      "www.dfi.wa.gov",
+      "dfi.wa.gov"
+    ],
+    "category": "States",
+    "state": "Washington",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-west-virginia",
+    "name": "West Virginia Division of Financial Institutions",
+    "url": "https://www.dfi.wv.gov",
+    "hosts": [
+      "www.dfi.wv.gov",
+      "dfi.wv.gov"
+    ],
+    "category": "States",
+    "state": "West Virginia",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-wisconsin",
+    "name": "Wisconsin Department of Financial Institutions",
+    "url": "https://dfi.wi.gov/Pages/Home.aspx",
+    "hosts": [
+      "www.dfi.wi.gov",
+      "dfi.wi.gov"
+    ],
+    "category": "States",
+    "state": "Wisconsin",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "state-wyoming",
+    "name": "Wyoming Division of Banking",
+    "url": "https://wyomingbankingdivision.wyo.gov/",
+    "hosts": [
+      "wyomingbankingdivision.wyo.gov",
+      "www.wyomingbankingdivision.wyo.gov"
+    ],
+    "category": "States",
+    "state": "Wyoming",
+    "kind": "state-regulator"
+  },
+  {
+    "id": "leg-alabama",
+    "name": "Alabama Legislature",
+    "url": "https://alison.legislature.state.al.us/",
+    "hosts": [
+      "www.alison.legislature.state.al.us",
+      "alison.legislature.state.al.us"
+    ],
+    "category": "States",
+    "state": "Alabama",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-alaska",
+    "name": "Alaska Legislature",
+    "url": "https://www.akleg.gov/",
+    "hosts": [
+      "www.akleg.gov",
+      "akleg.gov"
+    ],
+    "category": "States",
+    "state": "Alaska",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-arizona",
+    "name": "Arizona Legislature",
+    "url": "https://www.azleg.gov/",
+    "hosts": [
+      "www.azleg.gov",
+      "azleg.gov"
+    ],
+    "category": "States",
+    "state": "Arizona",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-arkansas",
+    "name": "Arkansas Legislature",
+    "url": "https://www.arkleg.state.ar.us/",
+    "hosts": [
+      "arkleg.state.ar.us",
+      "www.arkleg.state.ar.us"
+    ],
+    "category": "States",
+    "state": "Arkansas",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-california",
+    "name": "California Legislature",
+    "url": "https://leginfo.legislature.ca.gov/",
+    "hosts": [
+      "leginfo.legislature.ca.gov",
+      "www.leginfo.legislature.ca.gov"
+    ],
+    "category": "States",
+    "state": "California",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-colorado",
+    "name": "Colorado Legislature",
+    "url": "https://leg.colorado.gov/",
+    "hosts": [
+      "leg.colorado.gov",
+      "www.leg.colorado.gov"
+    ],
+    "category": "States",
+    "state": "Colorado",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-connecticut",
+    "name": "Connecticut Legislature",
+    "url": "https://www.cga.ct.gov/",
+    "hosts": [
+      "cga.ct.gov",
+      "www.cga.ct.gov"
+    ],
+    "category": "States",
+    "state": "Connecticut",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-delaware",
+    "name": "Delaware Legislature",
+    "url": "https://legis.delaware.gov/",
+    "hosts": [
+      "legis.delaware.gov",
+      "www.legis.delaware.gov"
+    ],
+    "category": "States",
+    "state": "Delaware",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-florida",
+    "name": "Florida Legislature",
+    "url": "https://www.leg.state.fl.us/",
+    "hosts": [
+      "www.leg.state.fl.us",
+      "leg.state.fl.us"
+    ],
+    "category": "States",
+    "state": "Florida",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-georgia",
+    "name": "Georgia Legislature",
+    "url": "https://www.legis.ga.gov/",
+    "hosts": [
+      "legis.ga.gov",
+      "www.legis.ga.gov"
+    ],
+    "category": "States",
+    "state": "Georgia",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-hawaii",
+    "name": "Hawaii Legislature",
+    "url": "https://www.capitol.hawaii.gov/",
+    "hosts": [
+      "www.capitol.hawaii.gov",
+      "capitol.hawaii.gov"
+    ],
+    "category": "States",
+    "state": "Hawaii",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-idaho",
+    "name": "Idaho Legislature",
+    "url": "https://legislature.idaho.gov/",
+    "hosts": [
+      "www.legislature.idaho.gov",
+      "legislature.idaho.gov"
+    ],
+    "category": "States",
+    "state": "Idaho",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-illinois",
+    "name": "Illinois Legislature",
+    "url": "https://www.ilga.gov/",
+    "hosts": [
+      "www.ilga.gov",
+      "ilga.gov"
+    ],
+    "category": "States",
+    "state": "Illinois",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-indiana",
+    "name": "Indiana Legislature",
+    "url": "https://iga.in.gov/",
+    "hosts": [
+      "iga.in.gov",
+      "www.iga.in.gov"
+    ],
+    "category": "States",
+    "state": "Indiana",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-iowa",
+    "name": "Iowa Legislature",
+    "url": "https://www.legis.iowa.gov/",
+    "hosts": [
+      "legis.iowa.gov",
+      "www.legis.iowa.gov"
+    ],
+    "category": "States",
+    "state": "Iowa",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-kansas",
+    "name": "Kansas Legislature",
+    "url": "https://www.kslegislature.gov/",
+    "hosts": [
+      "www.kslegislature.gov",
+      "kslegislature.gov"
+    ],
+    "category": "States",
+    "state": "Kansas",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-kentucky",
+    "name": "Kentucky Legislature",
+    "url": "https://legislature.ky.gov/",
+    "hosts": [
+      "legislature.ky.gov",
+      "www.legislature.ky.gov"
+    ],
+    "category": "States",
+    "state": "Kentucky",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-louisiana",
+    "name": "Louisiana Legislature",
+    "url": "https://legis.la.gov/",
+    "hosts": [
+      "legis.la.gov",
+      "www.legis.la.gov"
+    ],
+    "category": "States",
+    "state": "Louisiana",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-maine",
+    "name": "Maine Legislature",
+    "url": "https://legislature.maine.gov/",
+    "hosts": [
+      "www.legislature.maine.gov",
+      "legislature.maine.gov"
+    ],
+    "category": "States",
+    "state": "Maine",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-maryland",
+    "name": "Maryland Legislature",
+    "url": "https://mgaleg.maryland.gov/",
+    "hosts": [
+      "www.mgaleg.maryland.gov",
+      "mgaleg.maryland.gov"
+    ],
+    "category": "States",
+    "state": "Maryland",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-massachusetts",
+    "name": "Massachusetts Legislature",
+    "url": "https://malegislature.gov/",
+    "hosts": [
+      "www.malegislature.gov",
+      "malegislature.gov"
+    ],
+    "category": "States",
+    "state": "Massachusetts",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-michigan",
+    "name": "Michigan Legislature",
+    "url": "https://www.legislature.mi.gov/",
+    "hosts": [
+      "legislature.mi.gov",
+      "www.legislature.mi.gov"
+    ],
+    "category": "States",
+    "state": "Michigan",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-minnesota",
+    "name": "Minnesota Legislature",
+    "url": "https://www.revisor.mn.gov/",
+    "hosts": [
+      "www.revisor.mn.gov",
+      "revisor.mn.gov"
+    ],
+    "category": "States",
+    "state": "Minnesota",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-mississippi",
+    "name": "Mississippi Legislature",
+    "url": "https://www.legislature.ms.gov/",
+    "hosts": [
+      "www.legislature.ms.gov",
+      "legislature.ms.gov"
+    ],
+    "category": "States",
+    "state": "Mississippi",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-missouri",
+    "name": "Missouri Legislature",
+    "url": "https://house.mo.gov/",
+    "hosts": [
+      "house.mo.gov",
+      "www.house.mo.gov"
+    ],
+    "category": "States",
+    "state": "Missouri",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-montana",
+    "name": "Montana Legislature",
+    "url": "https://leg.mt.gov/",
+    "hosts": [
+      "www.leg.mt.gov",
+      "leg.mt.gov"
+    ],
+    "category": "States",
+    "state": "Montana",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-nebraska",
+    "name": "Nebraska Legislature",
+    "url": "https://nebraskalegislature.gov/",
+    "hosts": [
+      "www.nebraskalegislature.gov",
+      "nebraskalegislature.gov"
+    ],
+    "category": "States",
+    "state": "Nebraska",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-nevada",
+    "name": "Nevada Legislature",
+    "url": "https://www.leg.state.nv.us/",
+    "hosts": [
+      "leg.state.nv.us",
+      "www.leg.state.nv.us"
+    ],
+    "category": "States",
+    "state": "Nevada",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-new-hampshire",
+    "name": "New Hampshire Legislature",
+    "url": "https://gc.nh.gov/",
+    "hosts": [
+      "www.gc.nh.gov",
+      "gc.nh.gov"
+    ],
+    "category": "States",
+    "state": "New Hampshire",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-new-jersey",
+    "name": "New Jersey Legislature",
+    "url": "https://www.njleg.state.nj.us/",
+    "hosts": [
+      "www.njleg.state.nj.us",
+      "njleg.state.nj.us"
+    ],
+    "category": "States",
+    "state": "New Jersey",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-new-mexico",
+    "name": "New Mexico Legislature",
+    "url": "https://www.nmlegis.gov/",
+    "hosts": [
+      "nmlegis.gov",
+      "www.nmlegis.gov"
+    ],
+    "category": "States",
+    "state": "New Mexico",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-new-york",
+    "name": "New York Legislature",
+    "url": "https://www.nysenate.gov/legislation",
+    "hosts": [
+      "www.nysenate.gov",
+      "nysenate.gov"
+    ],
+    "category": "States",
+    "state": "New York",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-north-carolina",
+    "name": "North Carolina Legislature",
+    "url": "https://www.ncleg.gov/",
+    "hosts": [
+      "www.ncleg.gov",
+      "ncleg.gov"
+    ],
+    "category": "States",
+    "state": "North Carolina",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-north-dakota",
+    "name": "North Dakota Legislature",
+    "url": "https://ndlegis.gov/",
+    "hosts": [
+      "ndlegis.gov",
+      "www.ndlegis.gov"
+    ],
+    "category": "States",
+    "state": "North Dakota",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-ohio",
+    "name": "Ohio Legislature",
+    "url": "https://www.legislature.ohio.gov/",
+    "hosts": [
+      "legislature.ohio.gov",
+      "www.legislature.ohio.gov"
+    ],
+    "category": "States",
+    "state": "Ohio",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-oklahoma",
+    "name": "Oklahoma Legislature",
+    "url": "https://www.oklegislature.gov/",
+    "hosts": [
+      "oklegislature.gov",
+      "www.oklegislature.gov"
+    ],
+    "category": "States",
+    "state": "Oklahoma",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-oregon",
+    "name": "Oregon Legislature",
+    "url": "https://www.oregonlegislature.gov/",
+    "hosts": [
+      "www.oregonlegislature.gov",
+      "oregonlegislature.gov"
+    ],
+    "category": "States",
+    "state": "Oregon",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-pennsylvania",
+    "name": "Pennsylvania Legislature",
+    "url": "https://www.legis.state.pa.us/",
+    "hosts": [
+      "www.legis.state.pa.us",
+      "legis.state.pa.us"
+    ],
+    "category": "States",
+    "state": "Pennsylvania",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-rhode-island",
+    "name": "Rhode Island Legislature",
+    "url": "https://www.rilegislature.gov/",
+    "hosts": [
+      "www.rilegislature.gov",
+      "rilegislature.gov"
+    ],
+    "category": "States",
+    "state": "Rhode Island",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-south-carolina",
+    "name": "South Carolina Legislature",
+    "url": "https://www.scstatehouse.gov/",
+    "hosts": [
+      "www.scstatehouse.gov",
+      "scstatehouse.gov"
+    ],
+    "category": "States",
+    "state": "South Carolina",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-south-dakota",
+    "name": "South Dakota Legislature",
+    "url": "https://sdlegislature.gov/",
+    "hosts": [
+      "www.sdlegislature.gov",
+      "sdlegislature.gov"
+    ],
+    "category": "States",
+    "state": "South Dakota",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-tennessee",
+    "name": "Tennessee Legislature",
+    "url": "https://www.capitol.tn.gov/",
+    "hosts": [
+      "www.capitol.tn.gov",
+      "capitol.tn.gov"
+    ],
+    "category": "States",
+    "state": "Tennessee",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-texas",
+    "name": "Texas Legislature",
+    "url": "https://capitol.texas.gov/",
+    "hosts": [
+      "www.capitol.texas.gov",
+      "capitol.texas.gov"
+    ],
+    "category": "States",
+    "state": "Texas",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-utah",
+    "name": "Utah Legislature",
+    "url": "https://le.utah.gov/",
+    "hosts": [
+      "www.le.utah.gov",
+      "le.utah.gov"
+    ],
+    "category": "States",
+    "state": "Utah",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-vermont",
+    "name": "Vermont Legislature",
+    "url": "https://legislature.vermont.gov/",
+    "hosts": [
+      "legislature.vermont.gov",
+      "www.legislature.vermont.gov"
+    ],
+    "category": "States",
+    "state": "Vermont",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-virginia",
+    "name": "Virginia Legislature",
+    "url": "https://lis.virginia.gov/",
+    "hosts": [
+      "www.lis.virginia.gov",
+      "lis.virginia.gov"
+    ],
+    "category": "States",
+    "state": "Virginia",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-washington",
+    "name": "Washington Legislature",
+    "url": "https://app.leg.wa.gov/",
+    "hosts": [
+      "app.leg.wa.gov",
+      "www.app.leg.wa.gov"
+    ],
+    "category": "States",
+    "state": "Washington",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-west-virginia",
+    "name": "West Virginia Legislature",
+    "url": "https://www.wvlegislature.gov/",
+    "hosts": [
+      "wvlegislature.gov",
+      "www.wvlegislature.gov"
+    ],
+    "category": "States",
+    "state": "West Virginia",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-wisconsin",
+    "name": "Wisconsin Legislature",
+    "url": "https://legis.wisconsin.gov/",
+    "hosts": [
+      "www.legis.wisconsin.gov",
+      "legis.wisconsin.gov"
+    ],
+    "category": "States",
+    "state": "Wisconsin",
+    "kind": "legislature"
+  },
+  {
+    "id": "leg-wyoming",
+    "name": "Wyoming Legislature",
+    "url": "https://www.wyoleg.gov/",
+    "hosts": [
+      "wyoleg.gov",
+      "www.wyoleg.gov"
+    ],
+    "category": "States",
+    "state": "Wyoming",
+    "kind": "legislature"
+  }
+]

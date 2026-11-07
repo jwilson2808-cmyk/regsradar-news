@@ -9,8 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
-    "news:refresh": "node scripts/refresh-news.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "news:refresh": "node scripts/monitor-news.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "news:monitor": "node scripts/monitor-news.mjs"
   },
   "dependencies": {
     "expo": "~58.0.23",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@expo/ngrok": "^4.1.3",
     "@types/react": "~19.2.0",
+    "cheerio": "^1.2.0",
     "typescript": "~5.9.2"
   }
 }
