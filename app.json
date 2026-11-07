@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "RegsRadar News",
+    "slug": "regsradar-news",
+    "scheme": "regsradarnews",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B2742"
+      }
+    },
+    "extra": {
+      "prototype": true
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
