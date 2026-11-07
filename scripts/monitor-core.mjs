@@ -23,7 +23,7 @@ export function canonicalURL(value) {
 }
 export function allowedURL(value,source) {
  const url=canonicalURL(value);const host=new URL(url).hostname;
- if(!source.hosts.includes(host))throw Error('Destination is outside official source hosts');return url;
+ if(!source.hosts.includes(host))throw Error('Destination is outside official source hosts: '+host);return url;
 }
 const mortgage= /\bmortgage\b|\bHMDA\b|\bRESPA\b|\bTRID\b|\bSAFE Act\b|\bFHA\b|\bforeclosure\b|\bloss mitigation\b|\bloan origination\b|\bhome loans?\b|\bhomeowner.*insurance\b|\bfair lending\b|\bservicing guide\b|\bVA partial claim\b|\bloan guaranty\b|\bselling guide\b|\bunderwriting\b/i;
 const exclude=/mortgage rates (?:rise|fall|decline|increase)|primary mortgage market survey|debt funding calendar|tender offer|non-performing loan sale|financial literacy|financial education|awards?|webinar|quarterly (?:earnings|results)|net income|weekly banking bulletin/i;
@@ -88,7 +88,7 @@ export function deduplicate(articles,previous=[]) {
   const url=canonicalURL(article.sourceUrl);const key=article.documentReference?`${article.agency}:${article.documentReference}`:clean(article.title).toLowerCase()+':'+article.publishedDate;
   const duplicate=[...seen.values()].find(a=>a.sourceUrl===url)||seen.get(key);
   if(duplicate){duplicate.alternateSources=[...new Set([...(duplicate.alternateSources||[]),url])].filter(u=>u!==duplicate.sourceUrl);continue;}
-  const prior=old.get(url);const unchanged=prior&&prior.contentFingerprint&&prior.contentFingerprint===article.contentFingerprint;
+  const prior=old.get(url)||previous.find(a=>a.id===article.id||(article.documentReference&&a.documentReference===article.documentReference&&a.agency===article.agency));const unchanged=prior&&prior.contentFingerprint&&prior.contentFingerprint===article.contentFingerprint;
   seen.set(key,{...article,...(unchanged?{summary:prior.summary,whatChanged:prior.whatChanged,whyItMatters:prior.whyItMatters}:{}),sourceUrl:url,firstSeenAt:prior?.firstSeenAt||article.verifiedAt});
  }
  return [...seen.values()].sort((a,b)=>(b.materialUpdatedDate||b.publishedDate).localeCompare(a.materialUpdatedDate||a.publishedDate)||a.id.localeCompare(b.id));

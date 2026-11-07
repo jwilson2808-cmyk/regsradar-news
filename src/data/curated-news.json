@@ -14,7 +14,10 @@
       "sourceUrl": "https://singlefamily.fanniemae.com/news-events/announcement-sel-2026-10-selling-guide-updates",
       "mortgageRelevance": "Changes to eligibility and delivery requirements for mortgage loans sold to Fannie Mae.",
       "verifiedAt": "2026-11-07T16:44:26.514955Z",
-      "documentReference": "SEL-2026-10"
+      "documentReference": "SEL-2026-10",
+      "alternateOfficialUrls": [
+        "https://singlefamily.fanniemae.com/media/document/pdf/announcement-sel-2026-10-selling-guide-updates"
+      ]
     },
     {
       "id": "fannie-ll-2026-09",
@@ -30,7 +33,10 @@
       "mortgageRelevance": "Changes to manual mortgage underwriting eligibility and loan-delivery requirements.",
       "verifiedAt": "2026-11-07T16:44:26.514955Z",
       "effectiveDate": "2027-02-22",
-      "documentReference": "LL-2026-09"
+      "documentReference": "LL-2026-09",
+      "alternateOfficialUrls": [
+        "https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-09-manual-underwriting-eligibility"
+      ]
     },
     {
       "id": "ma-newrez-2026-08-12",

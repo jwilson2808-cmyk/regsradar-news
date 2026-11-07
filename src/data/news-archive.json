@@ -2,7 +2,7 @@
   "windowStart": "2026-08-12",
   "windowEnd": "2026-11-07",
   "status": "verified",
-  "generatedAt": "2026-11-07T17:08:19.449Z",
+  "generatedAt": "2026-11-07T17:11:04.940Z",
   "articles": [
     {
       "id": "2026-22571",
@@ -16,13 +16,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/05/2026-22571/60-day-notice-of-proposed-information-collection-home-mortgage-disclosure-act-hmda-loanapplication",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "HMDA mortgage loan/application reporting collection and regulatory comment process.",
-      "verifiedAt": "2026-11-07T17:03:02.474Z",
+      "verifiedAt": "2026-11-07T17:10:37.990Z",
       "affectedArea": "Fair lending and HMDA",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "HMDA mortgage loan/application reporting collection and regulatory comment process.",
       "documentReference": "2026-22571",
       "contentFingerprint": "f53776215973d945e10d124f9da5f25dcb2a05f16bd3e8e0c414684b11c48b71",
-      "firstSeenAt": "2026-11-07T16:51:52.417Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.417Z",
+      "alternateSources": []
     },
     {
       "id": "fannie-ll-2026-09",
@@ -36,13 +38,17 @@
       "sourceName": "Fannie Mae",
       "sourceUrl": "https://singlefamily.fanniemae.com/news-events/lender-letter-ll-2026-09-manual-underwriting-eligibility",
       "mortgageRelevance": "Changes to manual mortgage underwriting eligibility and loan-delivery requirements.",
-      "verifiedAt": "2026-11-07T17:03:03.059Z",
+      "verifiedAt": "2026-11-07T17:10:38.807Z",
       "effectiveDate": "2027-02-22",
       "documentReference": "LL-2026-09",
+      "alternateOfficialUrls": [
+        "https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-09-manual-underwriting-eligibility"
+      ],
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "Fannie Mae revised the Eligibility Matrix for manually underwritten loans sold on or after February 22, 2027. The letter addresses credit scores, reserves, two- to four-unit principal residences, cash-out refinancing, and consolidation of manual-underwriting requirements.",
       "whyItMatters": "Changes to manual mortgage underwriting eligibility and loan-delivery requirements.",
       "contentFingerprint": "32a61ee6d770bec687c121da8eb41af8d4f99584566033103bf11e4c3c5a8b4e",
+      "verificationMethod": "original official publication",
       "firstSeenAt": "2026-11-07T16:51:53.192Z",
       "alternateSources": []
     },
@@ -58,12 +64,16 @@
       "sourceName": "Fannie Mae",
       "sourceUrl": "https://singlefamily.fanniemae.com/news-events/announcement-sel-2026-10-selling-guide-updates",
       "mortgageRelevance": "Changes to eligibility and delivery requirements for mortgage loans sold to Fannie Mae.",
-      "verifiedAt": "2026-11-07T17:03:03.105Z",
+      "verifiedAt": "2026-11-07T17:10:38.025Z",
       "documentReference": "SEL-2026-10",
+      "alternateOfficialUrls": [
+        "https://singlefamily.fanniemae.com/media/document/pdf/announcement-sel-2026-10-selling-guide-updates"
+      ],
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "Fannie Mae’s November Selling Guide update addresses accessory dwelling units in condominium projects, owner-occupancy policy, Community Seconds and grants, expanded use of VantageScore 4.0, and premium recapture for whole loans. Review the announcement for the effective date of each policy change.",
       "whyItMatters": "Changes to eligibility and delivery requirements for mortgage loans sold to Fannie Mae.",
       "contentFingerprint": "1a75130c02a52f1074fb54860833802433ab24956590ec2b481cc6fa1338039e",
+      "verificationMethod": "original official publication",
       "firstSeenAt": "2026-11-07T16:51:53.025Z",
       "alternateSources": []
     },
@@ -79,13 +89,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22357/privacy-act-of-1974-matching-program",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA mortgage borrower eligibility verification and the HUD/SSA matching program.",
-      "verifiedAt": "2026-11-07T17:03:02.185Z",
+      "verifiedAt": "2026-11-07T17:10:38.175Z",
       "affectedArea": "Privacy and communications",
       "whatChanged": "In accordance with the Privacy Act of 1974, as amended, the Department of Housing and Urban Development (HUD) and the Social Security Administration (SSA) are providing notice of a new computer matching program. Under this program, SSA will disclose Social Security Number (SSN) verifications to the Federal Housing Administration (FHA) through HUD to verify Borrowers' eligibility to participate in FHA's Single Family mortgage insurance programs. The matching program will enable HUD to verify Social Security numbers and related identifying information submitted by individuals applying for FHA-insured mortgage programs.",
       "whyItMatters": "FHA mortgage borrower eligibility verification and the HUD/SSA matching program.",
       "documentReference": "2026-22357",
       "contentFingerprint": "0806899a088fddba9792e9905bf230780598d8c302e0083c48e4d00480078dd0",
-      "firstSeenAt": "2026-11-07T16:51:52.490Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.490Z",
+      "alternateSources": []
     },
     {
       "id": "2026-22136",
@@ -99,13 +111,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/30/2026-22136/30-day-notice-of-proposed-information-collection-informed-consumer-choice-disclosure-and-application",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA mortgage applications and informed-consumer-choice disclosure collection.",
-      "verifiedAt": "2026-11-07T17:03:02.494Z",
+      "verifiedAt": "2026-11-07T17:10:38.114Z",
       "affectedArea": "Disclosures and settlement",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 30 days of public comment.",
       "whyItMatters": "FHA mortgage applications and informed-consumer-choice disclosure collection.",
       "documentReference": "2026-22136",
       "contentFingerprint": "f100171b9a8527c45e8053c571daa81b084b0fe03700c4d80be72be5d7969e09",
-      "firstSeenAt": "2026-11-07T16:51:52.472Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.472Z",
+      "alternateSources": []
     },
     {
       "id": "2026-22228",
@@ -119,13 +133,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/30/2026-22228/agency-information-collection-activities-comment-request",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "RESPA Regulation X mortgage servicing and settlement information-collection renewal.",
-      "verifiedAt": "2026-11-07T17:03:02.377Z",
+      "verifiedAt": "2026-11-07T17:10:38.609Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (Bureau or CFPB) is requesting to renew the Office of Management and Budget's (OMB's) approval for an existing collection, titled \"Real Estate Settlement Procedures Act (Regulation X)\" approved under OMB Control Number 3170-0016.",
       "whyItMatters": "RESPA Regulation X mortgage servicing and settlement information-collection renewal.",
       "documentReference": "2026-22228",
       "contentFingerprint": "b31fe1cf6a2b09374719c3d7a103b6ed514cc017f371e1ee40e097e9b9949a67",
-      "firstSeenAt": "2026-11-07T16:51:52.786Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.786Z",
+      "alternateSources": []
     },
     {
       "id": "2026-22038",
@@ -139,13 +155,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22038/single-family-housing-guaranteed-loan-program-income-producing-accessory-dwelling-unit-adu",
       "updateType": "Final Regulation",
       "mortgageRelevance": "Final USDA mortgage property-eligibility rule for income-producing accessory dwelling units.",
-      "verifiedAt": "2026-11-07T17:03:02.522Z",
+      "verifiedAt": "2026-11-07T17:10:38.645Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "The Rural Housing Service (RHS or the Agency), a Rural Development (RD) agency of the United States Department of Agriculture (USDA), is amending the Single Family Housing Guaranteed Loan Program (SFHGLP) regulation to permit the financing of single family homes with income producing Accessory Dwelling Units (ADUs) and clarify the eligibility of properties with features designed to accommodate home- based operations using non-commercial real estate features.",
       "whyItMatters": "Final USDA mortgage property-eligibility rule for income-producing accessory dwelling units.",
       "documentReference": "2026-22038",
       "contentFingerprint": "031f751e80914ab7eabde3114b14443f993edc9f56a4801ed1d35595a6eb264a",
-      "firstSeenAt": "2026-11-07T16:51:52.648Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.648Z",
+      "alternateSources": []
     },
     {
       "id": "va-5f9b7152f757d2f3",
@@ -164,7 +182,7 @@
       "documentReference": "Circular 26-26-5",
       "effectiveDate": "2026-10-27",
       "mortgageRelevance": "Official mortgage-program policy circular.",
-      "verifiedAt": "2026-11-07T17:08:01.639Z",
+      "verifiedAt": "2026-11-07T17:10:40.587Z",
       "contentFingerprint": "a794a5265d54c6eab60a7c429c61d51aa92f7cc7d3a3de98cac044cc4755d85b",
       "firstSeenAt": "2026-11-07T17:00:19.003Z",
       "alternateSources": []
@@ -181,13 +199,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/23/2026-21675/21st-century-road-to-housing-act-prohibition-on-large-institutional-investor-purchases-of",
       "updateType": "Proposed Regulation",
       "mortgageRelevance": "Proposed implementation of statutory restrictions on institutional purchases of single-family homes.",
-      "verifiedAt": "2026-11-07T17:03:02.712Z",
+      "verifiedAt": "2026-11-07T17:10:38.579Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "The Department of the Treasury (Treasury) is issuing this proposed rule to carry out the purposes of section 1001 of the 21st Century ROAD to Housing Act (the Act or the ROAD Act). Section 1001 of the ROAD Act prohibits large institutional investors from purchasing single-family homes, subject to certain exceptions. The proposed rule would clarify certain terms relevant to those restrictions, including \"large institutional investor\"; clarify the application of certain exceptions from the statutory prohibition; and clarify the statutory enforcement mechanism. The proposed rule is intended to provide clarity to market participants and other stakeholders on the application of the statute before the effective date of the ROAD Act.",
       "whyItMatters": "Proposed implementation of statutory restrictions on institutional purchases of single-family homes.",
       "documentReference": "2026-21675",
       "contentFingerprint": "9191d0383c64f85ab8c409048c2924e8a5d7d60b278fb455e1bd0e3e61d41c2f",
-      "firstSeenAt": "2026-11-07T16:51:52.757Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.757Z",
+      "alternateSources": []
     },
     {
       "id": "2026-20822",
@@ -201,13 +221,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/13/2026-20822/mortgage-and-loan-insurance-programs-under-the-national-housing-act-debenture-interest-rates",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "HUD statutory FHA mortgage-insurance debenture rate notice, not a weekly market-rate survey.",
-      "verifiedAt": "2026-11-07T17:03:02.913Z",
+      "verifiedAt": "2026-11-07T17:10:38.442Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "This Notice announces changes in the interest rates to be paid on debentures issued with respect to a loan or mortgage insured by the Federal Housing Administration under the provisions of the National Housing Act (the Act). The interest rate for debentures issued under Section 221(g)(4) of the Act during the 6-month period beginning July 1, 2026, is 4\\1/2\\ percent. The interest rate for debentures issued under any other provision of the Act is the rate in effect on the date that the commitment to insure the loan or mortgage was issued, or the date that the loan or mortgage was endorsed (or initially endorsed if there are two or more endorsements) for insurance, whichever rate is higher. The interest rate for debentures issued under these other provisions with respect to a loan or mortgage committed or endorsed during the 6-month period beginning July 1, 2026, is 5 percent.",
       "whyItMatters": "HUD statutory FHA mortgage-insurance debenture rate notice, not a weekly market-rate survey.",
       "documentReference": "2026-20822",
       "contentFingerprint": "ab7f77c1e54217b4e0df252267655de1e3e318ae3b8770619b1e797c6af799d2",
-      "firstSeenAt": "2026-11-07T16:51:52.934Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:52.934Z",
+      "alternateSources": []
     },
     {
       "id": "2026-20679",
@@ -221,13 +243,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/08/2026-20679/60-day-notice-of-proposed-information-collection-fha-catalyst-multifamily-applications-and-portal",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA multifamily mortgage underwriting applications and reporting systems collection.",
-      "verifiedAt": "2026-11-07T17:03:03.035Z",
+      "verifiedAt": "2026-11-07T17:10:38.710Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "FHA multifamily mortgage underwriting applications and reporting systems collection.",
       "documentReference": "2026-20679",
       "contentFingerprint": "08273bc9ce3bba22315f77e301484f79168aa2c74221c9cb95f69982070b0d45",
-      "firstSeenAt": "2026-11-07T16:51:53.085Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.085Z",
+      "alternateSources": []
     },
     {
       "id": "2026-20682",
@@ -241,13 +265,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/08/2026-20682/60-day-notice-of-proposed-information-collection-builders-certification-of-plans-specifications-and",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA mortgage-insurance builder certification reporting and comment process.",
-      "verifiedAt": "2026-11-07T17:03:02.862Z",
+      "verifiedAt": "2026-11-07T17:10:38.973Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "FHA mortgage-insurance builder certification reporting and comment process.",
       "documentReference": "2026-20682",
       "contentFingerprint": "dd866fb788ba1ad7740e0edeccb56688c9d05612bb38289a2137bf0f2c9070f0",
-      "firstSeenAt": "2026-11-07T16:51:53.104Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.104Z",
+      "alternateSources": []
     },
     {
       "id": "2026-19782",
@@ -261,13 +287,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19782/section-184-indian-housing-loan-guarantee-program-increase-in-the-loan-guarantee-fee",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "Increase in Section 184 housing loan guarantee fees for new firm commitments.",
-      "verifiedAt": "2026-11-07T17:03:02.997Z",
+      "verifiedAt": "2026-11-07T17:10:38.812Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "The Section 184 Indian Housing Loan Guarantee Program (\"Section 184 Program\") operates using a combination of funds annually appropriated by Congress and fees. Consistent with other HUD loan guarantee programs, to ensure that the program is self-sustaining, HUD is increasing fees charged under the program. HUD is increasing the upfront loan guarantee fee for all new Section 184 Firm Commitments, including refinances, from 1.00 to 1.50 percent, effective October 1, 2026. HUD is increasing the upfront loan guarantee fee for all new Section 184 Skilled Workers Demonstration Program Firm Commitments, from 0 to 1.00 percent, effective October 1, 2026. The Annual Loan Guarantee Fee will remain at zero for all Section 184 loans.",
       "whyItMatters": "Increase in Section 184 housing loan guarantee fees for new firm commitments.",
       "documentReference": "2026-19782",
       "contentFingerprint": "9a7c44f04e7c8d97fdbbd184e4f488b935276c6fc62818b5558fffb7725ee6b1",
-      "firstSeenAt": "2026-11-07T16:51:53.132Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.132Z",
+      "alternateSources": []
     },
     {
       "id": "2026-19650",
@@ -281,13 +309,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19650/60-day-notice-of-proposed-information-collection-disclosure-of-adjustable-rate-mortgage-arm-rates",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "Adjustable-rate mortgage disclosure collection and regulatory comment process.",
-      "verifiedAt": "2026-11-07T17:03:03.221Z",
+      "verifiedAt": "2026-11-07T17:10:38.831Z",
       "affectedArea": "Disclosures and settlement",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "Adjustable-rate mortgage disclosure collection and regulatory comment process.",
       "documentReference": "2026-19650",
       "contentFingerprint": "13a37e2399ff88dc7c9a044fc45d9a52be3152435217e3e27790eb2874b2fda6",
-      "firstSeenAt": "2026-11-07T16:51:53.320Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.320Z",
+      "alternateSources": []
     },
     {
       "id": "2026-19387",
@@ -301,13 +331,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/22/2026-19387/60-day-notice-of-proposed-information-collection-fha-insured-mortgage-loan-servicing-involving-the",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA-insured mortgage servicing loss-mitigation reporting collection.",
-      "verifiedAt": "2026-11-07T17:03:03.149Z",
+      "verifiedAt": "2026-11-07T17:10:39.004Z",
       "affectedArea": "Servicing and loss mitigation",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "FHA-insured mortgage servicing loss-mitigation reporting collection.",
       "documentReference": "2026-19387",
       "contentFingerprint": "7b60d1d6d0642131e4f4cedb8ab56fb4bc53f4b9614f8208205e5e464f22d7ca",
-      "firstSeenAt": "2026-11-07T16:51:53.406Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.406Z",
+      "alternateSources": []
     },
     {
       "id": "2026-18827",
@@ -321,13 +353,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18827/60-day-notice-of-proposed-information-collection-single-family-premiums-collections",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "Single-family FHA upfront mortgage insurance premium collection reporting.",
-      "verifiedAt": "2026-11-07T17:03:03.197Z",
+      "verifiedAt": "2026-11-07T17:10:39.137Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "Single-family FHA upfront mortgage insurance premium collection reporting.",
       "documentReference": "2026-18827",
       "contentFingerprint": "efc8dba4c0d0c71050702984ff92f144685e0f259f1a358d46e28ba0613e42d9",
-      "firstSeenAt": "2026-11-07T16:51:53.270Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.270Z",
+      "alternateSources": []
     },
     {
       "id": "ny-cyber-2026-09-10",
@@ -342,12 +376,13 @@
       "sourceName": "New York DFS",
       "sourceUrl": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260910",
       "mortgageRelevance": "Existing cybersecurity compliance obligations for DFS-covered entities, including covered licensed mortgage businesses.",
-      "verifiedAt": "2026-11-07T17:08:00.147Z",
+      "verifiedAt": "2026-11-07T17:10:39.204Z",
       "affectedArea": "Privacy and communications",
       "whatChanged": "DFS clarified its existing risk-assessment expectations under its cybersecurity regulation, including scope, frequency, governance, and documentation. Mortgage businesses covered by the regulation should review applicability. DFS states that the guidance does not impose new obligations or requirements.",
       "whyItMatters": "Existing cybersecurity compliance obligations for DFS-covered entities, including covered licensed mortgage businesses.",
       "documentReference": null,
       "contentFingerprint": "71b08c98bc27e1b70b5d706db2a70862eb183d4c9db64e7f9d927750ae4d8fc4",
+      "verificationMethod": "original official publication",
       "firstSeenAt": "2026-11-07T16:51:53.542Z",
       "alternateSources": []
     },
@@ -363,13 +398,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17291/60-day-notice-of-proposed-information-collection-nonprofit-application-and-recertification-for",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "FHA mortgage-insurance nonprofit application and recertification collection.",
-      "verifiedAt": "2026-11-07T17:03:03.249Z",
+      "verifiedAt": "2026-11-07T17:10:39.105Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
       "whyItMatters": "FHA mortgage-insurance nonprofit application and recertification collection.",
       "documentReference": "2026-17291",
       "contentFingerprint": "db4b23368c411dcccfb608349b83100a70d336af5a15047dc984e092624c250f",
-      "firstSeenAt": "2026-11-07T16:51:53.674Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.674Z",
+      "alternateSources": []
     },
     {
       "id": "2026-17051",
@@ -383,13 +420,15 @@
       "sourceUrl": "https://www.federalregister.gov/documents/2026/08/21/2026-17051/mortgage-and-loan-insurance-programs-under-the-national-housing-act-debenture-interest-rates",
       "updateType": "Regulatory Notice",
       "mortgageRelevance": "HUD statutory FHA mortgage-insurance debenture rate notice, not general market-rate news.",
-      "verifiedAt": "2026-11-07T17:03:03.301Z",
+      "verifiedAt": "2026-11-07T17:10:39.253Z",
       "affectedArea": "Underwriting and program requirements",
       "whatChanged": "This notice announces changes in the interest rates to be paid on debentures issued with respect to a loan or mortgage insured by the Federal Housing Administration under the provisions of the National Housing Act (the Act). The interest rate for debentures issued under Section 221(g)(4) of the Act during the 6-month period beginning January 1, 2026, is 4 percent. The interest rate for debentures issued under any other provision of the Act is the rate in effect on the date that the commitment to insure the loan or mortgage was issued, or the date that the loan or mortgage was endorsed (or initially endorsed if there are two or more endorsements) for insurance, whichever rate is higher. The interest rate for debentures issued under these other provisions with respect to a loan or mortgage committed or endorsed during the 6-month period beginning January 1, 2026, is 4\\3/4\\ percent.",
       "whyItMatters": "HUD statutory FHA mortgage-insurance debenture rate notice, not general market-rate news.",
       "documentReference": "2026-17051",
       "contentFingerprint": "4a108240706c14b789302f49f2a2eb917dd4e44d9e057d951a0746ddfacfcc39",
-      "firstSeenAt": "2026-11-07T16:51:53.555Z"
+      "verificationMethod": "original official publication",
+      "firstSeenAt": "2026-11-07T16:51:53.555Z",
+      "alternateSources": []
     },
     {
       "id": "ma-newrez-2026-08-12",
@@ -404,12 +443,13 @@
       "sourceName": "Massachusetts Division of Banks",
       "sourceUrl": "https://www.mass.gov/news/state-financial-regulators-reach-155-million-settlement-with-mortgage-servicer-newrez-llc",
       "mortgageRelevance": "State enforcement concerning mortgage servicing and force-placed homeowners insurance.",
-      "verifiedAt": "2026-11-07T17:08:00.311Z",
+      "verifiedAt": "2026-11-07T17:10:39.333Z",
       "affectedArea": "Servicing and loss mitigation",
       "whatChanged": "Massachusetts announced a 48-state, $15.5 million settlement concerning NewRez’s imposition of force-placed insurance costs on borrowers who already had active homeowners insurance. Massachusetts identifies itself as a lead agency along with Washington, DC, Arkansas, Iowa, and Montana.",
       "whyItMatters": "State enforcement concerning mortgage servicing and force-placed homeowners insurance.",
       "documentReference": null,
       "contentFingerprint": "edbe1df6a2b6b5ca8a24d7b621a1a06bea29e4321cf28bd64e69a21e87537a78",
+      "verificationMethod": "original official publication",
       "firstSeenAt": "2026-11-07T16:51:53.689Z",
       "alternateSources": []
     }

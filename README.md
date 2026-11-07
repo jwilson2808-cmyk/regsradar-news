@@ -56,7 +56,9 @@ Federal Register keyword search discovers candidates; only explicitly reviewed
 mortgage-related results in `src/data/editorial-review.json` enter the feed. That
 review records title identity, relevance, type, and verification timestamp.
 Curated GSE/state sources are reviewed in `src/data/curated-news.json` and rechecked
-against their specific official documents. A changed reviewed title is rejected
+against their specific official documents. Official GPO copies of Federal Register
+documents and original agency PDFs are used when a human-readable view is blocked;
+title/reference and original date must still match. A changed reviewed title is rejected
 until reviewed again. Unreviewed candidates are recorded in a review queue.
 
 A bounded set of configured agency and regulator indexes is also scanned. HTML

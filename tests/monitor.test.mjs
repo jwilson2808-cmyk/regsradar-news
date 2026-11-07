@@ -87,3 +87,15 @@ test('official bill-status XML uses substantive action dates, not a recent uploa
  assert.equal(parseBillStatus(bill('2026-11-06','Passed House'),'https://www.govinfo.gov/test.xml','2026-11-07').updateType,'Proposed Legislation');
  assert.equal(parseBillStatus(bill('2026-11-06','Became Public Law 119-1','<laws><item><type>Public</type><number>119-1</number></item></laws>'),'https://www.govinfo.gov/test.xml','2026-11-07').updateType,'Enacted Legislation');
 });
+
+test('a blocked Federal Register view can use the same verified document at official GPO',async()=>{
+ const {verifyReviewed}=await import('../scripts/monitor-news.mjs');
+ const original=item('2026-11-05',{id:'2026-12345',title:'Mortgage disclosure rule',sourceName:'Federal Register',sourceUrl:'https://www.federalregister.gov/documents/test',updateType:'Final Regulation',mortgageRelevance:'Mortgage disclosure obligations.'});
+ const a=await verifyReviewed(original,{hosts:['www.federalregister.gov']},async url=>{
+  if(url.includes('federalregister.gov'))throw Error('Official view is unavailable');
+  assert.equal(url,'https://www.govinfo.gov/content/pkg/FR-2026-11-05/html/2026-12345.htm');
+  return {contentType:'text/html',text:'<body><h1>Mortgage disclosure rule</h1><p>November 5, 2026</p></body>'};
+ });
+ assert.match(a.sourceUrl,/www.govinfo.gov/);assert.equal(a.publishedDate,'2026-11-05');
+ await assert.rejects(()=>verifyReviewed({...original,alternateOfficialUrls:['https://example.com/fake']},{hosts:['www.federalregister.gov']},async()=>{throw Error('Unavailable');}));
+});

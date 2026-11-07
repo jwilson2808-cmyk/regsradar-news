@@ -17,17 +17,29 @@ export async function parallel(items,limit,fn) {
  const results=[];let next=0;
  await Promise.all(Array.from({length:Math.min(limit,items.length)},async()=>{while(next<items.length){const index=next++;try{results[index]=await fn(items[index]);}catch(error){results[index]={report:{id:items[index].id,name:items[index].name,status:'failed',verifiedCount:0,errors:[error.message]},articles:[]};}}}));return results;
 }
-async function verifyReviewed(article,source) {
- const result=await fetchOfficial(article.sourceUrl,source);
- const $=load(result.text);$('script,style,nav,footer').remove();const text=clean(($('main').first().length?$('main').first():$('body')).text());
- const body=/pdf/i.test(result.contentType||'')?clean(result.text):text;
- const title=clean(article.title).toLowerCase();
- // Reviewed metadata must still be present in the current primary document.
- if(!body.toLowerCase().includes(title))throw Error('Reviewed headline is not present in official document');
- const [y,m,d]=article.publishedDate.split('-');const month=new Date(`${y}-${m}-${d}T12:00:00Z`).toLocaleString('en-US',{month:'long',timeZone:'UTC'});
- const datePattern=new RegExp(`${month}\\s+0?${Number(d)},?\\s+${y}|${y}-${m}-${d}|0?${Number(m)}/0?${Number(d)}/${y}`,'i');
- if(!datePattern.test(body+' '+result.text))throw Error('Reviewed publication date is not present in official document');
- return {...enrich(article),verifiedAt:isoNow()};
+export async function verifyReviewed(article,source,fetchDoc=fetchOfficial) {
+ const urls=[article.sourceUrl,...(article.alternateOfficialUrls||[])];
+ if(article.sourceName==='Federal Register' && /^\d{4}-\d+$/.test(article.id))urls.push(`https://www.govinfo.gov/content/pkg/FR-${article.publishedDate}/html/${article.id}.htm`);
+ const failures=[];
+ for(const url of urls) {
+  try {
+   const host=new URL(url).hostname;
+   if(host!==new URL(article.sourceUrl).hostname && !(article.sourceName==='Federal Register'&&host==='www.govinfo.gov'))throw Error('Unapproved alternate publisher');
+   const result=await fetchDoc(url,{hosts:[host]});
+   const $=load(result.text);$('script,style,nav,footer').remove();const text=clean(($('main').first().length?$('main').first():$('body')).text());
+   const body=/pdf/i.test(result.contentType||'')?clean(result.text):text;
+   const title=clean(article.title).toLowerCase();
+   const reference=article.documentReference;
+   const suffix=clean(reference&&article.title.includes(reference)?article.title.slice(article.title.indexOf(reference)+reference.length).replace(/^[\s:–-]+/,''):article.title.split(':').at(-1)).toLowerCase();
+   const matches=body.toLowerCase().includes(title)||(reference&&body.toLowerCase().includes(reference.toLowerCase())&&body.toLowerCase().includes(suffix));
+   if(!matches)throw Error('Reviewed headline/reference is not present in official document');
+   const [y,m,d]=article.publishedDate.split('-');const month=new Date(`${y}-${m}-${d}T12:00:00Z`).toLocaleString('en-US',{month:'long',timeZone:'UTC'});
+   const datePattern=new RegExp(`${month}\\s+0?${Number(d)},?\\s+${y}|${y}-${m}-${d}|0?${Number(m)}/0?${Number(d)}/${y}`,'i');
+   if(!datePattern.test(body+' '+result.text))throw Error('Reviewed publication date is not present in official document');
+   return {...enrich(article),sourceUrl:url,verifiedAt:isoNow(),verificationMethod:url===article.sourceUrl?'original official publication':'verified official alternate document'};
+  }catch(error){failures.push(error.message);}
+ }
+ throw Error([...new Set(failures)].join('; '));
 }
 async function congressSource() {
  const source={id:'congress',name:'Congress.gov public legislation',url:'https://www.congress.gov/rss/most-recent-bills.xml',hosts:['www.congress.gov','congress.gov'],kind:'federal-legislation'};
