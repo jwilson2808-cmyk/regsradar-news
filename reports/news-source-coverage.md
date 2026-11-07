@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-07T17:12:23.372Z
-Active verified articles: 5
+Checked: 2026-11-07T17:14:35.618Z
+Active verified articles: 6
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -8,11 +8,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | --- | --- | --- |
 | Fannie Mae | verification_failed | 0 |
 | Fannie Mae | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register reviewed mortgage publications | reviewed_subset | 11 |
+| Federal Register reviewed mortgage publications | reviewed_subset | 15 |
 | CFPB | partial_scan | 0 |
 | HUD | no_parseable_publications | 0 |
 | HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
@@ -102,7 +98,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | failed | 0 |
-| Missouri Legislature | failed | 0 |
+| Missouri Legislature | action_adapter_required | 0 |
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
