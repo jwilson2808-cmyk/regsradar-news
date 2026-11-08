@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-07T17:14:35.618Z
+Checked: 2026-11-08T09:12:44.481Z
 Active verified articles: 6
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
