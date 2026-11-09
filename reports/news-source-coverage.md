@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-08T09:12:44.481Z
+Checked: 2026-11-09T09:34:18.793Z
 Active verified articles: 6
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -95,7 +95,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Legislature | action_adapter_required | 0 |
 | Maryland Legislature | action_adapter_required | 0 |
 | Massachusetts Legislature | action_adapter_required | 0 |
-| Michigan Legislature | action_adapter_required | 0 |
+| Michigan Legislature | failed | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | failed | 0 |
 | Missouri Legislature | action_adapter_required | 0 |
