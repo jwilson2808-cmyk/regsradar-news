@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-09T09:34:18.793Z
-Active verified articles: 6
+Checked: 2026-11-10T09:16:08.181Z
+Active verified articles: 5
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -10,8 +10,8 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Fannie Mae | verification_failed | 0 |
 | Federal Register reviewed mortgage publications | reviewed_subset | 15 |
 | CFPB | partial_scan | 0 |
-| HUD | no_parseable_publications | 0 |
-| HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
+| HUD | failed | 0 |
+| HUD/FHA Mortgagee Letters | failed | 0 |
 | FHFA | no_parseable_publications | 0 |
 | OCC | failed | 0 |
 | Federal Reserve | partial_scan | 0 |
@@ -21,7 +21,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Fannie Mae Policy Announcements | failed | 0 |
 | Freddie Mac Single-Family | partial_scan | 0 |
 | Freddie Mac Guide Bulletins | no_parseable_publications | 0 |
-| VA Home Loan Circulars | limited_document_scan | 1 |
+| VA Home Loan Circulars | limited_document_scan | 0 |
 | USDA Rural Development | failed | 0 |
 | Ginnie Mae Issuer Requirements | no_parseable_publications | 0 |
 | Alabama State Banking Department | no_parseable_publications | 0 |
@@ -39,7 +39,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Illinois Department of Financial & Professional Regulation | partial_scan | 0 |
 | Indiana Department of Financial Institutions | partial_scan | 0 |
 | Iowa Division of Banking | partial_scan | 0 |
-| Kansas Office of the State Bank Commissioner | limited_document_scan | 0 |
+| Kansas Office of the State Bank Commissioner | no_parseable_publications | 0 |
 | Kentucky Department of Financial Institutions | partial_scan | 0 |
 | Louisiana Office of Financial Institutions | no_parseable_publications | 0 |
 | Maine Bureau of Financial Institutions | failed | 0 |
@@ -57,7 +57,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
+| North Dakota Department of Financial Institutions | partial_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
@@ -95,10 +95,10 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Legislature | action_adapter_required | 0 |
 | Maryland Legislature | action_adapter_required | 0 |
 | Massachusetts Legislature | action_adapter_required | 0 |
-| Michigan Legislature | failed | 0 |
+| Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
-| Mississippi Legislature | failed | 0 |
-| Missouri Legislature | action_adapter_required | 0 |
+| Mississippi Legislature | action_adapter_required | 0 |
+| Missouri Legislature | failed | 0 |
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
