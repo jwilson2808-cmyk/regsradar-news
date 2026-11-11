@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-10T09:16:08.181Z
+Checked: 2026-11-11T09:18:35.903Z
 Active verified articles: 5
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -10,8 +10,8 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Fannie Mae | verification_failed | 0 |
 | Federal Register reviewed mortgage publications | reviewed_subset | 15 |
 | CFPB | partial_scan | 0 |
-| HUD | failed | 0 |
-| HUD/FHA Mortgagee Letters | failed | 0 |
+| HUD | no_parseable_publications | 0 |
+| HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
 | FHFA | no_parseable_publications | 0 |
 | OCC | failed | 0 |
 | Federal Reserve | partial_scan | 0 |
@@ -39,7 +39,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Illinois Department of Financial & Professional Regulation | partial_scan | 0 |
 | Indiana Department of Financial Institutions | partial_scan | 0 |
 | Iowa Division of Banking | partial_scan | 0 |
-| Kansas Office of the State Bank Commissioner | no_parseable_publications | 0 |
+| Kansas Office of the State Bank Commissioner | limited_document_scan | 0 |
 | Kentucky Department of Financial Institutions | partial_scan | 0 |
 | Louisiana Office of Financial Institutions | no_parseable_publications | 0 |
 | Maine Bureau of Financial Institutions | failed | 0 |
@@ -125,7 +125,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Wisconsin Legislature | action_adapter_required | 0 |
 | Wyoming Legislature | action_adapter_required | 0 |
 | Congress.gov public legislation | public_source_unavailable | 0 |
-| U.S. Congress / GovInfo bill status | limited_structured_scan | 0 |
+| U.S. Congress / GovInfo bill status | partial_scan | 0 |
 | State attorneys general across 50 states | not_configured | 0 |
 | State housing finance agencies across 50 states | not_configured | 0 |
 
