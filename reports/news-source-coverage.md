@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-14T09:12:28.652Z
+Checked: 2026-11-15T09:10:52.109Z
 Active verified articles: 3
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -72,7 +72,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Virginia State Corporation Commission Bureau of Financial Institutions | partial_scan | 0 |
 | Washington State Department of Financial Institutions | partial_scan | 0 |
 | West Virginia Division of Financial Institutions | failed | 0 |
-| Wisconsin Department of Financial Institutions | failed | 0 |
+| Wisconsin Department of Financial Institutions | no_parseable_publications | 0 |
 | Wyoming Division of Banking | no_parseable_publications | 0 |
 | Alabama Legislature | action_adapter_required | 0 |
 | Alaska Legislature | failed | 0 |
@@ -83,7 +83,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Connecticut Legislature | failed | 0 |
 | Delaware Legislature | action_adapter_required | 0 |
 | Florida Legislature | action_adapter_required | 0 |
-| Georgia Legislature | action_adapter_required | 0 |
+| Georgia Legislature | failed | 0 |
 | Hawaii Legislature | failed | 0 |
 | Idaho Legislature | action_adapter_required | 0 |
 | Illinois Legislature | failed | 0 |
@@ -98,7 +98,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | action_adapter_required | 0 |
-| Missouri Legislature | action_adapter_required | 0 |
+| Missouri Legislature | failed | 0 |
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
@@ -122,7 +122,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Virginia Legislature | action_adapter_required | 0 |
 | Washington Legislature | failed | 0 |
 | West Virginia Legislature | action_adapter_required | 0 |
-| Wisconsin Legislature | failed | 0 |
+| Wisconsin Legislature | action_adapter_required | 0 |
 | Wyoming Legislature | action_adapter_required | 0 |
 | Congress.gov public legislation | public_source_unavailable | 0 |
 | U.S. Congress / GovInfo bill status | limited_structured_scan | 0 |
