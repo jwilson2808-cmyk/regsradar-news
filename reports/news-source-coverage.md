@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-16T10:21:39.286Z
-Active verified articles: 3
+Checked: 2026-11-17T09:26:36.503Z
+Active verified articles: 2
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -57,7 +57,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | partial_scan | 0 |
+| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
@@ -98,7 +98,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | action_adapter_required | 0 |
-| Missouri Legislature | failed | 0 |
+| Missouri Legislature | action_adapter_required | 0 |
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
