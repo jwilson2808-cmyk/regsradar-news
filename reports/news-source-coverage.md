@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-17T09:26:36.503Z
-Active verified articles: 2
+Checked: 2026-11-18T09:27:48.204Z
+Active verified articles: 4
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -57,7 +57,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
+| North Dakota Department of Financial Institutions | partial_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
@@ -70,7 +70,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Utah Department of Financial Institutions | partial_scan | 0 |
 | Vermont Department of Financial Regulation | failed | 0 |
 | Virginia State Corporation Commission Bureau of Financial Institutions | partial_scan | 0 |
-| Washington State Department of Financial Institutions | partial_scan | 0 |
+| Washington State Department of Financial Institutions | partial_scan | 1 |
 | West Virginia Division of Financial Institutions | failed | 0 |
 | Wisconsin Department of Financial Institutions | no_parseable_publications | 0 |
 | Wyoming Division of Banking | no_parseable_publications | 0 |
@@ -95,7 +95,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Legislature | action_adapter_required | 0 |
 | Maryland Legislature | action_adapter_required | 0 |
 | Massachusetts Legislature | action_adapter_required | 0 |
-| Michigan Legislature | action_adapter_required | 0 |
+| Michigan Legislature | failed | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | action_adapter_required | 0 |
 | Missouri Legislature | action_adapter_required | 0 |
@@ -125,7 +125,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Wisconsin Legislature | action_adapter_required | 0 |
 | Wyoming Legislature | action_adapter_required | 0 |
 | Congress.gov public legislation | public_source_unavailable | 0 |
-| U.S. Congress / GovInfo bill status | limited_structured_scan | 0 |
+| U.S. Congress / GovInfo bill status | limited_structured_scan | 1 |
 | State attorneys general across 50 states | not_configured | 0 |
 | State housing finance agencies across 50 states | not_configured | 0 |
 
