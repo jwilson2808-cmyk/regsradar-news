@@ -1,8 +1,8 @@
 {
-  "windowStart": "2026-11-05",
-  "windowEnd": "2026-11-18",
+  "windowStart": "2026-11-06",
+  "windowEnd": "2026-11-19",
   "status": "verified",
-  "generatedAt": "2026-11-18T09:27:48.204Z",
+  "generatedAt": "2026-11-19T09:30:02.917Z",
   "sourceName": "Official primary sources",
   "articles": [
     {
@@ -23,7 +23,7 @@
       "sourceUrl": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-consent-order-mortgage-servicer-newrez-llc",
       "documentReference": null,
       "contentFingerprint": "135e00c7b62d00f2c1651ffcc31c931d4fbdfd825190e0cbf658d51128fcf81a",
-      "verifiedAt": "2026-11-18T09:27:26.816Z",
+      "verifiedAt": "2026-11-19T09:29:53.037Z",
       "firstSeenAt": "2026-11-18T09:27:26.816Z"
     },
     {
@@ -43,7 +43,7 @@
       "sourceUrl": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-four-final-rules",
       "documentReference": null,
       "contentFingerprint": "bce70425f746992568860a08a87cedc66481204ee26e5acdb81b2d2b6f6afa30",
-      "verifiedAt": "2026-11-18T09:27:22.068Z",
+      "verifiedAt": "2026-11-19T09:29:50.215Z",
       "firstSeenAt": "2026-11-14T09:11:56.745Z"
     },
     {
@@ -51,8 +51,8 @@
       "agency": "U.S. Congress",
       "sourceName": "U.S. Congress / GovInfo",
       "category": "Federal",
-      "title": "S. 5703 — A bill to amend title 38, United States Code, to establish a program for the provision of support services to borrowers using housing loan benefits administered by the Secretary of Veterans Affairs, and for other purposes.",
-      "summary": "A bill to amend title 38, United States Code, to establish a program for the provision of support services to borrowers using housing loan benefits administered by the Secretary of Veterans Affairs, and for other purposes.",
+      "title": "S. 5703 — VA Home Loan Navigator Act",
+      "summary": "VA Home Loan Navigator Act",
       "whatChanged": "Introduced in Senate",
       "whyItMatters": "A mortgage-related legislative proposal, not an existing legal obligation. Its requirements may change during the legislative process.",
       "affectedArea": "Underwriting and program requirements",
@@ -65,30 +65,9 @@
       "documentReference": "119-S-5703",
       "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5703.xml",
       "mortgageRelevance": "Mortgage-related substantive federal legislative action.",
-      "verifiedAt": "2026-11-18T09:27:48.203Z",
-      "contentFingerprint": "4ca9c245a832c046b67f921204cefbd1f17d8695a854ffd593c4eeed1bdfd031",
+      "verifiedAt": "2026-11-19T09:30:02.802Z",
+      "contentFingerprint": "f68de5a2f39cad67321ae16e6627c049a163b9d4e64c8fd3f07f0291c64fe180",
       "firstSeenAt": "2026-11-18T09:27:48.203Z"
-    },
-    {
-      "id": "2026-22571",
-      "agency": "Housing and Urban Development Department",
-      "category": "Federal",
-      "topic": "Regulatory notice",
-      "title": "60-Day Notice of Proposed Information Collection: Home Mortgage Disclosure Act (HMDA) Loan/Application Register",
-      "summary": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
-      "publishedDate": "2026-11-05",
-      "sourceName": "Federal Register",
-      "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-11-05/html/2026-22571.htm",
-      "updateType": "Regulatory Notice",
-      "mortgageRelevance": "HMDA mortgage loan/application reporting collection and regulatory comment process.",
-      "verifiedAt": "2026-11-18T09:27:15.219Z",
-      "affectedArea": "Fair lending and HMDA",
-      "whatChanged": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
-      "whyItMatters": "HMDA mortgage loan/application reporting collection and regulatory comment process.",
-      "documentReference": "2026-22571",
-      "contentFingerprint": "f53776215973d945e10d124f9da5f25dcb2a05f16bd3e8e0c414684b11c48b71",
-      "verificationMethod": "verified official alternate document",
-      "firstSeenAt": "2026-11-07T16:51:52.417Z"
     }
   ]
 }

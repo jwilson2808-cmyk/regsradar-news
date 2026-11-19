@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-18T09:27:48.204Z
-Active verified articles: 4
+Checked: 2026-11-19T09:30:02.917Z
+Active verified articles: 3
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -8,7 +8,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | --- | --- | --- |
 | Fannie Mae | verification_failed | 0 |
 | Fannie Mae | verification_failed | 0 |
-| Federal Register reviewed mortgage publications | reviewed_subset | 15 |
+| Federal Register reviewed mortgage publications | reviewed_subset | 14 |
 | CFPB | partial_scan | 0 |
 | HUD | no_parseable_publications | 0 |
 | HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
@@ -52,12 +52,12 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Montana Dept of Administration Division of Banking & Financial Institutions | partial_scan | 0 |
 | Nebraska Department of Banking and Finance | partial_scan | 0 |
 | Nevada Department of Business & Industry Financial Institutions Division | partial_scan | 0 |
-| New Hampshire Banking Department | failed | 0 |
+| New Hampshire Banking Department | no_parseable_publications | 0 |
 | New Jersey Department of Banking and Insurance | partial_scan | 0 |
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | partial_scan | 0 |
+| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
@@ -95,10 +95,10 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Maine Legislature | action_adapter_required | 0 |
 | Maryland Legislature | action_adapter_required | 0 |
 | Massachusetts Legislature | action_adapter_required | 0 |
-| Michigan Legislature | failed | 0 |
+| Michigan Legislature | action_adapter_required | 0 |
 | Minnesota Legislature | action_adapter_required | 0 |
 | Mississippi Legislature | action_adapter_required | 0 |
-| Missouri Legislature | action_adapter_required | 0 |
+| Missouri Legislature | failed | 0 |
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
