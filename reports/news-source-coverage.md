@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-19T09:30:02.917Z
+Checked: 2026-11-20T09:26:28.006Z
 Active verified articles: 3
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -52,7 +52,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Montana Dept of Administration Division of Banking & Financial Institutions | partial_scan | 0 |
 | Nebraska Department of Banking and Finance | partial_scan | 0 |
 | Nevada Department of Business & Industry Financial Institutions Division | partial_scan | 0 |
-| New Hampshire Banking Department | no_parseable_publications | 0 |
+| New Hampshire Banking Department | failed | 0 |
 | New Jersey Department of Banking and Insurance | partial_scan | 0 |
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
@@ -121,7 +121,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Vermont Legislature | action_adapter_required | 0 |
 | Virginia Legislature | action_adapter_required | 0 |
 | Washington Legislature | failed | 0 |
-| West Virginia Legislature | action_adapter_required | 0 |
+| West Virginia Legislature | failed | 0 |
 | Wisconsin Legislature | action_adapter_required | 0 |
 | Wyoming Legislature | action_adapter_required | 0 |
 | Congress.gov public legislation | public_source_unavailable | 0 |

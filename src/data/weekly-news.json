@@ -1,8 +1,8 @@
 {
-  "windowStart": "2026-11-06",
-  "windowEnd": "2026-11-19",
+  "windowStart": "2026-11-07",
+  "windowEnd": "2026-11-20",
   "status": "verified",
-  "generatedAt": "2026-11-19T09:30:02.917Z",
+  "generatedAt": "2026-11-20T09:26:28.006Z",
   "sourceName": "Official primary sources",
   "articles": [
     {
@@ -23,7 +23,7 @@
       "sourceUrl": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-consent-order-mortgage-servicer-newrez-llc",
       "documentReference": null,
       "contentFingerprint": "135e00c7b62d00f2c1651ffcc31c931d4fbdfd825190e0cbf658d51128fcf81a",
-      "verifiedAt": "2026-11-19T09:29:53.037Z",
+      "verifiedAt": "2026-11-20T09:26:05.136Z",
       "firstSeenAt": "2026-11-18T09:27:26.816Z"
     },
     {
@@ -43,7 +43,7 @@
       "sourceUrl": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-four-final-rules",
       "documentReference": null,
       "contentFingerprint": "bce70425f746992568860a08a87cedc66481204ee26e5acdb81b2d2b6f6afa30",
-      "verifiedAt": "2026-11-19T09:29:50.215Z",
+      "verifiedAt": "2026-11-20T09:25:59.127Z",
       "firstSeenAt": "2026-11-14T09:11:56.745Z"
     },
     {
@@ -65,7 +65,7 @@
       "documentReference": "119-S-5703",
       "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5703.xml",
       "mortgageRelevance": "Mortgage-related substantive federal legislative action.",
-      "verifiedAt": "2026-11-19T09:30:02.802Z",
+      "verifiedAt": "2026-11-20T09:26:27.882Z",
       "contentFingerprint": "f68de5a2f39cad67321ae16e6627c049a163b9d4e64c8fd3f07f0291c64fe180",
       "firstSeenAt": "2026-11-18T09:27:48.203Z"
     }
