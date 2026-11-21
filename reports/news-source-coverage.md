@@ -1,6 +1,6 @@
 # News source coverage
-Checked: 2026-11-20T09:26:28.006Z
-Active verified articles: 3
+Checked: 2026-11-21T09:10:24.896Z
+Active verified articles: 2
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
 
@@ -8,7 +8,9 @@ Website accessibility is distinct from working document monitoring. State legisl
 | --- | --- | --- |
 | Fannie Mae | verification_failed | 0 |
 | Fannie Mae | verification_failed | 0 |
-| Federal Register reviewed mortgage publications | reviewed_subset | 14 |
+| Federal Register | verification_failed | 0 |
+| Federal Register | verification_failed | 0 |
+| Federal Register reviewed mortgage publications | reviewed_subset | 12 |
 | CFPB | partial_scan | 0 |
 | HUD | no_parseable_publications | 0 |
 | HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
@@ -57,7 +59,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
+| North Dakota Department of Financial Institutions | partial_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
 | Oregon Division of Financial Regulation | partial_scan | 0 |
@@ -102,7 +104,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
-| New Hampshire Legislature | action_adapter_required | 0 |
+| New Hampshire Legislature | failed | 0 |
 | New Jersey Legislature | action_adapter_required | 0 |
 | New Mexico Legislature | action_adapter_required | 0 |
 | New York Legislature | action_adapter_required | 0 |
@@ -125,7 +127,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Wisconsin Legislature | action_adapter_required | 0 |
 | Wyoming Legislature | action_adapter_required | 0 |
 | Congress.gov public legislation | public_source_unavailable | 0 |
-| U.S. Congress / GovInfo bill status | limited_structured_scan | 1 |
+| U.S. Congress / GovInfo bill status | limited_structured_scan | 0 |
 | State attorneys general across 50 states | not_configured | 0 |
 | State housing finance agencies across 50 states | not_configured | 0 |
 
