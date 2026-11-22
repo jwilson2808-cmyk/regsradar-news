@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-21T09:10:24.896Z
+Checked: 2026-11-22T09:10:03.634Z
 Active verified articles: 2
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -8,9 +8,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | --- | --- | --- |
 | Fannie Mae | verification_failed | 0 |
 | Fannie Mae | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register | verification_failed | 0 |
-| Federal Register reviewed mortgage publications | reviewed_subset | 12 |
+| Federal Register reviewed mortgage publications | reviewed_subset | 14 |
 | CFPB | partial_scan | 0 |
 | HUD | no_parseable_publications | 0 |
 | HUD/FHA Mortgagee Letters | no_parseable_publications | 0 |
@@ -59,10 +57,10 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Mexico Regulation and Licensing Department Financial Institutions Division | partial_scan | 0 |
 | New York State Department of Financial Services | partial_scan | 0 |
 | North Carolina Office of the Commissioner of Banks | partial_scan | 0 |
-| North Dakota Department of Financial Institutions | partial_scan | 0 |
+| North Dakota Department of Financial Institutions | limited_document_scan | 0 |
 | Ohio Division of Financial Institutions | failed | 0 |
 | Oklahoma Banking Department | failed | 0 |
-| Oregon Division of Financial Regulation | partial_scan | 0 |
+| Oregon Division of Financial Regulation | no_parseable_publications | 0 |
 | Pennsylvania Department of Banking & Securities | no_parseable_publications | 0 |
 | Rhode Island Department of Business Regulation | failed | 0 |
 | South Carolina State Board of Financial Institutions Banking Division | no_parseable_publications | 0 |
@@ -104,7 +102,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Montana Legislature | failed | 0 |
 | Nebraska Legislature | action_adapter_required | 0 |
 | Nevada Legislature | action_adapter_required | 0 |
-| New Hampshire Legislature | failed | 0 |
+| New Hampshire Legislature | action_adapter_required | 0 |
 | New Jersey Legislature | action_adapter_required | 0 |
 | New Mexico Legislature | action_adapter_required | 0 |
 | New York Legislature | action_adapter_required | 0 |
