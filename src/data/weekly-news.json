@@ -1,8 +1,8 @@
 {
-  "windowStart": "2026-11-09",
-  "windowEnd": "2026-11-22",
+  "windowStart": "2026-11-10",
+  "windowEnd": "2026-11-23",
   "status": "verified",
-  "generatedAt": "2026-11-22T09:10:03.634Z",
+  "generatedAt": "2026-11-23T09:46:08.326Z",
   "sourceName": "Official primary sources",
   "articles": [
     {
@@ -23,7 +23,7 @@
       "sourceUrl": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-consent-order-mortgage-servicer-newrez-llc",
       "documentReference": null,
       "contentFingerprint": "135e00c7b62d00f2c1651ffcc31c931d4fbdfd825190e0cbf658d51128fcf81a",
-      "verifiedAt": "2026-11-22T09:09:39.240Z",
+      "verifiedAt": "2026-11-23T09:45:46.316Z",
       "firstSeenAt": "2026-11-18T09:27:26.816Z"
     },
     {
@@ -43,7 +43,7 @@
       "sourceUrl": "https://ncua.gov/newsroom/press-release/2026/ncua-announces-four-final-rules",
       "documentReference": null,
       "contentFingerprint": "bce70425f746992568860a08a87cedc66481204ee26e5acdb81b2d2b6f6afa30",
-      "verifiedAt": "2026-11-22T09:09:33.838Z",
+      "verifiedAt": "2026-11-23T09:45:46.690Z",
       "firstSeenAt": "2026-11-14T09:11:56.745Z"
     }
   ]
