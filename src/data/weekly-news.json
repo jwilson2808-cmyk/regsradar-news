@@ -1,8 +1,8 @@
 {
-  "windowStart": "2026-11-14",
-  "windowEnd": "2026-11-27",
+  "windowStart": "2026-11-15",
+  "windowEnd": "2026-11-28",
   "status": "verified",
-  "generatedAt": "2026-11-27T09:37:19.798Z",
+  "generatedAt": "2026-11-28T09:14:43.359Z",
   "sourceName": "Official primary sources",
   "articles": [
     {
@@ -23,7 +23,7 @@
       "sourceUrl": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-consent-order-mortgage-servicer-newrez-llc",
       "documentReference": null,
       "contentFingerprint": "135e00c7b62d00f2c1651ffcc31c931d4fbdfd825190e0cbf658d51128fcf81a",
-      "verifiedAt": "2026-11-27T09:36:56.016Z",
+      "verifiedAt": "2026-11-28T09:14:18.771Z",
       "firstSeenAt": "2026-11-18T09:27:26.816Z"
     }
   ]

@@ -1,5 +1,5 @@
 # News source coverage
-Checked: 2026-11-27T09:37:19.798Z
+Checked: 2026-11-28T09:14:43.359Z
 Active verified articles: 1
 
 Website accessibility is distinct from working document monitoring. State legislative index checks do not constitute bill-action monitoring.
@@ -64,7 +64,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | Pennsylvania Department of Banking & Securities | no_parseable_publications | 0 |
 | Rhode Island Department of Business Regulation | failed | 0 |
 | South Carolina State Board of Financial Institutions Banking Division | no_parseable_publications | 0 |
-| South Dakota Department of Labor and Regulation Division of Banking | partial_scan | 0 |
+| South Dakota Department of Labor and Regulation Division of Banking | failed | 0 |
 | Tennessee Department of Financial Institutions | failed | 0 |
 | Texas Department of Banking | partial_scan | 0 |
 | Utah Department of Financial Institutions | partial_scan | 0 |
@@ -106,7 +106,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | New Jersey Legislature | action_adapter_required | 0 |
 | New Mexico Legislature | failed | 0 |
 | New York Legislature | action_adapter_required | 0 |
-| North Carolina Legislature | action_adapter_required | 0 |
+| North Carolina Legislature | failed | 0 |
 | North Dakota Legislature | action_adapter_required | 0 |
 | Ohio Legislature | failed | 0 |
 | Oklahoma Legislature | action_adapter_required | 0 |
@@ -116,7 +116,7 @@ Website accessibility is distinct from working document monitoring. State legisl
 | South Carolina Legislature | action_adapter_required | 0 |
 | South Dakota Legislature | action_adapter_required | 0 |
 | Tennessee Legislature | action_adapter_required | 0 |
-| Texas Legislature | failed | 0 |
+| Texas Legislature | action_adapter_required | 0 |
 | Utah Legislature | action_adapter_required | 0 |
 | Vermont Legislature | action_adapter_required | 0 |
 | Virginia Legislature | action_adapter_required | 0 |
